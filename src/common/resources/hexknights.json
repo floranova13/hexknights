@@ -1,0 +1,18 @@
+{
+    "hexknights":
+     [
+        {
+            "hexalignment": "[hexalignment]",
+            "name": "[hexknight name]",
+            "squadName": "[squad name]",
+            "description": "[description]",
+            "squad": 
+            [
+                {
+                    "name": "[knight name]",
+                    "description": "[description]"
+                }
+            ]
+        }
+    ]
+}
