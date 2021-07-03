@@ -1,3 +1,7 @@
 {
-  "linebreak-style": ["error", "windows"]
+  "rules": {
+    "linebreak-style": ["error", "windows"],
+    "parserOptions": { "sourceType": "module" }
+
+  }
 }
