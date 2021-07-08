@@ -4,8 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '@fontsource/roboto';
+import CssBaseline from '@material-ui/core/CssBaseline';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <>
+    {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+    <CssBaseline />
+    <App />
+  </>,
+  document.querySelector('#root')
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

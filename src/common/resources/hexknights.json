@@ -1,26 +1,24 @@
 {
-    "hexknights":
-     [
+  "hexknights": [
+    {
+      "hexalignment": "Sacrifice",
+      "name": "[hexknight name]",
+      "combatStyle": "",
+      "weapon": "",
+      "armor": "",
+      "equipment": "",
+      "squadName": "[squad name]",
+      "description": "[description]",
+      "squad": [
         {
-            "hexalignment": "[hexalignment]",
-            "name": "[hexknight name]",
-            "combatStyle": "",
-            "weapon": "",
-            "armor": "",
-            "equipment": "",
-            "squadName": "[squad name]",
-            "description": "[description]",
-            "squad": 
-            [
-                {
-                    "name": "[knight name]",
-                    "weapon": "",
-                    "armor": "",
-                    "equipment": "",
-                    "description": "[description]"
-                }
-            ],
-            "introduced": 0
+          "name": "[knight name]",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": "[description]"
         }
-    ]
+      ],
+      "introduced": 0
+    }
+  ]
 }

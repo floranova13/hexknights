@@ -2,8 +2,9 @@ import React from 'react';
 import { List, ListItem } from '@material-ui/core';
 import HexknightCard from './HexknightCard';
 
-const Hexalignment = (hexknights) => (
+const Hexalignment = (hexalignment, hexknights) => (
   <div>
+    <h3>{`Hexalignment: ${hexalignment}`}</h3>
     <List>
       {hexknights.map((knight) => {
         <ListItem
