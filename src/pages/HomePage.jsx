@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container } from '@material-ui/core';
 
-export default function HomePage() {
-  return;
+const HomePage = () => (
   <div>
     <p>home</p>
-  </div>;
-}
+  </div>
+);
+
+export default HomePage;

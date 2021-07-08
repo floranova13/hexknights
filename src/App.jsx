@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import HomePage from './pages/HomePage';
@@ -7,28 +8,28 @@ import HexknightPage from './pages/HexknightPage';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Router>
         <div>
           <nav>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to='/'>Home</Link>
               </li>
               <li>
-                <Link to="/hexknights">Hexknights</Link>
+                <Link to='/hexknights'>Hexknights</Link>
               </li>
             </ul>
           </nav>
 
           <Switch>
-            <Route path="/hexknights/:id">
+            <Route path='/hexknights/:id'>
               <HexknightPage />
             </Route>
-            <Route exact path="/hexknights">
+            <Route exact path='/hexknights'>
               <HexknightsPage />
             </Route>
-            <Route exact path="/">
+            <Route exact path='/'>
               <HomePage />
             </Route>
           </Switch>
