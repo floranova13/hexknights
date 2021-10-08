@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col, Icon, Card, CollectionItem } from 'react-materialize';
 
-const HexknightCard1 = (hexknight) => (
+const HexknightCard = (hexknight) => (
   <CollectionItem>
     <Row>
       <Col m={6} s={12}>
@@ -35,4 +35,4 @@ const HexknightCard1 = (hexknight) => (
   </CollectionItem>
 );
 
-export default HexknightCard1;
+export default HexknightCard;
