@@ -1,4 +1,4 @@
-import './App.css';
+import './css/index.scss';
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
@@ -11,20 +11,18 @@ const App = () => {
   return (
     <div className='App'>
       <Router>
-        <div>
-          <Nav />
-          <Switch>
-            <Route path='/hexknights/:id'>
-              <HexknightPage />
-            </Route>
-            <Route exact path='/hexknights'>
-              <HexknightsPage />
-            </Route>
-            <Route exact path='/'>
-              <HomePage />
-            </Route>
-          </Switch>
-        </div>
+        <Nav />
+        <Switch>
+          <Route path='/hexknights/:id'>
+            <HexknightPage />
+          </Route>
+          <Route exact path='/hexknights'>
+            <HexknightsPage />
+          </Route>
+          <Route exact path='/'>
+            <HomePage />
+          </Route>
+        </Switch>
       </Router>
     </div>
   );

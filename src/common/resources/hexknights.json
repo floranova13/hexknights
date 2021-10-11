@@ -2,13 +2,313 @@
   "hexknights": [
     {
       "hexalignment": "Sacrifice",
-      "name": "[hexknight name]",
+      "name": "Owane",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
       "equipment": "",
-      "squadName": "[squad name]",
-      "description": "[description]",
+      "squadName": "[Owane's Squad]",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squad": [
+        {
+          "name": "[knight name]",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": "[description]"
+        }
+      ],
+      "introduced": 0
+    },
+    {
+      "hexalignment": "Sacrifice",
+      "name": "Augus",
+      "combatStyle": "",
+      "weapon": "",
+      "armor": "",
+      "equipment": "",
+      "squadName": "[Augus's Squad]",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squad": [
+        {
+          "name": "[knight name]",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": "[description]"
+        }
+      ],
+      "introduced": 0
+    },
+    {
+      "hexalignment": "Sacrifice",
+      "name": "Aylara",
+      "combatStyle": "",
+      "weapon": "",
+      "armor": "",
+      "equipment": "",
+      "squadName": "[Aylara's Squad]",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squad": [
+        {
+          "name": "[knight name]",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": "[description]"
+        }
+      ],
+      "introduced": 0
+    },
+    {
+      "hexalignment": "Progress",
+      "name": "Corsa",
+      "combatStyle": "",
+      "weapon": "",
+      "armor": "",
+      "equipment": "",
+      "squadName": "Nebulous Breachers",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squad": [
+        {
+          "name": "[knight name]",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": "[description]"
+        }
+      ],
+      "introduced": 0
+    },
+    {
+      "hexalignment": "Progress",
+      "name": "Gillis",
+      "combatStyle": "",
+      "weapon": "",
+      "armor": "",
+      "equipment": "",
+      "squadName": "The Couriers",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squad": [
+        {
+          "name": "[knight name]",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": "[description]"
+        }
+      ],
+      "introduced": 0
+    },
+    {
+      "hexalignment": "Judgement",
+      "name": "Tesarra",
+      "combatStyle": "",
+      "weapon": "",
+      "armor": "",
+      "equipment": "",
+      "squadName": "[Tesarra's Squad]",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squad": [
+        {
+          "name": "[knight name]",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": "[description]"
+        }
+      ],
+      "introduced": 0
+    },
+    {
+      "hexalignment": "Judgement",
+      "name": "Fragmata (Fragma)",
+      "combatStyle": "",
+      "weapon": "",
+      "armor": "",
+      "equipment": "",
+      "squadName": "Chaos Knightmares",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squad": [
+        {
+          "name": "[knight name]",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam."
+        }
+      ],
+      "introduced": 0
+    },
+    {
+      "hexalignment": "Expedition",
+      "name": "Latice",
+      "combatStyle": "",
+      "weapon": "",
+      "armor": "",
+      "equipment": "",
+      "squadName": "The Welders",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squad": [
+        {
+          "name": "[knight name]",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": "[description]"
+        }
+      ],
+      "introduced": 0
+    },
+    {
+      "hexalignment": "Expedition",
+      "name": "Nissa",
+      "combatStyle": "",
+      "weapon": "",
+      "armor": "",
+      "equipment": "",
+      "squadName": "[Nissa's Squad]",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squad": [
+        {
+          "name": "[knight name]",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": "[description]"
+        }
+      ],
+      "introduced": 0
+    },
+    {
+      "hexalignment": "Expedition",
+      "name": "Wendy",
+      "combatStyle": "",
+      "weapon": "",
+      "armor": "",
+      "equipment": "",
+      "squadName": "Nomad Cell",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squad": [
+        {
+          "name": "[knight name]",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": "[description]"
+        }
+      ],
+      "introduced": 0
+    },
+    {
+      "hexalignment": "Mercy",
+      "name": "Galarious (Galar)",
+      "combatStyle": "",
+      "weapon": "",
+      "armor": "",
+      "equipment": "",
+      "squadName": "The Collectors",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squad": [
+        {
+          "name": "[knight name]",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": "[description]"
+        }
+      ],
+      "introduced": 0
+    },
+    {
+      "hexalignment": "Mercy",
+      "name": "Oenus",
+      "combatStyle": "",
+      "weapon": "",
+      "armor": "",
+      "equipment": "",
+      "squadName": "[Oenus's Squad]",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squad": [
+        {
+          "name": "[knight name]",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": "[description]"
+        }
+      ],
+      "introduced": 0
+    },
+    {
+      "hexalignment": "Mercy",
+      "name": "Amos",
+      "combatStyle": "",
+      "weapon": "",
+      "armor": "",
+      "equipment": "",
+      "squadName": "Guardians of Redemption",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squad": [
+        {
+          "name": "[knight name]",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": "[description]"
+        }
+      ],
+      "introduced": 0
+    },
+    {
+      "hexalignment": "Mercy",
+      "name": "Relica",
+      "combatStyle": "",
+      "weapon": "",
+      "armor": "",
+      "equipment": "",
+      "squadName": "Magecleave Guardians",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squad": [
+        {
+          "name": "[knight name]",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": "[description]"
+        }
+      ],
+      "introduced": 0
+    },
+    {
+      "hexalignment": "Resilience",
+      "name": "Harth",
+      "combatStyle": "",
+      "weapon": "",
+      "armor": "",
+      "equipment": "",
+      "squadName": "[Harth's Squad]",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squad": [
+        {
+          "name": "[knight name]",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": "[description]"
+        }
+      ],
+      "introduced": 0
+    },
+    {
+      "hexalignment": "Resilience",
+      "name": "Gabriela",
+      "combatStyle": "",
+      "weapon": "",
+      "armor": "",
+      "equipment": "",
+      "squadName": "[Gabriela's Squad]",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
           "name": "[knight name]",

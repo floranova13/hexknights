@@ -1,0 +1,22 @@
+@import '../variables.scss';
+
+#nav-container {
+  margin: 60px auto 15px;
+  text-align: center;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: $primary;
+  border: 1rem solid $primary-lighter;
+  border-radius: 9px;
+  color: $primary-lightest;
+}
+
+.nav-link {
+  margin: 2rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

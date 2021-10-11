@@ -1,0 +1,39 @@
+@import './components/components.scss';
+@import './pages/pages.scss';
+@import './variables.scss';
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  background: black;
+}
+
+.page-title {
+  font-size: 4em;
+  font-weight: 900;
+}
+
+.header {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.subheader {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  text-align: left;
+}
+
+.encrypted {
+  font-family: 'Libre Barcode 39 Extended', cursive;
+}
