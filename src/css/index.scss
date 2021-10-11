@@ -22,9 +22,21 @@ html {
   font-weight: 700;
 }
 
+.header-left {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: left;
+}
+
 .subheader {
   font-size: 2em;
   font-weight: 500;
+}
+
+.subheader-left {
+  font-size: 2em;
+  font-weight: 500;
+  text-align: left;
 }
 
 .description {
@@ -32,6 +44,18 @@ html {
   font-weight: 300;
   font-style: italic;
   text-align: left;
+}
+
+.text {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: left;
+}
+
+.text-center {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
 }
 
 .encrypted {
