@@ -15,8 +15,13 @@ const Hexalignment = ({
   });
 
   return (
-    <div id='hexalignment-container' onClick={() => toggleExpansion(!expanded)}>
-      <h1 className='header hexalignment-title'>{`Hexalignment: ${hexalignment}`}</h1>
+    <div id='hexalignment-container'>
+      <div
+        className='hexalignment-title-container'
+        onClick={() => toggleExpansion(!expanded)}
+      >
+        <h1 className='header hexalignment-title'>{`Hexalignment: ${hexalignment}`}</h1>
+      </div>
       <div id='hexalignment-hexknight-container'>
         {expanded ? knightList : []}
       </div>

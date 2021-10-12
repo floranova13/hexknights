@@ -17,29 +17,6 @@ export default function HexknightsPage() {
   const [resilienceExpanded, setResilienceToggle] = useState(false);
   const [sacrificeExpanded, setSacrificeToggle] = useState(false);
 
-  // const toggleExpansion = (hexalignment) => {
-  //   switch (hexalignment) {
-  //     case 'Judgement':
-  //       setJudgementKnights(!judgementExpanded);
-  //       break;
-  //     case 'Mercy':
-  //       setMercyKnights(!mercyExpanded);
-  //       break;
-  //     case 'Progress':
-  //       setProgressKnights(!progressExpanded);
-  //       break;
-  //     case 'Expedition':
-  //       setExpeditionKnights(!expeditionExpanded);
-  //       break;
-  //     case 'Resilience':
-  //       setResilienceKnights(!resilienceExpanded);
-  //       break;
-  //     case 'Sacrifice':
-  //       setSacrificeKnights(!sacrificeExpanded);
-  //       break;
-  //   }
-  // };
-
   useEffect(() => {
     setJudgementKnights(getHexknights('Judgement'));
     setMercyKnights(getHexknights('Mercy'));
