@@ -1,0 +1,16 @@
+@import '../variables.scss';
+
+#page-container {
+  margin: 0 auto 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 80%;
+  background-color: $primary;
+  border: 1rem solid $primary-lighter;
+  border-radius: 9px;
+  color: $primary-lightest;
+  padding: 1.5em;
+}

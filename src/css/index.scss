@@ -1,0 +1,63 @@
+@import './components/components.scss';
+@import './pages/pages.scss';
+@import './variables.scss';
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  background: black;
+}
+
+.page-title {
+  font-size: 4em;
+  font-weight: 900;
+}
+
+.header {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.header-left {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: left;
+}
+
+.subheader {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.subheader-left {
+  font-size: 2em;
+  font-weight: 500;
+  text-align: left;
+}
+
+.description {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  text-align: left;
+}
+
+.text {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: left;
+}
+
+.text-center {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.encrypted {
+  font-family: 'Libre Barcode 39 Extended', cursive;
+}

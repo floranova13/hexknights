@@ -1,0 +1,36 @@
+@import '../variables.scss';
+
+#nav-container {
+  margin: 60px auto 15px;
+  text-align: center;
+  width: 80%;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  background-color: $primary;
+  border: 0.5rem solid $primary-lighter;
+  border-radius: 9px;
+  color: $primary-lightest;
+}
+
+.nav-link {
+  margin: 0.35rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary-darkest;
+  color: $primary-lighter;
+  height: 2em;
+  width: 12em;
+  border: 0.5rem solid $primary-darker;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: transform 0.25s;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+  }
+}
