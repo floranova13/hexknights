@@ -13,7 +13,6 @@ module.exports = {
   plugins: [],
   // add your custom rules here
   rules: {
-    'linebreak-style': ['error', 'windows'],
     'jsx-quotes': [2, 'prefer-single'],
     'prettier/prettier': [
       'error',
