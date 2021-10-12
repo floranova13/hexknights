@@ -16,6 +16,7 @@ export default function HexknightsPage() {
   const [expeditionExpanded, setExpeditionToggle] = useState(false);
   const [resilienceExpanded, setResilienceToggle] = useState(false);
   const [sacrificeExpanded, setSacrificeToggle] = useState(false);
+  const [chapter, setChapter] = useState(1);
 
   useEffect(() => {
     setJudgementKnights(getHexknights('Judgement'));
