@@ -18,7 +18,7 @@
           "description": "[description]"
         }
       ],
-      "introduced": 0
+      "introduced": 1
     },
     {
       "hexalignment": "Sacrifice",
@@ -38,7 +38,7 @@
           "description": "[description]"
         }
       ],
-      "introduced": 0
+      "introduced": 2
     },
     {
       "hexalignment": "Sacrifice",
@@ -58,7 +58,7 @@
           "description": "[description]"
         }
       ],
-      "introduced": 0
+      "introduced": 3
     },
     {
       "hexalignment": "Progress",
@@ -78,7 +78,7 @@
           "description": "[description]"
         }
       ],
-      "introduced": 0
+      "introduced": 4
     },
     {
       "hexalignment": "Progress",
@@ -98,7 +98,7 @@
           "description": "[description]"
         }
       ],
-      "introduced": 0
+      "introduced": 5
     },
     {
       "hexalignment": "Judgement",
@@ -118,7 +118,7 @@
           "description": "[description]"
         }
       ],
-      "introduced": 0
+      "introduced": 6
     },
     {
       "hexalignment": "Judgement",
@@ -138,7 +138,7 @@
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam."
         }
       ],
-      "introduced": 0
+      "introduced": 7
     },
     {
       "hexalignment": "Expedition",
@@ -158,7 +158,7 @@
           "description": "[description]"
         }
       ],
-      "introduced": 0
+      "introduced": 8
     },
     {
       "hexalignment": "Expedition",
@@ -178,7 +178,7 @@
           "description": "[description]"
         }
       ],
-      "introduced": 0
+      "introduced": 9
     },
     {
       "hexalignment": "Expedition",
@@ -198,7 +198,7 @@
           "description": "[description]"
         }
       ],
-      "introduced": 0
+      "introduced": 10
     },
     {
       "hexalignment": "Mercy",
@@ -218,7 +218,7 @@
           "description": "[description]"
         }
       ],
-      "introduced": 0
+      "introduced": 11
     },
     {
       "hexalignment": "Mercy",
@@ -238,7 +238,7 @@
           "description": "[description]"
         }
       ],
-      "introduced": 0
+      "introduced": 12
     },
     {
       "hexalignment": "Mercy",
@@ -258,7 +258,7 @@
           "description": "[description]"
         }
       ],
-      "introduced": 0
+      "introduced": 13
     },
     {
       "hexalignment": "Mercy",
@@ -278,7 +278,7 @@
           "description": "[description]"
         }
       ],
-      "introduced": 0
+      "introduced": 14
     },
     {
       "hexalignment": "Resilience",
@@ -298,7 +298,7 @@
           "description": "[description]"
         }
       ],
-      "introduced": 0
+      "introduced": 15
     },
     {
       "hexalignment": "Resilience",
@@ -318,7 +318,7 @@
           "description": "[description]"
         }
       ],
-      "introduced": 0
+      "introduced": 16
     }
   ]
 }

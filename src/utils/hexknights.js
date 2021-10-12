@@ -11,3 +11,7 @@ export const getHexknights = (hexalignment = '') => {
 
   return knights || [];
 };
+
+export const getEncryptionClass = (chapter, requiredChapter) => {
+  return chapter >= requiredChapter ? '' : 'encrypted';
+};
