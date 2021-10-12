@@ -1,17 +1,36 @@
 @import '../variables.scss';
 
 #nav-container {
-  margin: 60px auto 15px;
-  text-align: center;
-  width: 80%;
-  align-items: center;
-  justify-content: flex-start;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: $primary;
   border: 0.5rem solid $primary-lighter;
   border-radius: 9px;
   color: $primary-lightest;
+  text-align: center;
+  width: 80%;
+  margin: 60px auto 15px;
 }
+
+#nav-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+// #nav-link-container {
+//   margin: 60px auto 15px;
+//   display: flex;
+//   text-align: center;
+//   width: 80%;
+//   align-items: center;
+//   justify-content: flex-start;
+//   background-color: $primary;
+//   border: 0.5rem solid $primary-lighter;
+//   border-radius: 9px;
+//   color: $primary-lightest;
+// }
 
 .nav-link {
   margin: 0.35rem;
@@ -27,6 +46,45 @@
   border-radius: 6px;
   text-decoration: none;
   transition: transform 0.25s;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+  }
+}
+
+#chapter-selection-container {
+  margin-right: 1em;
+}
+
+#chapter-selection-input {
+  text-align: center;
+  margin-right: 1em;
+  height: 3em;
+  border: 0.5rem solid $primary-lighter;
+  border-radius: 9px;
+  background-color: $primary;
+  color: $primary-lightest;
+  font-weight: 900;
+  outline: none;
+
+  &:hover {
+    color: white;
+    border-color: $primary-darker;
+    background-color: $primary-darkest;
+  }
+}
+
+#chapter-selection-button {
+  outline: none;
+  height: 3em;
+  width: 6em;
+  border: 0.5rem solid $primary-darker;
+  border-radius: 9px;
+  background-color: $primary-darkest;
+  color: $primary-lightest;
+  font-weight: 900;
 
   &:hover {
     color: white;
