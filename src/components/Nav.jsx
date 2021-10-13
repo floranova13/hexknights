@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
+import {
+  AdjustmentsIcon,
+  CogIcon,
+  CubeTransparentIcon,
+} from '@heroicons/react/solid';
 import settings from '../common/resources/novelSettings.json';
 
 const Nav = () => {
@@ -9,7 +14,7 @@ const Nav = () => {
   useEffect(() => {
     localStorage.setItem('chapter', chapter);
     console.log('Chapter: ' + localStorage.getItem('chapter'));
-    history.push('/'); // TODO: NOT WORKING, LOOK INTO IT
+    history.push('/');
   }, [chapter]);
 
   const filterText = (s) => {
@@ -21,9 +26,11 @@ const Nav = () => {
   return (
     <div id='nav-container'>
       <div id='nav-link-container'>
+        <CogIcon className='icon ml-2' />
         <Link className='nav-link text' to='/'>
           Home
         </Link>
+        <CubeTransparentIcon className='icon' />
         <Link className='nav-link text' to='/hexknights'>
           Hexknights
         </Link>
@@ -35,7 +42,7 @@ const Nav = () => {
           value={chapter}
           onChange={(e) => setChapter(filterText(e.target.value))}
         />
-        <button id='chapter-selection-button'>Go</button>
+        <AdjustmentsIcon className='icon' />
       </div>
     </div>
   );

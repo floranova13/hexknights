@@ -56,6 +56,9 @@
 
 #chapter-selection-container {
   margin-right: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #chapter-selection-input {
