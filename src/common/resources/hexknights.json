@@ -3,6 +3,7 @@
     {
       "hexalignment": "Sacrifice",
       "name": "Owane",
+      "quote": "",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
@@ -11,11 +12,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
-          "name": "[knight name]",
+          "name": "Knight",
           "weapon": "",
           "armor": "",
           "equipment": "",
-          "description": "[description]"
+          "description": ""
         }
       ],
       "introduced": 1
@@ -23,6 +24,7 @@
     {
       "hexalignment": "Sacrifice",
       "name": "Augus",
+      "quote": "",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
@@ -31,11 +33,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
-          "name": "[knight name]",
+          "name": "Knight",
           "weapon": "",
           "armor": "",
           "equipment": "",
-          "description": "[description]"
+          "description": ""
         }
       ],
       "introduced": 2
@@ -43,6 +45,7 @@
     {
       "hexalignment": "Sacrifice",
       "name": "Aylara",
+      "quote": "",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
@@ -51,11 +54,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
-          "name": "[knight name]",
+          "name": "Knight",
           "weapon": "",
           "armor": "",
           "equipment": "",
-          "description": "[description]"
+          "description": ""
         }
       ],
       "introduced": 3
@@ -63,6 +66,7 @@
     {
       "hexalignment": "Progress",
       "name": "Corsa",
+      "quote": "",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
@@ -71,11 +75,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
-          "name": "[knight name]",
+          "name": "Knight",
           "weapon": "",
           "armor": "",
           "equipment": "",
-          "description": "[description]"
+          "description": ""
         }
       ],
       "introduced": 4
@@ -83,6 +87,7 @@
     {
       "hexalignment": "Progress",
       "name": "Gillis",
+      "quote": "",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
@@ -91,11 +96,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
-          "name": "[knight name]",
+          "name": "Knight",
           "weapon": "",
           "armor": "",
           "equipment": "",
-          "description": "[description]"
+          "description": ""
         }
       ],
       "introduced": 5
@@ -103,6 +108,7 @@
     {
       "hexalignment": "Judgement",
       "name": "Tesarra",
+      "quote": "",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
@@ -111,11 +117,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
-          "name": "[knight name]",
+          "name": "Knight",
           "weapon": "",
           "armor": "",
           "equipment": "",
-          "description": "[description]"
+          "description": ""
         }
       ],
       "introduced": 6
@@ -123,19 +129,55 @@
     {
       "hexalignment": "Judgement",
       "name": "Fragmata",
-      "combatStyle": "",
-      "weapon": "",
-      "armor": "",
+      "quote": "Use every tool.",
+      "combatStyle": "Illusionist",
+      "weapon": "Dual Shortblades",
+      "armor": "Dusk Leather",
       "equipment": "",
       "squadName": "Chaos Knightmares",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
-          "name": "[knight name]",
-          "weapon": "",
-          "armor": "",
+          "name": "Eris",
+          "weapon": "Battleaxe",
+          "armor": "Heavy Armor",
           "equipment": "",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam."
+          "description": "Eris is the most 'stable' among her squad. She is a fervent believer in her lord's cause, even if she would have to sacrifice her life to prove Fragma right."
+        },
+        {
+          "name": "Zelarra",
+          "weapon": "Magitech Flamespewer",
+          "armor": "Heavy Leather",
+          "equipment": "Incendiary bombs and other explosives.",
+          "description": "'Zeal', as most will call her, will often lose herself in the radiance of her flame."
+        },
+        {
+          "name": "Noxianna",
+          "weapon": "Poisoned Throwing Knives, and a Poisoned Scimitar",
+          "armor": "Light, Black Leather",
+          "equipment": "All manner of poisons.",
+          "description": "'Noxi', as her friends call her, is a master of poisons and traps. She was a thief-in-the-making before her lord uplifted her life's purpose."
+        },
+        {
+          "name": "Lucrue",
+          "weapon": "None",
+          "armor": "Metal-Reinforced Leather",
+          "equipment": "Regents for potion mixing, and anything he can pick up on the way to further his alchemical practices.",
+          "description": "Lucrue hasn't desired to be called by his assigned name since it was thrust on him, but his lord found a better one. 'Luc' delights in concocting potions for Fragma. He fashions himself a battle alchemist who uses blightsource-mixed chemicals to heighten his abilities, and also that of Luc's fellow Chaos Knightmares. The yellow-eyed knight wears moderately heavy armor, but he doesn't fight on the front-lines because he is the weakest of the bunch, relying on skill with chemicals to support."
+        },
+        {
+          "name": "Noa",
+          "weapon": "Twin Cartemi Reavers",
+          "armor": "Maroon Reinforced Cloth",
+          "equipment": "",
+          "description": "Noa harbors a secret known only to her lord. She is a cartemi, not a human, but a magnificently-crafted illusion hides that fact from the world."
+        },
+        {
+          "name": "Klyto",
+          "weapon": "Artificer's Staff",
+          "armor": "Light Maroon Leather",
+          "equipment": "Artificer's toolkit, complete with all the tools necessary to make modifications to his squad's equipment on the road.",
+          "description": "Klyto is brother to Noa, and therefore, also a cartemi in disguise."
         }
       ],
       "introduced": 7
@@ -143,6 +185,7 @@
     {
       "hexalignment": "Expedition",
       "name": "Latice",
+      "quote": "",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
@@ -151,11 +194,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
-          "name": "[knight name]",
+          "name": "Knight",
           "weapon": "",
           "armor": "",
           "equipment": "",
-          "description": "[description]"
+          "description": ""
         }
       ],
       "introduced": 8
@@ -163,6 +206,7 @@
     {
       "hexalignment": "Expedition",
       "name": "Nissa",
+      "quote": "",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
@@ -171,11 +215,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
-          "name": "[knight name]",
+          "name": "Knight",
           "weapon": "",
           "armor": "",
           "equipment": "",
-          "description": "[description]"
+          "description": ""
         }
       ],
       "introduced": 9
@@ -183,6 +227,7 @@
     {
       "hexalignment": "Expedition",
       "name": "Wendy",
+      "quote": "",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
@@ -191,11 +236,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
-          "name": "[knight name]",
+          "name": "Knight",
           "weapon": "",
           "armor": "",
           "equipment": "",
-          "description": "[description]"
+          "description": ""
         }
       ],
       "introduced": 10
@@ -203,6 +248,7 @@
     {
       "hexalignment": "Mercy",
       "name": "Galarious",
+      "quote": "",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
@@ -211,11 +257,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
-          "name": "[knight name]",
+          "name": "Knight",
           "weapon": "",
           "armor": "",
           "equipment": "",
-          "description": "[description]"
+          "description": ""
         }
       ],
       "introduced": 11
@@ -223,6 +269,7 @@
     {
       "hexalignment": "Mercy",
       "name": "Oenus",
+      "quote": "",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
@@ -231,11 +278,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
-          "name": "[knight name]",
+          "name": "Knight",
           "weapon": "",
           "armor": "",
           "equipment": "",
-          "description": "[description]"
+          "description": ""
         }
       ],
       "introduced": 12
@@ -243,6 +290,7 @@
     {
       "hexalignment": "Mercy",
       "name": "Amos",
+      "quote": "",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
@@ -251,11 +299,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
-          "name": "[knight name]",
+          "name": "Knight",
           "weapon": "",
           "armor": "",
           "equipment": "",
-          "description": "[description]"
+          "description": ""
         }
       ],
       "introduced": 13
@@ -263,6 +311,7 @@
     {
       "hexalignment": "Mercy",
       "name": "Relica",
+      "quote": "",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
@@ -271,11 +320,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
-          "name": "[knight name]",
+          "name": "Knight",
           "weapon": "",
           "armor": "",
           "equipment": "",
-          "description": "[description]"
+          "description": ""
         }
       ],
       "introduced": 14
@@ -283,6 +332,7 @@
     {
       "hexalignment": "Resilience",
       "name": "Harth",
+      "quote": "",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
@@ -291,11 +341,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
-          "name": "[knight name]",
+          "name": "Knight",
           "weapon": "",
           "armor": "",
           "equipment": "",
-          "description": "[description]"
+          "description": ""
         }
       ],
       "introduced": 15
@@ -303,6 +353,7 @@
     {
       "hexalignment": "Resilience",
       "name": "Gabriela",
+      "quote": "",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
@@ -311,11 +362,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
       "squad": [
         {
-          "name": "[knight name]",
+          "name": "Knight",
           "weapon": "",
           "armor": "",
           "equipment": "",
-          "description": "[description]"
+          "description": ""
         }
       ],
       "introduced": 16

@@ -9,7 +9,7 @@ import settings from '../common/resources/novelSettings.json';
 
 const Nav = () => {
   const history = useHistory();
-  const [chapter, setChapter] = useState(1);
+  const [chapter, setChapter] = useState(90);
 
   useEffect(() => {
     localStorage.setItem('chapter', chapter);
