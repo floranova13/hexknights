@@ -13,7 +13,7 @@ const App = () => {
       <Router>
         <Nav />
         <Switch>
-          <Route path='/hexknights/:id'>
+          <Route path='/hexknights/:knightName'>
             <HexknightPage />
           </Route>
           <Route exact path='/hexknights'>

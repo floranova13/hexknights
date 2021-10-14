@@ -1,0 +1,39 @@
+@import '../variables.scss';
+
+#hexknight-page-container {
+  margin: 0 auto 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 750px;
+  background-color: $primary-darker;
+  border: 1rem solid $primary-lighter;
+  border-radius: 9px;
+  color: $primary-lightest;
+  padding: 0 3em;
+}
+
+#hexknight-squad-container {
+  margin: 0 auto 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 750px;
+  background-color: $primary-darker;
+  border: 1rem solid $primary-lighter;
+  border-radius: 9px;
+  color: $primary-lightest;
+  padding: 0 3em;
+
+  .knight {
+    &:hover {
+      color: white;
+      border: 0.75rem solid $primary-lighter;
+      background-color: $primary-darkest;
+    }
+  }
+}
