@@ -7,7 +7,11 @@ const HexknightCard = ({ hexknight }) => {
   let history = useHistory();
 
   const handleClick = (knightName) => {
-    history.push(`/hexknights/${knightName}`);
+    if (
+      !getEncryptionClass(localStorage.getItem('chapter'), hexknight.introduced)
+    ) {
+      history.push(`/hexknights/${knightName}`);
+    }
   };
 
   return (

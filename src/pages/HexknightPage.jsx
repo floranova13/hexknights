@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
 import Page from '../components/Page';
-import { getHexknights, getEncryptionClass } from '../utils/hexknights';
+import KnightCard from '../components/KnightCard';
+import { getHexknights } from '../utils/hexknights';
 
 const HexknightPage = () => {
   const { knightName } = useParams(); // hexknight id for retrieving specific info
@@ -15,12 +16,15 @@ const HexknightPage = () => {
   return (
     <Page>
       <h1 className='page-title'>{hexknight.name}</h1>
-      <h1 className='description mb-1'>{hexknight.description}</h1>
-      {/* <div id='hexknight-page-container'>
-        <h1 className='subheader hexknight-card-content'>{`Squad: ${hexknight.squadName}`}</h1>
-      </div> */}
+      <h1 className='description mb-4'>{hexknight.description}</h1>
       <div id='hexknight-squad-container'>
-        <h1 className='subheader hexknight-card-content'>{`Squad: ${hexknight.squadName}`}</h1>
+        <h1 className='subheader hexknight-card-content mb-1'>
+          {hexknight.squadName}
+        </h1>
+        {hexknight &&
+          hexknight.squad.map((k, i) => {
+            return <KnightCard className='mb-1' key={i} knight={k} />;
+          })}
       </div>
     </Page>
   );

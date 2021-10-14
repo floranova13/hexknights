@@ -42,9 +42,9 @@ const HomePage = () => {
         <h1 className='subheader subheader-left'>Note:</h1>
         <p className='description'>
           Enter the chapter number you have read through at the top right of the
-          page to ensure cannot spoil the story for yourself. Information about
-          characters that have not been introduced yet will be unreadable. You
-          will be unable to enter a chapter that had not been released yet.
+          page to ensure you will not spoil the story for yourself. Information
+          about characters that have not been introduced yet will be unreadable.
+          You will be unable to enter a chapter that has not been released yet.
         </p>
       </div>
     </Page>
