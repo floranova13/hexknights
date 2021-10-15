@@ -183,6 +183,27 @@
       "introduced": 7
     },
     {
+      "hexalignment": "Judgement",
+      "name": "Anil",
+      "quote": "Above the horizon is our inheritance.",
+      "combatStyle": "Skyknight Irregular",
+      "weapon": "Forslone Cord",
+      "armor": "Lightweight Leather",
+      "equipment": "Various Tools",
+      "squadName": "The Skyknights",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squad": [
+        {
+          "name": "Knight",
+          "weapon": "",
+          "armor": "",
+          "equipment": "",
+          "description": ""
+        }
+      ],
+      "introduced": 17
+    },
+    {
       "hexalignment": "Expedition",
       "name": "Latice",
       "quote": "",
