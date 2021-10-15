@@ -1,6 +1,25 @@
-.hexalignment-title {
+@import '../variables.scss';
+
+.hexalignment-title-container {
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5em 3em;
+  background-color: $primary-darkest;
+  border: 0.5rem solid $primary-darker;
+  border-radius: 9px;
+  min-width: 750px;
+  margin-bottom: 1.5rem;
+
   &:hover {
     color: white;
     cursor: pointer;
+    background-color: black;
+    border: 0.5rem dashed $primary-darker;
   }
+}
+
+.hexalignment-title {
+  margin-left: 0.75em;
+  display: inline;
 }

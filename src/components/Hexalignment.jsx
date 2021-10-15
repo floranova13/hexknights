@@ -1,6 +1,8 @@
 /* eslint-disable react/prop-types */
 import React, { useEffect } from 'react';
 import HexknightCard from './HexknightCard';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlusSquare, faMinusSquare } from '@fortawesome/free-solid-svg-icons';
 
 const Hexalignment = ({
   hexalignment,
@@ -20,6 +22,11 @@ const Hexalignment = ({
         className='hexalignment-title-container'
         onClick={() => toggleExpansion(!expanded)}
       >
+        <FontAwesomeIcon
+          size='2x'
+          icon={expanded ? faMinusSquare : faPlusSquare}
+          inline
+        />
         <h1 className='header hexalignment-title'>{`Hexalignment: ${hexalignment}`}</h1>
       </div>
       <div id='hexalignment-hexknight-container'>

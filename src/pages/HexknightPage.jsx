@@ -14,10 +14,9 @@ import {
 import { getHexknights } from '../utils/hexknights';
 
 const HexknightPage = () => {
-  const { knightName } = useParams(); // hexknight id for retrieving specific info
+  const { knightName } = useParams();
   const [isLoaded, setIsLoaded] = useState(false);
   const [hexknight, setHexknight] = useState(getHexknights()[0]);
-  const [iconClass, setIconClass] = useState('fas fa-fire fa-2x');
 
   useEffect(() => {
     setIsLoaded(true);
@@ -28,13 +27,6 @@ const HexknightPage = () => {
       setHexknight(
         getHexknights().find((knight) => knight.name === knightName)
       );
-      setIconClass(
-        getHexalignmentIconClass(
-          getHexknights().find((knight) => knight.name === knightName)
-            .hexalignment
-        )
-      );
-      console.log('Hexalignment Class: ' + iconClass);
     }
   }, [isLoaded]);
 
