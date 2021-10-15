@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
 import Page from '../components/Page';
 import KnightCard from '../components/KnightCard';
-import { getHexknights } from '../utils/hexknights';
+import { getHexknights, getHexalignmentIconClass } from '../utils/hexknights';
 
 const HexknightPage = () => {
   const { knightName } = useParams(); // hexknight id for retrieving specific info
@@ -20,9 +20,9 @@ const HexknightPage = () => {
       <div id='hexknight-page-container'>
         <h1 className='page-title'>{hexknight.name}</h1>
         <div id='alignment-container'>
-          <i className='fas fa-moon'></i>
+          <i className={getHexalignmentIconClass(hexknight.hexalignment)}></i>
           <h1 className='header mr-2 ml-2'>{hexknight.hexalignment}</h1>
-          <i className='fas fa-moon'></i>
+          <i className={getHexalignmentIconClass(hexknight.hexalignment)}></i>
         </div>
 
         {hexknight.combatStyle && (
