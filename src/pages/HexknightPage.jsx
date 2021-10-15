@@ -2,16 +2,58 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
 import Page from '../components/Page';
 import KnightCard from '../components/KnightCard';
-import { getHexknights, getHexalignmentIconClass } from '../utils/hexknights';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faFire,
+  faMoon,
+  faFlask,
+  faEye,
+  faShieldAlt,
+  faBurn,
+} from '@fortawesome/free-solid-svg-icons';
+import { getHexknights } from '../utils/hexknights';
 
 const HexknightPage = () => {
   const { knightName } = useParams(); // hexknight id for retrieving specific info
+  const [isLoaded, setIsLoaded] = useState(false);
   const [hexknight, setHexknight] = useState(getHexknights()[0]);
+  const [iconClass, setIconClass] = useState('fas fa-fire fa-2x');
 
   useEffect(() => {
-    console.log('Trying to get Hexknight: ' + knightName);
-    setHexknight(getHexknights().find((knight) => knight.name === knightName));
+    setIsLoaded(true);
   });
+
+  useEffect(() => {
+    if (isLoaded) {
+      setHexknight(
+        getHexknights().find((knight) => knight.name === knightName)
+      );
+      setIconClass(
+        getHexalignmentIconClass(
+          getHexknights().find((knight) => knight.name === knightName)
+            .hexalignment
+        )
+      );
+      console.log('Hexalignment Class: ' + iconClass);
+    }
+  }, [isLoaded]);
+
+  const getIcon = (hexalignment) => {
+    switch (hexalignment) {
+      case 'Judgement':
+        return faFire;
+      case 'Mercy':
+        return faMoon;
+      case 'Progress':
+        return faFlask;
+      case 'Expedition':
+        return faEye;
+      case 'Resilience':
+        return faShieldAlt;
+      default:
+        return faBurn;
+    }
+  };
 
   // TODO: Add an icon beside hexalignment that corresponds with one of six values.
 
@@ -20,9 +62,9 @@ const HexknightPage = () => {
       <div id='hexknight-page-container'>
         <h1 className='page-title'>{hexknight.name}</h1>
         <div id='alignment-container'>
-          <i className={getHexalignmentIconClass(hexknight.hexalignment)}></i>
+          <FontAwesomeIcon size='2x' icon={getIcon(hexknight.hexalignment)} />
           <h1 className='header mr-2 ml-2'>{hexknight.hexalignment}</h1>
-          <i className={getHexalignmentIconClass(hexknight.hexalignment)}></i>
+          <FontAwesomeIcon size='2x' icon={getIcon(hexknight.hexalignment)} />
         </div>
 
         {hexknight.combatStyle && (
