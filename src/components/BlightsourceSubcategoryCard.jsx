@@ -3,11 +3,11 @@ import React from 'react';
 import { useHistory } from 'react-router-dom';
 import { getEncryptionClass } from '../utils/hexknights';
 
-const BlightsourceSubcategoryCard = ({ category, subcategory }) => {
+const BlightsourceSubcategoryCard = ({ subcategory }) => {
   let history = useHistory();
 
   const handleClick = () => {
-    history.push(`/blightsources/${category}/${subcategory}`);
+    history.push(`/blightsources/${subcategory.category}/${subcategory.name}`);
   };
 
   return (

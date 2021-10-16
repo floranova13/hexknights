@@ -480,5 +480,133 @@
         }
       ]
     }
-  }
+  },
+  "information": [
+    {
+      "category": "Blightstones",
+      "description": "",
+      "subcategories": [
+        {
+          "category": "Blightstones",
+          "subcategory": "Blightfoils",
+          "description": ""
+        },
+        {
+          "category": "Blightstones",
+          "subcategory": "Crystali",
+          "description": ""
+        },
+        {
+          "category": "Blightstones",
+          "subcategory": "Lylodes",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Blightichors",
+      "description": "",
+      "subcategories": [
+        {
+          "category": "Blightichors",
+          "subcategory": "Lifeblight",
+          "description": ""
+        },
+        {
+          "category": "Blightichors",
+          "subcategory": "Blightvenoms",
+          "description": ""
+        },
+        {
+          "category": "Blightichors",
+          "subcategory": "Blightmares",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Blightfumes",
+      "description": "",
+      "subcategories": [
+        {
+          "category": "Blightfumes",
+          "subcategory": "Rushblight",
+          "description": ""
+        },
+        {
+          "category": "Blightfumes",
+          "subcategory": "Miasmeta",
+          "description": ""
+        },
+        {
+          "category": "Blightfumes",
+          "subcategory": "Blightmists",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Blightflora",
+      "description": "",
+      "subcategories": [
+        {
+          "category": "Blightflora",
+          "subcategory": "Blightblooms",
+          "description": ""
+        },
+        {
+          "category": "Blightflora",
+          "subcategory": "Blightpillars",
+          "description": ""
+        },
+        {
+          "category": "Blightflora",
+          "subcategory": "Blightsnarls",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Blightfungi",
+      "description": "",
+      "subcategories": [
+        {
+          "category": "Blightfungi",
+          "subcategory": "Blightshrooms",
+          "description": ""
+        },
+        {
+          "category": "Blightfungi",
+          "subcategory": "Blightbleeds",
+          "description": ""
+        },
+        {
+          "category": "Blightfungi",
+          "subcategory": "Sporesprawls",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Blightanomalies",
+      "description": "",
+      "subcategories": [
+        {
+          "category": "Blightanomalies",
+          "subcategory": "Tokens",
+          "description": ""
+        },
+        {
+          "category": "Blightanomalies",
+          "subcategory": "Loci",
+          "description": ""
+        },
+        {
+          "category": "Blightanomalies",
+          "subcategory": "Vestiges",
+          "description": ""
+        }
+      ]
+    }
+  ]
 }
