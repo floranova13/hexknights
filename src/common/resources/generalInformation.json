@@ -1,0 +1,39 @@
+{
+  "religion": {
+    "general": ["", "", ""],
+    "channeler": ["", "", ""],
+    "paragons": [
+      {
+        "hexalignment": "Sacrifice",
+        "name": "",
+        "description": []
+      },
+      {
+        "hexalignment": "Progress",
+        "name": "",
+        "description": []
+      },
+      {
+        "hexalignment": "Judgement",
+        "name": "",
+        "description": []
+      },
+      {
+        "hexalignment": "Expedition",
+        "name": "",
+        "description": []
+      },
+      {
+        "hexalignment": "Mercy",
+        "name": "",
+        "description": []
+      },
+      {
+        "hexalignment": "Resilience",
+        "name": "",
+        "description": []
+      }
+    ],
+    "hexknights": ["", "", ""]
+  }
+}

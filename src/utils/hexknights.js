@@ -11,3 +11,20 @@ export const getHexknights = (hexalignment = '') => {
 export const getEncryptionClass = (chapter, requiredChapter) => {
   return chapter >= requiredChapter ? '' : 'encrypted';
 };
+
+export const getHexalignmentSpecialty = (hexalignment) => {
+  switch (hexalignment) {
+    case 'Judgement':
+      return 'Knightmares';
+    case 'Mercy':
+      return 'Temple Guard';
+    case 'Progress':
+      return 'Breachers';
+    case 'Expedition':
+      return 'Tendril Cells';
+    case 'Resilience':
+      return 'Dominion Guard';
+    default:
+      return 'Bloodblades';
+  }
+};
