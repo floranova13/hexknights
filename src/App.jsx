@@ -6,6 +6,8 @@ import Nav from './components/Nav';
 import HomePage from './pages/HomePage';
 import HexknightsPage from './pages/HexknightsPage';
 import HexknightPage from './pages/HexknightPage';
+import BlightsourcesPage from './pages/BlightsourcesPage';
+// import BlightsourceCategoryPage from './pages/BlightsourceCategoryPage';
 
 const App = () => {
   return (
@@ -20,7 +22,7 @@ const App = () => {
             <HexknightsPage />
           </Route>
           <Route exact path='/blightsources'>
-            <HexknightsPage />
+            <BlightsourcesPage />
           </Route>
           <Route path='/hexknights/:category'>
             <HexknightsPage />

@@ -34,6 +34,9 @@ const Nav = () => {
         <Link className='nav-link text' to='/hexknights'>
           Hexknights
         </Link>
+        <Link className='nav-link text' to='/blightsources'>
+          Blightsources
+        </Link>
       </div>
       <div id='chapter-selection-container'>
         <input
