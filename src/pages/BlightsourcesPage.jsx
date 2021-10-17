@@ -1,6 +1,6 @@
 import React from 'react';
 import Page from '../components/Page';
-import BlightsourceCategory from '../components/BlightsourceCategory';
+import BlightsourceCategoryCard from '../components/BlightsourceCategoryCard';
 import { getBlightsourceCategories } from '../utils/blightsources';
 
 export default function HexknightsPage() {
@@ -8,12 +8,8 @@ export default function HexknightsPage() {
   return (
     <Page>
       <h1 className='page-title'>Hexknights</h1>
-      {getBlightsourceCategories.map((c) => {
-        return;
-        <BlightsourceCategory
-          category={c}
-          toggleExpansion={setJudgementToggle}
-        />;
+      {getBlightsourceCategories.map((c, i) => {
+        return <BlightsourceCategoryCard key={i} category={c} />;
       })}
     </Page>
   );

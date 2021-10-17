@@ -25,7 +25,7 @@ const HexknightPage = () => {
   useEffect(() => {
     if (isLoaded) {
       setHexknight(
-        getHexknights().find((knight) => knight.name === knightName)
+        getHexknights().first((knight) => knight.name === knightName)
       );
     }
   }, [isLoaded]);
@@ -46,8 +46,6 @@ const HexknightPage = () => {
         return faBurn;
     }
   };
-
-  // TODO: Add an icon beside hexalignment that corresponds with one of six values.
 
   return (
     <Page>

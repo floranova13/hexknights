@@ -1,72 +1,74 @@
 import React, { useState, useEffect } from 'react';
 import Page from '../components/Page';
-import Hexalignment from '../components/Hexalignment';
-import { getHexknights } from '../utils/hexknights';
+import Text from '../components/Text';
+import BlightsourceSubcategoryCard from '../components/BlightsourceSubcategoryCard';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faGem,
+  faTint,
+  faWind,
+  faLeaf,
+  faViruses,
+  faDiceD20,
+} from '@fortawesome/free-solid-svg-icons';
+import { getBlightsourceCategories } from '../utils/blightsources';
 
-export default function HexknightsPage() {
-  const [judgementKnights, setJudgementKnights] = useState([]);
-  const [mercyKnights, setMercyKnights] = useState([]);
-  const [progressKnights, setProgressKnights] = useState([]);
-  const [expeditionKnights, setExpeditionKnights] = useState([]);
-  const [resilienceKnights, setResilienceKnights] = useState([]);
-  const [sacrificeKnights, setSacrificeKnights] = useState([]);
-  const [judgementExpanded, setJudgementToggle] = useState(false);
-  const [mercyExpanded, setMercyToggle] = useState(false);
-  const [progressExpanded, setProgressToggle] = useState(false);
-  const [expeditionExpanded, setExpeditionToggle] = useState(false);
-  const [resilienceExpanded, setResilienceToggle] = useState(false);
-  const [sacrificeExpanded, setSacrificeToggle] = useState(false);
-  const [chapter, setChapter] = useState(1);
+export default function BlightsourceCategoryPage() {
+  const { categoryName } = useParams();
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [category, setCategory] = useState(getBlightsourceCategories()[0]);
 
   useEffect(() => {
-    setJudgementKnights(getHexknights('Judgement'));
-    setMercyKnights(getHexknights('Mercy'));
-    setProgressKnights(getHexknights('Progress'));
-    setExpeditionKnights(getHexknights('Expedition'));
-    setResilienceKnights(getHexknights('Resilience'));
-    setSacrificeKnights(getHexknights('Sacrifice'));
-  }, []);
+    setIsLoaded(true);
+  });
 
-  console.log(getHexknights());
+  useEffect(() => {
+    if (isLoaded) {
+      setCategory(
+        getBlightsourceCategories().first((c) => c.category === categoryName)
+      );
+    }
+  }, [isLoaded]);
+
+  const getIcon = () => {
+    switch (category.category) {
+      case 'Blightstones':
+        return faGem;
+      case 'Blightichors':
+        return faTint;
+      case 'Blightfumes':
+        return faWind;
+      case 'Blightflora':
+        return faLeaf;
+      case 'Blightfungi':
+        return faViruses;
+      default:
+        return faDiceD20;
+    }
+  };
+
   return (
     <Page>
-      <h1 className='page-title'>Hexknights</h1>
-      <Hexalignment
-        hexalignment='Judgement'
-        hexknights={judgementKnights}
-        expanded={judgementExpanded}
-        toggleExpansion={setJudgementToggle}
-      />
-      <Hexalignment
-        hexalignment='Mercy'
-        hexknights={mercyKnights}
-        expanded={mercyExpanded}
-        toggleExpansion={setMercyToggle}
-      />
-      <Hexalignment
-        hexalignment='Progress'
-        hexknights={progressKnights}
-        expanded={progressExpanded}
-        toggleExpansion={setProgressToggle}
-      />
-      <Hexalignment
-        hexalignment={'Expedition'}
-        hexknights={expeditionKnights}
-        expanded={expeditionExpanded}
-        toggleExpansion={setExpeditionToggle}
-      />
-      <Hexalignment
-        hexalignment={'Resilience'}
-        hexknights={resilienceKnights}
-        expanded={resilienceExpanded}
-        toggleExpansion={setResilienceToggle}
-      />
-      <Hexalignment
-        hexalignment={'Sacrifice'}
-        hexknights={sacrificeKnights}
-        expanded={sacrificeExpanded}
-        toggleExpansion={setSacrificeToggle}
-      />
+      <div id='blightsource-category-page-container'>
+        <div className='blightsource-category-title-container'>
+          <FontAwesomeIcon size='2x' icon={getIcon()} />
+          <h1 className='header'>{category.category}</h1>
+          <FontAwesomeIcon size='2x' icon={getIcon()} />
+        </div>
+        <Text paragraphs={category.description} classes='text' />
+        <div id='blightsource-subcategory-container'>
+          <h1 className='subheader mb-1'>Subcategories</h1>
+          {hexknight.squad.map((subcategory, i) => {
+            return (
+              <BlightsourceSubcategoryCard
+                className='mb-1 subcategory'
+                key={i}
+                subcategory={subcategory}
+              />
+            );
+          })}
+        </div>
+      </div>
     </Page>
   );
 }

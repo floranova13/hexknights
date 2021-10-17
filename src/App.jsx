@@ -24,10 +24,10 @@ const App = () => {
           <Route exact path='/blightsources'>
             <BlightsourcesPage />
           </Route>
-          <Route path='/hexknights/:category'>
+          <Route path='/hexknights/:categoryName'>
             <HexknightsPage />
           </Route>
-          <Route exact path='/hexknights/:category/:subcategory'>
+          <Route exact path='/hexknights/:categoryName/:subcategoryName'>
             <HexknightsPage />
           </Route>
           <Route exact path='/'>
