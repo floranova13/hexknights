@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router';
 import Page from '../components/Page';
 import Text from '../components/Text';
 import BlightsourceSubcategoryCard from '../components/BlightsourceSubcategoryCard';
@@ -13,7 +14,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { getBlightsourceCategories } from '../utils/blightsources';
 
-export default function BlightsourceCategoryPage() {
+export default function BlightsourceSubcategoryPage() {
   const { categoryName } = useParams();
   const [isLoaded, setIsLoaded] = useState(false);
   const [category, setCategory] = useState(getBlightsourceCategories()[0]);
@@ -50,18 +51,18 @@ export default function BlightsourceCategoryPage() {
   return (
     <Page>
       <div id='blightsource-category-page-container'>
-        <div className='blightsource-category-title-container'>
+        <div className='category-title-container'>
           <FontAwesomeIcon size='2x' icon={getIcon()} />
-          <h1 className='header'>{category.category}</h1>
+          <h1 className='page-title'>{category.category}</h1>
           <FontAwesomeIcon size='2x' icon={getIcon()} />
         </div>
         <Text paragraphs={category.description} classes='text' />
+        <h1 className='header mb-1'>Subcategories</h1>
         <div id='blightsource-subcategory-container'>
-          <h1 className='subheader mb-1'>Subcategories</h1>
-          {hexknight.squad.map((subcategory, i) => {
+          {category.subcategories.map((subcategory, i) => {
             return (
               <BlightsourceSubcategoryCard
-                className='mb-1 subcategory'
+                className='mb-1'
                 key={i}
                 subcategory={subcategory}
               />

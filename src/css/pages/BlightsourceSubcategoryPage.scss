@@ -4,7 +4,7 @@
   width: 50%;
 }
 
-#hexknight-squad-container {
+#blightsource-subcategory-page-container {
   margin: 0 auto 45px;
   display: flex;
   justify-content: center;
@@ -18,12 +18,7 @@
   color: $primary-lightest;
   padding: 0 3em;
 
-  .knight {
-    &:hover {
-      color: white;
-      border: 0.75rem solid $primary-lighter;
-      background-color: $primary-darkest;
-    }
+  .blightsources-container {
   }
 }
 

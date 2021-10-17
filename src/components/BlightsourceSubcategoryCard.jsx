@@ -15,13 +15,12 @@ const BlightsourceSubcategoryCard = ({ subcategory }) => {
 
   return (
     <div
-      id='blightsource-subcategory-card-container'
-      className=''
+      className='blightsource-subcategory-card-container'
       onClick={() => handleClick()}
     >
-      <h1 className='header'>{subcategory.subcategory}</h1>
-      <h1 className='header'>{subcategory.category}</h1>
-      <Text paragraphs={subcategory.description} classes='text' />
+      <h1 className='subheader blightsource-subcategory-title'>
+        {subcategory.subcategory}
+      </h1>
     </div>
   );
 };

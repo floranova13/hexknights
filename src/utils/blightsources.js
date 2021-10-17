@@ -13,7 +13,7 @@ export const getBlightsourceCategories = () => {
   return blightsources.information;
 };
 
-export const getBlightsourceSubategories = (category = '') => {
+export const getBlightsourceSubcategories = (category = '') => {
   if (category) {
     return getBlightsourceCategories().first((c) => c.name === category);
   }
@@ -25,17 +25,17 @@ export const getBlightsourceSubategories = (category = '') => {
 };
 
 export const getBlightsources = (category = '', subcategory = '') => {
-  const blightsources = [];
+  const blightsourceArray = [];
 
-  for (category in blightsources.blightsources.values()) {
-    for (subcategory in category.values()) {
-      blightsources.push(...subcategory);
+  for (category in Object.values(blightsources.blightsources)) {
+    for (subcategory in Object.values(category)) {
+      blightsourceArray.push(...subcategory);
     }
   }
 
-  return blightsources.where(
+  return blightsourceArray.filter(
     (b) =>
-      (!category || c.category === category) &&
+      (!category || b.category === category) &&
       (!subcategory || b.subcategory === subcategory)
   );
 };
