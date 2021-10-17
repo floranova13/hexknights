@@ -25,7 +25,7 @@ export default function BlightsourceCategoryPage() {
   useEffect(() => {
     if (isLoaded) {
       setCategory(
-        getBlightsourceCategories().first((c) => c.category === categoryName)
+        getBlightsourceCategories().find((c) => c.category === categoryName)
       );
     }
   }, [isLoaded]);

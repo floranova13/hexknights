@@ -2,7 +2,7 @@
 
 .blightsource-category-title-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   padding: 0.5em 3em;
   background-color: $primary-darkest;
@@ -20,9 +20,9 @@
 }
 
 .blightsource-category-title {
-  margin-left: 0.75em;
-  margin-right: 0.75em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   display: inline;
   text-align: center;
-  width: 600px;
+  width: 500px;
 }

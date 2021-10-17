@@ -25,7 +25,7 @@ const HexknightPage = () => {
   useEffect(() => {
     if (isLoaded) {
       setHexknight(
-        getHexknights().first((knight) => knight.name === knightName)
+        getHexknights().find((knight) => knight.name === knightName)
       );
     }
   }, [isLoaded]);

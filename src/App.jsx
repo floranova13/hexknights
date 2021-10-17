@@ -7,6 +7,7 @@ import HomePage from './pages/HomePage';
 import HexknightsPage from './pages/HexknightsPage';
 import HexknightPage from './pages/HexknightPage';
 import BlightsourcesPage from './pages/BlightsourcesPage';
+import BlightsourceCategoryPage from './pages/BlightsourceCategoryPage';
 // import BlightsourceCategoryPage from './pages/BlightsourceCategoryPage';
 
 const App = () => {
@@ -25,10 +26,10 @@ const App = () => {
             <BlightsourcesPage />
           </Route>
           <Route path='/hexknights/:categoryName'>
-            <HexknightsPage />
+            <BlightsourceCategoryPage />
           </Route>
           <Route exact path='/hexknights/:categoryName/:subcategoryName'>
-            <HexknightsPage />
+            <BlightsourcesPage />
           </Route>
           <Route exact path='/'>
             <HomePage />

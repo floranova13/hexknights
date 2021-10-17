@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import Text from './Text';
 import { useHistory } from 'react-router-dom';
 import { getEncryptionClass } from '../utils/hexknights';
 
@@ -7,7 +8,9 @@ const BlightsourceSubcategoryCard = ({ subcategory }) => {
   let history = useHistory();
 
   const handleClick = () => {
-    history.push(`/blightsources/${subcategory.category}/${subcategory.name}`);
+    history.push(
+      `/blightsources/${subcategory.category}/${subcategory.subcategory}`
+    );
   };
 
   return (
@@ -16,13 +19,9 @@ const BlightsourceSubcategoryCard = ({ subcategory }) => {
       className=''
       onClick={() => handleClick()}
     >
-      <h4 className='header blightsource-subcategory-card-content'>
-        {hexknight.name}
-      </h4>
-      <h4 className='description blightsource-subcategory-card-content'>
-        {hexknight.description}
-      </h4>
-      <h4 className='subheader blightsource-subcategory-card-content'>{`Squad: ${hexknight.squadName}`}</h4>
+      <h1 className='header'>{subcategory.subcategory}</h1>
+      <h1 className='header'>{subcategory.category}</h1>
+      <Text paragraphs={subcategory.description} classes='text' />
     </div>
   );
 };

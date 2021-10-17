@@ -27,7 +27,6 @@ export default function HexknightsPage() {
     setSacrificeKnights(getHexknights('Sacrifice'));
   }, []);
 
-  console.log(getHexknights());
   return (
     <Page>
       <h1 className='page-title'>Hexknights</h1>

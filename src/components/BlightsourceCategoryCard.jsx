@@ -44,7 +44,7 @@ const BlightsourceCategoryCard = ({ category }) => {
     >
       <div className='blightsource-category-title-container'>
         <FontAwesomeIcon size='2x' icon={getIcon()} />
-        <h1 className='header blightsource-category-card-content'>
+        <h1 className='header blightsource-category-title'>
           {category.category}
         </h1>
         <FontAwesomeIcon size='2x' icon={getIcon()} />
