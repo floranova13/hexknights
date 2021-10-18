@@ -10,7 +10,8 @@ import HexknightPage from './pages/HexknightPage';
 import BlightsourcesPage from './pages/BlightsourcesPage';
 import BlightsourceCategoryPage from './pages/BlightsourceCategoryPage';
 import BlightsourceSubcategoryPage from './pages/BlightsourceSubcategoryPage';
-// import BlightsourceCategoryPage from './pages/BlightsourceCategoryPage';
+import FesterfontsPage from './pages/FesterfontsPage';
+import FesterfontClassPage from './pages/FesterfontClassPage';
 
 const App = () => {
   return (

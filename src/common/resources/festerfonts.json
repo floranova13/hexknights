@@ -1,0 +1,112 @@
+{
+  "festerfonts": [
+    {
+      "name": "",
+      "class": "",
+      "saturation": "",
+      "configuration": "",
+      "layers": {
+        "outskirts": {
+          "blightbeasts": ["", "", ""],
+          "description": ["", "", ""]
+        },
+        "body": {
+          "blightbeasts": ["", "", ""],
+          "description": ["", "", ""]
+        },
+        "core": {
+          "blightbeasts": ["", "", ""],
+          "description": ["", "", ""]
+        }
+      },
+      "description": ["", "", ""],
+      "region": "",
+      "introduced": 0
+    }
+  ],
+  "information": {
+    "class": {
+      "description": ["", "", ""],
+      "classifications": {
+        "name": "",
+        "description": ["", "", ""],
+        "biomes": ["", "", ""],
+        "blightsources": ["", "", ""]
+      }
+    },
+    "saturation": [
+      {
+        "name": "",
+        "description": ["", "", ""]
+      }
+    ],
+    "biome": [
+      {
+        "name": "Forest",
+        "blightsources": [
+          "Blightstones",
+          "Blightichors",
+          "Blightfumes",
+          "Blightflora+++",
+          "Blightfungi+++",
+          "Blightanomalies"
+        ]
+      },
+      {
+        "name": "Grassland",
+        "blightsources": [
+          "Blightstones-",
+          "Blightichors",
+          "Blightfumes-",
+          "Blightflora+",
+          "Blightfungi+",
+          "Blightanomalies"
+        ]
+      },
+      {
+        "name": "Desert",
+        "blightsources": [
+          "Blightstones+++",
+          "Blightichors",
+          "Blightfumes+",
+          "Blightflora--",
+          "Blightfungi--",
+          "Blightanomalies"
+        ]
+      },
+      {
+        "name": "Tundra",
+        "blightsources": [
+          "Blightstones+",
+          "Blightichors+",
+          "Blightfumes",
+          "Blightflora+",
+          "Blightfungi+",
+          "Blightanomalies"
+        ]
+      },
+      {
+        "name": "Freshwater",
+        "blightsources": [
+          "Blightstones",
+          "Blightichors++",
+          "Blightfumes+",
+          "Blightflora+",
+          "Blightfungi+",
+          "Blightanomalies"
+        ]
+      },
+      {
+        "name": "Marine",
+        "blightsources": [
+          "Blightstones++",
+          "Blightichors--",
+          "Blightfumes--",
+          "Blightflora++",
+          "Blightfungi++",
+          "Blightanomalies"
+        ]
+      }
+    ]
+  }
+}
