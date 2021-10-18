@@ -1,7 +1,15 @@
 {
+  "general": {
+    "missionStatement": "",
+    "missionName": "",
+    "missionDescription": ["", "", ""]
+  },
   "religion": {
     "general": ["", "", ""],
-    "channeler": ["", "", ""],
+    "channeler": {
+      "name": "",
+      "description": ["", "", ""]
+    },
     "paragons": [
       {
         "hexalignment": "Sacrifice",
@@ -15,7 +23,7 @@
       },
       {
         "hexalignment": "Judgement",
-        "name": "",
+        "name": "Hextor Prane",
         "description": []
       },
       {
@@ -35,5 +43,9 @@
       }
     ],
     "hexknights": ["", "", ""]
+  },
+  "blightsources": {
+    "generalDescription": ["", "", ""],
+    "economicsDescription": ["", "", ""]
   }
 }

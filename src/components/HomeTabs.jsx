@@ -32,15 +32,11 @@ const HomeTabs = ({ tab, setTab }) => {
         </div>
         <hr className='tab-interlink' />
         <div
-          className={getSelectedClass('Hexknights')}
-          onClick={() => setTab('Hexknights')}
+          className={getSelectedClass('Shroud')}
+          onClick={() => setTab('Shroud')}
         >
-          <FontAwesomeIcon
-            className='ml-1 mr-1'
-            size='1x'
-            icon={faAddressCard}
-          />
-          <span>Hexknights</span>
+          <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faCity} />
+          <span>Shroud</span>
         </div>
         <hr className='tab-interlink' />
         <div
