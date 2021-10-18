@@ -17,8 +17,8 @@ const HomePage = () => {
         <p className='text'>
           The followers of the Covenant of Shade are called &quot;The
           Shaden&quot; or &quot;Shaden&quot;. However, within the territory of
-          the Shrouded Theocracy, people are assumed to be Shaden, or targets
-          for &quot;enforcement&quot;.
+          the Shrouded Theocracy, people are assumed to be either Shaden or
+          targets for &quot;enforcement&quot;.
         </p>
         <h1 className='subheader subheader-left'>Channeler:</h1>
         <p className='text'>

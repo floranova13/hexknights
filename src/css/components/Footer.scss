@@ -1,0 +1,52 @@
+@import '../variables.scss';
+
+#footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $primary;
+  border: 0.5rem solid $primary-lighter;
+  border-radius: 9px;
+  color: $primary-lightest;
+  width: 80%;
+  margin: 15px auto 60px;
+}
+
+#footer-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer-link {
+  margin: 0.35rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary-darkest;
+  color: $primary-lighter;
+  height: 2em;
+  width: 12em;
+  border: 0.5rem solid $primary-darker;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: transform 0.25s;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+  }
+}
+
+#footer-note-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#footer-note {
+  font-style: italic;
+  @extend .ml-1
+}

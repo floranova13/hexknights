@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import HexknightsPage from './pages/HexknightsPage';
 import HexknightPage from './pages/HexknightPage';
@@ -36,6 +37,7 @@ const App = () => {
             <HomePage />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

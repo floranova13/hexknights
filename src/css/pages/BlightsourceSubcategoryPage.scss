@@ -5,7 +5,7 @@
 }
 
 #blightsource-subcategory-page-container {
-  margin: 0 auto 45px;
+  margin: 2em auto 2em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,12 +19,23 @@
   padding: 0 3em;
 
   .blightsources-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
   }
 }
 
-#alignment-container {
-  display: inline-flex;
-  align-items: center;
+.subcategory-category-container {
+  display: flex;
   justify-content: center;
-  @extend .mb-4;
+  align-items: center;
+
+  #subcategory-category-title {
+    display: inline;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
 }
+

@@ -61,7 +61,9 @@ export default function BlightsourceCategoryPage() {
         <h1 className='page-title'>{subcategory.subcategory}</h1>
         <div className='subcategory-category-container'>
           <FontAwesomeIcon size='2x' icon={getIcon()} />
-          <h1 className='header'>{subcategory.category}</h1>
+          <h1 id='subcategory-category-title' className='header'>
+            {subcategory.category}
+          </h1>
           <FontAwesomeIcon size='2x' icon={getIcon()} />
         </div>
         <Text paragraphs={subcategory.description} classes='text' />
@@ -71,9 +73,9 @@ export default function BlightsourceCategoryPage() {
             (blightsource, i) => {
               return (
                 <BlightsourceCard
-                  className='mb-1'
                   key={i}
-                  subcategory={subcategory}
+                  className='mb-1'
+                  blightsource={blightsource}
                 />
               );
             }

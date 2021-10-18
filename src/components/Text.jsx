@@ -1,14 +1,19 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 
-const Description = ({ paragraphs, classes }) => {
+const Text = ({ paragraphs, classes }) => {
+  console.log(paragraphs);
   return (
     <>
-      {paragraphs.map((p) => {
-        <p className={classes}>{p}</p>;
+      {paragraphs.map((p, i) => {
+        return (
+          <p key={i} className={classes}>
+            {p}
+          </p>
+        );
       })}
     </>
   );
 };
 
-export default Description;
+export default Text;

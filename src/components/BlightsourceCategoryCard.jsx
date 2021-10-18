@@ -49,10 +49,10 @@ const BlightsourceCategoryCard = ({ category }) => {
         </h1>
         <FontAwesomeIcon size='2x' icon={getIcon()} />
       </div>
-      <Text
+      {/* <Text
         paragraphs={category.description}
         classes='text blightsource-category-card-content'
-      />
+      /> */}
     </div>
   );
 };

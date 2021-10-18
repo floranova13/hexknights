@@ -27,11 +27,22 @@ export const getBlightsourceSubcategories = (category = '') => {
 export const getBlightsources = (category = '', subcategory = '') => {
   const blightsourceArray = [];
 
-  for (category in Object.values(blightsources.blightsources)) {
-    for (subcategory in Object.values(category)) {
-      blightsourceArray.push(...subcategory);
-    }
-  }
+  console.log(typeof blightsources.blightsources);
+  console.log(typeof blightsources.blightsources.blightstones);
+
+  Object.values(blightsources.blightsources).forEach((cat) =>
+    Object.values(cat).forEach((sub) => {
+      blightsourceArray.push(...sub);
+    })
+  );
+
+  // for (const cat in Object.values(blightsources.blightsources)) {
+  //   console.log(cat);
+  //   // for (const sub in Object.values(cat)) {
+  //   //   console.log(sub);
+  //   //   blightsourceArray.push(...sub);
+  //   // }
+  // }
 
   return blightsourceArray.filter(
     (b) =>
