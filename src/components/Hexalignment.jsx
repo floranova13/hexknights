@@ -49,7 +49,6 @@ const Hexalignment = ({
         <FontAwesomeIcon
           size='2x'
           icon={expanded ? faMinusSquare : faPlusSquare}
-          inline
         />
         <h1 className='header hexalignment-title'>{`Hexalignment: ${hexalignment}`}</h1>
         <FontAwesomeIcon size='2x' icon={getIcon(hexalignment)} />

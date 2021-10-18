@@ -1,0 +1,29 @@
+@import '../variables.scss';
+
+.blightsource-subcategory-card-container {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 3em;
+  background-color: $primary-darkest;
+  border: 0.5rem solid $primary-darker;
+  border-radius: 9px;
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 0.5em;
+  margin: 0.5em;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    border: 0.5rem solid $primary-darker;
+  }
+}
+
+.blightsource-subcategory-title {
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  display: inline;
+  text-align: center;
+}

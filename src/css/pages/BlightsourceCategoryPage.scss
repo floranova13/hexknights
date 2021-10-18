@@ -1,0 +1,42 @@
+@import '../variables.scss';
+
+.category-title-container {
+  margin: 0 auto 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .page-title {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+}
+
+#blightsource-page-container {
+  width: 75%;
+}
+
+#blightsource-subcategory-container {
+  margin: 0 auto 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 800px;
+
+  .subcategory {
+    &:hover {
+      color: white;
+      border: 0.75rem solid $primary-lighter;
+      background-color: $primary-darkest;
+    }
+  }
+}
+
+#alignment-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  @extend .mb-4;
+}

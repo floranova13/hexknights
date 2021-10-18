@@ -1,0 +1,41 @@
+@import '../variables.scss';
+
+#hexknight-page-container {
+  width: 50%;
+}
+
+#blightsource-subcategory-page-container {
+  margin: 2em auto 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 750px;
+  background-color: $primary-darker;
+  border: 1rem solid $primary-lighter;
+  border-radius: 9px;
+  color: $primary-lightest;
+  padding: 0 3em;
+
+  .blightsources-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+  }
+}
+
+.subcategory-category-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  #subcategory-category-title {
+    display: inline;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+}
+

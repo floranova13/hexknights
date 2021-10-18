@@ -47,8 +47,6 @@ const HexknightPage = () => {
     }
   };
 
-  // TODO: Add an icon beside hexalignment that corresponds with one of six values.
-
   return (
     <Page>
       <div id='hexknight-page-container'>

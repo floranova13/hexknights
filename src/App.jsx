@@ -3,9 +3,14 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import HexknightsPage from './pages/HexknightsPage';
 import HexknightPage from './pages/HexknightPage';
+import BlightsourcesPage from './pages/BlightsourcesPage';
+import BlightsourceCategoryPage from './pages/BlightsourceCategoryPage';
+import BlightsourceSubcategoryPage from './pages/BlightsourceSubcategoryPage';
+// import BlightsourceCategoryPage from './pages/BlightsourceCategoryPage';
 
 const App = () => {
   return (
@@ -19,10 +24,20 @@ const App = () => {
           <Route exact path='/hexknights'>
             <HexknightsPage />
           </Route>
+          <Route exact path='/blightsources'>
+            <BlightsourcesPage />
+          </Route>
+          <Route path='/blightsources/:categoryName/:subcategoryName'>
+            <BlightsourceSubcategoryPage />
+          </Route>
+          <Route path='/blightsources/:categoryName'>
+            <BlightsourceCategoryPage />
+          </Route>
           <Route exact path='/'>
             <HomePage />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

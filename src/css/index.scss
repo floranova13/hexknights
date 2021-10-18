@@ -135,6 +135,22 @@ html {
   display: inline;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.boldest {
+  font-weight: 900;
 }

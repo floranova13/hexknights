@@ -1,0 +1,27 @@
+#blightsource-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 400px;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
+
+#blightsource-card-content-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: left;
+  @extend .ml-2;
+}
+
+// #blightsource-card-icon {
+// }
+
+#blightsource-card-name {
+  width: 100%;
+}
