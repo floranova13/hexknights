@@ -1,25 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useHistory } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
-import settings from '../common/resources/novelSettings.json';
 
 const Nav = () => {
-  const history = useHistory();
-  const [chapter, setChapter] = useState(90);
-
-  useEffect(() => {
-    localStorage.setItem('chapter', chapter);
-    console.log('Chapter: ' + localStorage.getItem('chapter'));
-    history.push('/');
-  }, [chapter]);
-
-  const filterText = (s) => {
-    const parsed = parseInt(s, 10);
-
-    return isNaN(parsed) ? 1 : Math.min(Math.max(parsed, 1), settings.chapters);
-  };
-
   return (
     <div id='footer-container'>
       <div id='footer-link-container'>

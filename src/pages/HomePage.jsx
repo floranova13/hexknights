@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import Page from '../components/Page';
+import HomeTabs from '../components/HomeTabs';
 
 const HomePage = () => {
+  const [tab, setTab] = useState('General');
   useEffect(() => {});
 
   return (
     <Page>
+      <HomeTabs tab={tab} setTab={setTab} />
       <h1>48th Generation Knights of Shroud</h1>
       <div>
         <h1 className='subheader subheader-left'>The Covenant of Shade:</h1>

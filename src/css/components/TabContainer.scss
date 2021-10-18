@@ -1,0 +1,59 @@
+@import '../variables.scss';
+
+#tab-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: $primary;
+  color: $primary-lightest;
+  text-align: center;
+  width: 100%;
+  margin-top: -0.5em;
+  margin-left: 0;
+  margin-right: -3em;
+  margin-bottom: 15px;
+  // margin: 0 auto 15px;
+}
+
+#tab-inner-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.tab {
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $primary-lighter;
+  height: 2em;
+  width: 12em;
+  border: 0.25rem solid $primary-lighter;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: transform 0.25s;
+  z-index: 2;
+}
+
+.selected-tab {
+  background-color: black;
+  color: white;
+}
+
+.unselected-tab {
+  background-color: $primary-darkest;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.tab-interlink {
+  width: 15px;
+  border: 0.25em solid $primary-lighter;
+  z-index: 1;
+  margin: 0;
+}
