@@ -8,17 +8,17 @@ const FesterfontSaturationCard = ({ festerfontSaturation }) => {
   let history = useHistory();
 
   const handleClick = () => {
-    history.push(`/festerfonts/saturation/${festerfontSaturation.name}`);
+    history.push(`/festerfonts/saturations/${festerfontSaturation}`);
   };
 
   const getIcon = () => {
-    switch (festerfontSaturation.name) {
-      case 'Clarion':
+    switch (festerfontSaturation) {
+      case 'Placid':
         return faGem;
-      case 'Umbra':
+      case 'Rippling':
         return faTint;
       default:
-        return faDiceD20;
+        return faWind;
     }
   };
 
@@ -31,7 +31,7 @@ const FesterfontSaturationCard = ({ festerfontSaturation }) => {
       <div className='festerfont-saturation-title-container'>
         <FontAwesomeIcon size='2x' icon={getIcon()} />
         <h1 className='header festerfont-saturation-title'>
-          {festerfontSaturation.name}
+          {festerfontSaturation}
         </h1>
         <FontAwesomeIcon size='2x' icon={getIcon()} />
       </div>

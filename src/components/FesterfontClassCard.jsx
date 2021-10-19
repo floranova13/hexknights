@@ -30,9 +30,7 @@ const FesterfontClassCard = ({ festerfontClass }) => {
     >
       <div className='festerfont-class-title-container'>
         <FontAwesomeIcon size='2x' icon={getIcon()} />
-        <h1 className='header festerfont-class-title'>
-          {festerfontClass.name}
-        </h1>
+        <h1 className='header festerfont-class-title'>{festerfontClass}</h1>
         <FontAwesomeIcon size='2x' icon={getIcon()} />
       </div>
     </div>
