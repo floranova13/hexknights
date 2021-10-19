@@ -4,6 +4,7 @@
       "name": "",
       "class": "",
       "saturation": "",
+      "biome": "",
       "configuration": "",
       "layers": {
         "outskirts": {
@@ -27,86 +28,193 @@
   "information": {
     "class": {
       "description": ["", "", ""],
-      "classifications": {
-        "name": "",
-        "description": ["", "", ""],
-        "biomes": ["", "", ""],
-        "blightsources": ["", "", ""]
-      }
+      "classifications": [
+        {
+          "name": "Clarion",
+          "description": [
+            "The safest and most common Base Class of Festerfont. However, it is still a Festerfont. The Blight is an inherently dangerous phenomenon. Clarion cannot contain natural hazards that can heavily injure or outright kill a Seeker. Clarion may contain confusing tunnel systems, but they are greatly limited in number and inter-connectivity.",
+            "",
+            ""
+          ],
+          "configurations": ["", "", ""],
+          "biomes": ["", "", ""],
+          "blightsources": ["", "", ""]
+        },
+        {
+          "name": "Umbra",
+          "description": [
+            "This is where festerfonts start to being much more dangerous, adding environmental hazards on top of more difficult blightbeasts. Only veteran seekers can take it easy here. Umbra may contain precarious ledges, moderately extreme temperatures, and pockets of unbreathable or otherwise dangerous gases.",
+            "",
+            ""
+          ],
+          "configurations": ["", "", ""],
+          "biomes": ["", "", ""],
+          "blightsources": ["", "", ""]
+        },
+        {
+          "name": "Nihil",
+          "description": [
+            "These Festerfonts are off limits to most seekers. Most of the Festerfonts themselves, and a large buffer zone around each, are quarantined. Nihil often contain incredibly difficult terrain that can outright kill a Seeker who isn’t trained and constantly vigilant.",
+            "",
+            ""
+          ],
+          "configurations": ["", "", ""],
+          "biomes": ["", "", ""],
+          "blightsources": ["", "", ""]
+        }
+      ]
     },
-    "saturation": [
-      {
-        "name": "",
-        "description": ["", "", ""]
-      }
-    ],
-    "biome": [
-      {
-        "name": "Forest",
-        "blightsources": [
-          "Blightstones",
-          "Blightichors",
-          "Blightfumes",
-          "Blightflora+++",
-          "Blightfungi+++",
-          "Blightanomalies"
-        ]
-      },
-      {
-        "name": "Grassland",
-        "blightsources": [
-          "Blightstones-",
-          "Blightichors",
-          "Blightfumes-",
-          "Blightflora+",
-          "Blightfungi+",
-          "Blightanomalies"
-        ]
-      },
-      {
-        "name": "Desert",
-        "blightsources": [
-          "Blightstones+++",
-          "Blightichors",
-          "Blightfumes+",
-          "Blightflora--",
-          "Blightfungi--",
-          "Blightanomalies"
-        ]
-      },
-      {
-        "name": "Tundra",
-        "blightsources": [
-          "Blightstones+",
-          "Blightichors+",
-          "Blightfumes",
-          "Blightflora+",
-          "Blightfungi+",
-          "Blightanomalies"
-        ]
-      },
-      {
-        "name": "Freshwater",
-        "blightsources": [
-          "Blightstones",
-          "Blightichors++",
-          "Blightfumes+",
-          "Blightflora+",
-          "Blightfungi+",
-          "Blightanomalies"
-        ]
-      },
-      {
-        "name": "Marine",
-        "blightsources": [
-          "Blightstones++",
-          "Blightichors--",
-          "Blightfumes--",
-          "Blightflora++",
-          "Blightfungi++",
-          "Blightanomalies"
-        ]
-      }
-    ]
+    "saturation": {
+      "description": [
+        "This rank is tied to the energy saturation of the Festerfont. This grows gradually, but is expended to spawn Blightbeasts. It will also fluctuate based on Command Configuration’s manipulations.",
+        "",
+        ""
+      ],
+      "saturations": [
+        {
+          "name": "Placid",
+          "description": [
+            "A young Festerfont, or one recently deprived of power. Additionally, these are Festerfonts actively suppressed by the Guild.",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "Rippling",
+          "description": [
+            "A Festerfont that is brimming with energy, capable of activating advanced features specific to its configuration.",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "Violent",
+          "description": [
+            "These Festerfonts are extremely dangerous. They make entire swaths of land impassable by all but the most hardened of veterans.",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    "biome": {
+      "description": ["", "", ""],
+      "biomes": [
+        {
+          "name": "Forest",
+          "blightsources": [
+            "Blightstones",
+            "Blightichors",
+            "Blightfumes",
+            "Blightflora+++",
+            "Blightfungi+++",
+            "Blightanomalies"
+          ],
+          "configurations": [
+            "Generic",
+            "Command",
+            "Waypoint",
+            "Infection+",
+            "Invasion",
+            "Failsafe"
+          ]
+        },
+        {
+          "name": "Grassland",
+          "blightsources": [
+            "Blightstones-",
+            "Blightichors",
+            "Blightfumes-",
+            "Blightflora+",
+            "Blightfungi+",
+            "Blightanomalies"
+          ],
+          "configurations": [
+            "Generic",
+            "Command",
+            "Waypoint",
+            "Infection",
+            "Invasion+",
+            "Failsafe"
+          ]
+        },
+        {
+          "name": "Desert",
+          "blightsources": [
+            "Blightstones+++",
+            "Blightichors",
+            "Blightfumes+",
+            "Blightflora--",
+            "Blightfungi--",
+            "Blightanomalies"
+          ],
+          "configurations": [
+            "Generic",
+            "Command",
+            "Waypoint",
+            "Infection",
+            "Invasion",
+            "Failsafe"
+          ]
+        },
+        {
+          "name": "Tundra",
+          "blightsources": [
+            "Blightstones+",
+            "Blightichors+",
+            "Blightfumes",
+            "Blightflora+",
+            "Blightfungi+",
+            "Blightanomalies"
+          ],
+          "configurations": [
+            "Generic",
+            "Command",
+            "Waypoint",
+            "Infection",
+            "Invasion",
+            "Failsafe"
+          ]
+        },
+        {
+          "name": "Freshwater",
+          "blightsources": [
+            "Blightstones",
+            "Blightichors++",
+            "Blightfumes+",
+            "Blightflora+",
+            "Blightfungi+",
+            "Blightanomalies"
+          ],
+          "configurations": [
+            "Generic",
+            "Command",
+            "Waypoint",
+            "Infection+",
+            "Invasion",
+            "Failsafe"
+          ]
+        },
+        {
+          "name": "Marine",
+          "blightsources": [
+            "Blightstones++",
+            "Blightichors--",
+            "Blightfumes--",
+            "Blightflora++",
+            "Blightfungi++",
+            "Blightanomalies"
+          ],
+          "configurations": [
+            "Generic",
+            "Command+",
+            "Waypoint",
+            "Infection",
+            "Invasion",
+            "Failsafe"
+          ]
+        }
+      ]
+    }
   }
 }

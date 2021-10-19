@@ -4,15 +4,15 @@ import { useHistory } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGem, faTint, faWind } from '@fortawesome/free-solid-svg-icons';
 
-const FesterfontClassCard = ({ festerfontClass }) => {
+const FesterfontSaturationCard = ({ festerfontSaturation }) => {
   let history = useHistory();
 
   const handleClick = () => {
-    history.push(`/festerfonts/${festerfontClass.name}`);
+    history.push(`/festerfonts/saturation/${festerfontSaturation.name}`);
   };
 
   const getIcon = () => {
-    switch (festerfontClass.name) {
+    switch (festerfontSaturation.name) {
       case 'Clarion':
         return faGem;
       case 'Umbra':
@@ -24,14 +24,14 @@ const FesterfontClassCard = ({ festerfontClass }) => {
 
   return (
     <div
-      id='blightsource-category-card-container'
+      id='festerfont-saturation-card-container'
       className=''
       onClick={() => handleClick()}
     >
-      <div className='blightsource-category-title-container'>
+      <div className='festerfont-saturation-title-container'>
         <FontAwesomeIcon size='2x' icon={getIcon()} />
-        <h1 className='header blightsource-category-title'>
-          {festerfontClass.name}
+        <h1 className='header festerfont-saturation-title'>
+          {festerfontSaturation.name}
         </h1>
         <FontAwesomeIcon size='2x' icon={getIcon()} />
       </div>
@@ -39,4 +39,4 @@ const FesterfontClassCard = ({ festerfontClass }) => {
   );
 };
 
-export default FesterfontClassCard;
+export default FesterfontSaturationCard;
