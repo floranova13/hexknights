@@ -26,6 +26,9 @@
     }
   ],
   "information": {
+    "description": ["", "", ""],
+    "knownFesterfontsDescription": ["", "", ""],
+    "filterDescription": [""],
     "class": {
       "description": ["", "", ""],
       "classifications": [

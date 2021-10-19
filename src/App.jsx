@@ -11,7 +11,7 @@ import BlightsourcesPage from './pages/BlightsourcesPage';
 import BlightsourceCategoryPage from './pages/BlightsourceCategoryPage';
 import BlightsourceSubcategoryPage from './pages/BlightsourceSubcategoryPage';
 import FesterfontsPage from './pages/FesterfontsPage';
-import FesterfontClassPage from './pages/FesterfontClassPage';
+// import FesterfontClassPage from './pages/FesterfontClassPage';
 
 const App = () => {
   return (
@@ -33,6 +33,9 @@ const App = () => {
           </Route>
           <Route path='/blightsources/:categoryName'>
             <BlightsourceCategoryPage />
+          </Route>
+          <Route exact path='/festerfonts'>
+            <FesterfontsPage />
           </Route>
           <Route exact path='/'>
             <HomePage />

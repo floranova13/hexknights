@@ -1,15 +1,16 @@
 import React from 'react';
 import Text from './Text';
 import FesterfontConfigurationCard from './FesterfontConfigurationCard';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGem } from '@fortawesome/free-solid-svg-icons';
 import font from '../common/resources/festerfonts.json';
 
 export default function FesterfontsConfigurations() {
   return (
     <div id='festerfonts-configurations-container'>
       <h1 className='page-title'>Festerfont Configurations</h1>
-      <Text paragraphs={font.configuration.description} classes='text' />
+      <Text
+        paragraphs={font.information.configuration.description}
+        classes='text'
+      />
       <h1 className='header mb-1'>Configurations</h1>
       <div className='festerfonts-configurations-inner-container'>
         <FesterfontConfigurationCard

@@ -9,7 +9,7 @@ const Nav = () => {
         <FontAwesomeIcon className='ml-1 mr-1' size='2x' icon={faBook} />
         <a
           className='footer-link text'
-          href='https://www.royalroad.com/author-dashboard/dashboard/28380'
+          href='https://www.royalroad.com/fiction/28380/blightbane'
           target='_blank'
           rel='noreferrer'
         >
