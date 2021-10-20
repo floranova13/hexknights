@@ -5,6 +5,18 @@ import {
   CogIcon,
   CubeTransparentIcon,
 } from '@heroicons/react/solid';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faBrain,
+  faCity,
+  faCodeBranch,
+  faBacteria,
+  faBomb,
+  faChessRook,
+  faCubes,
+  faAddressCard,
+  faHome,
+} from '@fortawesome/free-solid-svg-icons';
 import settings from '../common/resources/novelSettings.json';
 
 const Nav = () => {
@@ -26,16 +38,19 @@ const Nav = () => {
   return (
     <div id='nav-container'>
       <div id='nav-link-container'>
-        <CogIcon className='icon ml-2' />
+        <FontAwesomeIcon className='ml-1 mr-1' size='2x' icon={faHome} />
+        {/* <CogIcon className='icon ml-2' /> */}
         <Link className='nav-link text' to='/'>
           Home
         </Link>
-        <CubeTransparentIcon className='icon' />
-        <Link className='nav-link text' to='/hexknights'>
-          Hexknights
+        <FontAwesomeIcon className='ml-1 mr-1' size='2x' icon={faCity} />
+        {/* <CubeTransparentIcon className='icon' /> */}
+        <Link className='nav-link text' to='/shroud'>
+          Shroud
         </Link>
-        <Link className='nav-link text' to='/blightsources'>
-          Blightsources
+        <FontAwesomeIcon className='ml-1 mr-1' size='2x' icon={faBacteria} />
+        <Link className='nav-link text' to='/blight'>
+          Blight
         </Link>
       </div>
       <div id='chapter-selection-container'>

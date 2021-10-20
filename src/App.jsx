@@ -10,7 +10,9 @@ import HexknightPage from './pages/HexknightPage';
 import BlightsourcesPage from './pages/BlightsourcesPage';
 import BlightsourceCategoryPage from './pages/BlightsourceCategoryPage';
 import BlightsourceSubcategoryPage from './pages/BlightsourceSubcategoryPage';
-// import BlightsourceCategoryPage from './pages/BlightsourceCategoryPage';
+import FesterfontsPage from './pages/FesterfontsPage';
+import BlightPage from './pages/BlightPage';
+import ShroudPage from './pages/ShroudPage';
 
 const App = () => {
   return (
@@ -24,6 +26,12 @@ const App = () => {
           <Route exact path='/hexknights'>
             <HexknightsPage />
           </Route>
+          <Route exact path='/blight'>
+            <BlightPage />
+          </Route>
+          <Route exact path='/shroud'>
+            <ShroudPage />
+          </Route>
           <Route exact path='/blightsources'>
             <BlightsourcesPage />
           </Route>
@@ -32,6 +40,9 @@ const App = () => {
           </Route>
           <Route path='/blightsources/:categoryName'>
             <BlightsourceCategoryPage />
+          </Route>
+          <Route exact path='/festerfonts'>
+            <FesterfontsPage />
           </Route>
           <Route exact path='/'>
             <HomePage />

@@ -1,0 +1,288 @@
+{
+  "festerfonts": [
+    {
+      "name": "",
+      "class": "",
+      "saturation": "",
+      "biome": "",
+      "configuration": "",
+      "layers": {
+        "outskirts": {
+          "blightbeasts": ["", "", ""],
+          "description": ["", "", ""]
+        },
+        "body": {
+          "blightbeasts": ["", "", ""],
+          "description": ["", "", ""]
+        },
+        "core": {
+          "blightbeasts": ["", "", ""],
+          "description": ["", "", ""]
+        }
+      },
+      "description": ["", "", ""],
+      "region": "",
+      "introduced": 0
+    }
+  ],
+  "information": {
+    "description": ["", "", ""],
+    "knownFesterfontsDescription": ["", "", ""],
+    "filterDescription": [""],
+    "class": {
+      "description": ["", "", ""],
+      "classifications": [
+        {
+          "name": "Clarion",
+          "description": [
+            "The safest and most common Base Class of Festerfont. However, it is still a Festerfont. The Blight is an inherently dangerous phenomenon. Clarion cannot contain natural hazards that can heavily injure or outright kill a Seeker. Clarion may contain confusing tunnel systems, but they are greatly limited in number and inter-connectivity.",
+            "",
+            ""
+          ],
+          "configurations": ["", "", ""],
+          "biomes": ["", "", ""],
+          "blightsources": ["", "", ""]
+        },
+        {
+          "name": "Umbra",
+          "description": [
+            "This is where festerfonts start to being much more dangerous, adding environmental hazards on top of more difficult blightbeasts. Only veteran seekers can take it easy here. Umbra may contain precarious ledges, moderately extreme temperatures, and pockets of unbreathable or otherwise dangerous gases.",
+            "",
+            ""
+          ],
+          "configurations": ["", "", ""],
+          "biomes": ["", "", ""],
+          "blightsources": ["", "", ""]
+        },
+        {
+          "name": "Nihil",
+          "description": [
+            "These Festerfonts are off limits to most seekers. Most of the Festerfonts themselves, and a large buffer zone around each, are quarantined. Nihil often contain incredibly difficult terrain that can outright kill a Seeker who isn’t trained and constantly vigilant.",
+            "",
+            ""
+          ],
+          "configurations": ["", "", ""],
+          "biomes": ["", "", ""],
+          "blightsources": ["", "", ""]
+        }
+      ]
+    },
+    "configuration": {
+      "description": [
+        "The Festerfont configuration determines what kinds of creatures spawn, though geographical location also plays a key role. Additionally, differing configurations can greatly impact a festerfont's response to threats and also it's development.",
+        "",
+        ""
+      ],
+      "configurations": [
+        {
+          "name": "Generic",
+          "description": [
+            "Most Festerfonts are of the 'Generic' configuration . They don’t bear any special traits, only serving to maintain the influence of the Blight at a location. This configuration is also the most versatile with respect to spawning blightbeasts and blightsources.",
+            "",
+            ""
+          ],
+          "introduced": 0
+        },
+        {
+          "name": "Command",
+          "description": [
+            "'Command' Festerfonts organize the Blight infestation and direct energy between Festerfont Blight Loci by unknown means. This is dangerous because it can provide explosive boosts to the threat level of the region, augmenting the abilities of existing festerfonts and focusing their defenses.",
+            "These are more heavily guarded, and by more intelligent blightbeasts at that. Some of them even resemble sapient organic species.",
+            "Command configurations can only exist when the surrounding Blight concentration is high enough. They will begin to fail if this level drops, but this process is slow, and their enhanced defensive measures more than makeup for it.",
+            "The Blightsources that are found within these festerfonts are the rarest and some of the most valuable kinds. Scientists have yet to discover possible applications for many, but they are believed to be very valuable merely because they only show up in advanced Festerfonts.",
+            "Only one Command configuration festerfont can be active in a region or similar limited radius."
+          ],
+          "introduced": 0
+        },
+        {
+          "name": "Waypoint",
+          "description": [
+            "These festerfonts are responsible for supporting the spread of the Blight across the planet. They are generally small in size, concealed deep underground.The blightbeasts that accompany them are defense-oriented, resilient, but not particularly aggressive.",
+            "Waypoint festerfonts are specialized in the transfer of Blight energy, even more so than a Command festerfont can.",
+            ""
+          ],
+          "introduced": 0
+        },
+        {
+          "name": "Infection",
+          "description": [
+            "These are dangerous festerfonts that blend in with the environment. Those who linger too long under their influence will begin to fall ill to an infection of Blight origin. For the most part, it can be treated, but late stages have the host transforming into something like a blightbeast themselves, threatening all who encounter them. They are difficult to purge because they blend so well, not because the Blight Locus is hard to destroy once found.",
+            "Blightbeasts that spawn in Infection Festerfonts are typically small. They usually bear some kind of method of transferring a Blight contagion to a Seeker or another unfortunate person. This includes insects of various sizes and plants.",
+            ""
+          ],
+          "introduced": 0
+        },
+        {
+          "name": "Invasion",
+          "description": [
+            "Invasion festerfonts will lie dormant, gathering strength. During this time, they will not spawn any Blightbeasts. Some blightsources begin to appear, but only when the festerfont is about to subject the area to an explosive burst of activity.",
+            "They are easy to purge if they can be noticed before going active. Once they become active, they are very difficult to handle unless the location is well defended and prepared.",
+            "Once an Invasion festerfont goes active, it will begin spawning blightbeasts at an incredible rate, seeking to overwhelm the area, until it transitions to a Generic configuration when it has exhausted its stockpiled energy."
+          ],
+          "introduced": 0
+        },
+        {
+          "name": "Failsafe",
+          "description": [
+            "At first, believed to be an unintended development of a festerfont, a Failsafe festerfont is a peculiar thing. Not much is understood, but they appear to be a natural reaction of the Blight phenomena as it attempts to balance its spread.",
+            "This festerfont variant can appear in two primary ways. One is the result of a Command Festerfont 'reclaiming' the resources of a nearby festerfont. It is unknown how the resources are transferred back to the Command festerfont, but they are indeed transported. Second, a Failsafe can occur naturally, causing a festerfont to begin bleeding energy, by creating many blightbeasts and blightsources. This latter condition makes for a very lucrative harvest location for foolish and daring Seekers who succumb to their own greed.",
+            ""
+          ],
+          "introduced": 0
+        }
+      ]
+    },
+    "saturation": {
+      "description": [
+        "This rank is tied to the energy saturation of the Festerfont. This grows gradually, but is expended to spawn Blightbeasts. It will also fluctuate based on Command Configuration’s manipulations.",
+        "",
+        ""
+      ],
+      "saturations": [
+        {
+          "name": "Placid",
+          "description": [
+            "A young Festerfont, or one recently deprived of power. Additionally, these are Festerfonts actively suppressed by the Guild.",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "Rippling",
+          "description": [
+            "A Festerfont that is brimming with energy, capable of activating advanced features specific to its configuration.",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "Violent",
+          "description": [
+            "These Festerfonts are extremely dangerous. They make entire swaths of land impassable by all but the most hardened of veterans.",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    "biome": {
+      "description": ["", "", ""],
+      "biomes": [
+        {
+          "name": "Forest",
+          "blightsources": [
+            "Blightstones",
+            "Blightichors",
+            "Blightfumes",
+            "Blightflora+++",
+            "Blightfungi+++",
+            "Blightanomalies"
+          ],
+          "configurations": [
+            "Generic",
+            "Command",
+            "Waypoint",
+            "Infection+",
+            "Invasion",
+            "Failsafe"
+          ]
+        },
+        {
+          "name": "Grassland",
+          "blightsources": [
+            "Blightstones-",
+            "Blightichors",
+            "Blightfumes-",
+            "Blightflora+",
+            "Blightfungi+",
+            "Blightanomalies"
+          ],
+          "configurations": [
+            "Generic",
+            "Command",
+            "Waypoint",
+            "Infection",
+            "Invasion+",
+            "Failsafe"
+          ]
+        },
+        {
+          "name": "Desert",
+          "blightsources": [
+            "Blightstones+++",
+            "Blightichors",
+            "Blightfumes+",
+            "Blightflora--",
+            "Blightfungi--",
+            "Blightanomalies"
+          ],
+          "configurations": [
+            "Generic",
+            "Command",
+            "Waypoint",
+            "Infection",
+            "Invasion",
+            "Failsafe"
+          ]
+        },
+        {
+          "name": "Tundra",
+          "blightsources": [
+            "Blightstones+",
+            "Blightichors+",
+            "Blightfumes",
+            "Blightflora+",
+            "Blightfungi+",
+            "Blightanomalies"
+          ],
+          "configurations": [
+            "Generic",
+            "Command",
+            "Waypoint",
+            "Infection",
+            "Invasion",
+            "Failsafe"
+          ]
+        },
+        {
+          "name": "Freshwater",
+          "blightsources": [
+            "Blightstones",
+            "Blightichors++",
+            "Blightfumes+",
+            "Blightflora+",
+            "Blightfungi+",
+            "Blightanomalies"
+          ],
+          "configurations": [
+            "Generic",
+            "Command",
+            "Waypoint",
+            "Infection+",
+            "Invasion",
+            "Failsafe"
+          ]
+        },
+        {
+          "name": "Marine",
+          "blightsources": [
+            "Blightstones++",
+            "Blightichors--",
+            "Blightfumes--",
+            "Blightflora++",
+            "Blightfungi++",
+            "Blightanomalies"
+          ],
+          "configurations": [
+            "Generic",
+            "Command+",
+            "Waypoint",
+            "Infection",
+            "Invasion",
+            "Failsafe"
+          ]
+        }
+      ]
+    }
+  }
+}

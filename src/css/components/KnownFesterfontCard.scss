@@ -1,0 +1,26 @@
+.festerfont-class-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.festerfont-class-title-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+}
+
+// #blightsource-card-icon {
+// }
+
+#blightsource-card-name {
+  width: 100%;
+}

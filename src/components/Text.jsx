@@ -5,13 +5,15 @@ const Text = ({ paragraphs, classes }) => {
   console.log(paragraphs);
   return (
     <>
-      {paragraphs.map((p, i) => {
-        return (
-          <p key={i} className={classes}>
-            {p}
-          </p>
-        );
-      })}
+      {paragraphs
+        .filter((p) => p) // ignore empty paragraphs
+        .map((p, i) => {
+          return (
+            <p key={i} className={classes}>
+              {p}
+            </p>
+          );
+        })}
     </>
   );
 };
