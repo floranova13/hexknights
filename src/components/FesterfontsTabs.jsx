@@ -21,8 +21,8 @@ const FesterfontsTabs = ({ tab, setTab }) => {
   };
 
   return (
-    <div id='festerfonts-tab-container'>
-      <div id='festerfonts-tab-inner-container'>
+    <div className='tab-container'>
+      <div className='tab-inner-container'>
         <div
           className={getSelectedClass('General')}
           onClick={() => setTab('General')}

@@ -2,13 +2,18 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
+  faCity,
   faCodeBranch,
   faBacteria,
+  faBomb,
   faChessRook,
   faCubes,
+  faAddressCard,
+  faHome,
+  faChess,
 } from '@fortawesome/free-solid-svg-icons';
 
-const BlightTabs = ({ tab, setTab }) => {
+const BlightbeastsTabs = ({ tab, setTab }) => {
   const getSelectedClass = (tabName) => {
     return tabName === tab
       ? 'tab text selected-tab'
@@ -59,4 +64,4 @@ const BlightTabs = ({ tab, setTab }) => {
   );
 };
 
-export default BlightTabs;
+export default BlightbeastsTabs;

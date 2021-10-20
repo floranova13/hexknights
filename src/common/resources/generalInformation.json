@@ -1,11 +1,19 @@
 {
   "general": {
-    "missionStatement": "",
+    "missionStatement": "Lorem ipsum, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
     "missionName": "",
-    "missionDescription": ["", "", ""]
+    "missionDescription": [
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!"
+    ]
   },
   "religion": {
-    "general": ["", "", ""],
+    "general": [
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!"
+    ],
     "channeler": {
       "name": "",
       "description": ["", "", ""]
@@ -14,38 +22,68 @@
       {
         "hexalignment": "Sacrifice",
         "name": "",
-        "description": []
+        "description": [
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!"
+        ]
       },
       {
         "hexalignment": "Progress",
         "name": "",
-        "description": []
+        "description": [
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!"
+        ]
       },
       {
         "hexalignment": "Judgement",
         "name": "Hextor Prane",
-        "description": []
+        "description": [
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!"
+        ]
       },
       {
         "hexalignment": "Expedition",
         "name": "",
-        "description": []
+        "description": [
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!"
+        ]
       },
       {
         "hexalignment": "Mercy",
         "name": "",
-        "description": []
+        "description": [
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!"
+        ]
       },
       {
         "hexalignment": "Resilience",
         "name": "",
-        "description": []
+        "description": [
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!"
+        ]
       }
     ],
-    "hexknights": ["", "", ""]
+    "hexknights": [
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!"
+    ]
   },
   "blightsources": {
-    "generalDescription": ["", "", ""],
-    "economicsDescription": ["", "", ""]
+    "generalDescription": [
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!"
+    ],
+    "economicsDescription": [
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+      "",
+      ""
+    ]
   }
 }

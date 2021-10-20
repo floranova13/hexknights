@@ -11,7 +11,8 @@ import BlightsourcesPage from './pages/BlightsourcesPage';
 import BlightsourceCategoryPage from './pages/BlightsourceCategoryPage';
 import BlightsourceSubcategoryPage from './pages/BlightsourceSubcategoryPage';
 import FesterfontsPage from './pages/FesterfontsPage';
-// import FesterfontClassPage from './pages/FesterfontClassPage';
+import BlightPage from './pages/BlightPage';
+import ShroudPage from './pages/ShroudPage';
 
 const App = () => {
   return (
@@ -24,6 +25,12 @@ const App = () => {
           </Route>
           <Route exact path='/hexknights'>
             <HexknightsPage />
+          </Route>
+          <Route exact path='/blight'>
+            <BlightPage />
+          </Route>
+          <Route exact path='/shroud'>
+            <ShroudPage />
           </Route>
           <Route exact path='/blightsources'>
             <BlightsourcesPage />

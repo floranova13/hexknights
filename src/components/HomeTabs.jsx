@@ -21,8 +21,8 @@ const HomeTabs = ({ tab, setTab }) => {
   };
 
   return (
-    <div id='tab-container'>
-      <div id='tab-inner-container'>
+    <div className='tab-container'>
+      <div className='tab-inner-container'>
         <div
           className={getSelectedClass('General')}
           onClick={() => setTab('General')}
@@ -40,11 +40,11 @@ const HomeTabs = ({ tab, setTab }) => {
         </div>
         <hr className='tab-interlink' />
         <div
-          className={getSelectedClass('Blightsources')}
-          onClick={() => setTab('Blightsources')}
+          className={getSelectedClass('Blight')}
+          onClick={() => setTab('Blight')}
         >
-          <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faCubes} />
-          <span>Blightsources</span>
+          <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faBacteria} />
+          <span>Blight</span>
         </div>
         <hr className='tab-interlink' />
       </div>

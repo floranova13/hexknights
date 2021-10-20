@@ -1,15 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router';
+import React from 'react';
 import Page from '../components/Page';
 import Text from '../components/Text';
+import font from '../common/resources/festerfonts.json';
+import blight from '../common/resources/blight.json';
 
 export default function FesterfontsGeneral() {
   return (
-    <Page>
+    <div id='festerfonts-general-container'>
       <div id='festerfonts-general-page-container'>
         <h1 className='page-title'>Festerfonts</h1>
+        <Text paragraphs={blight.festerfontsIntro} classes='text' />
         <Text paragraphs={font.information.description} classes='text' />
       </div>
-    </Page>
+    </div>
   );
 }

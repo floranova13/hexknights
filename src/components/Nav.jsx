@@ -45,12 +45,12 @@ const Nav = () => {
         </Link>
         <FontAwesomeIcon className='ml-1 mr-1' size='2x' icon={faCity} />
         {/* <CubeTransparentIcon className='icon' /> */}
-        <Link className='nav-link text' to='/hexknights'>
+        <Link className='nav-link text' to='/shroud'>
           Shroud
         </Link>
-        <FontAwesomeIcon className='ml-1 mr-1' size='2x' icon={faCubes} />
-        <Link className='nav-link text' to='/blightsources'>
-          Blightsources
+        <FontAwesomeIcon className='ml-1 mr-1' size='2x' icon={faBacteria} />
+        <Link className='nav-link text' to='/blight'>
+          Blight
         </Link>
       </div>
       <div id='chapter-selection-container'>

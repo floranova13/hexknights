@@ -1,6 +1,6 @@
 @import '../variables.scss';
 
-#tab-container {
+.tab-container {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -15,7 +15,7 @@
   // margin: 0 auto 15px;
 }
 
-#tab-inner-container {
+.tab-inner-container {
   display: flex;
   align-items: center;
   justify-content: flex-end;
