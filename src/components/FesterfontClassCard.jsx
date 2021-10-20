@@ -2,7 +2,11 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGem, faTint, faWind } from '@fortawesome/free-solid-svg-icons';
+import {
+  faGenderless,
+  faCircleNotch,
+  faAdjust,
+} from '@fortawesome/free-solid-svg-icons';
 
 const FesterfontClassCard = ({ festerfontClass }) => {
   let history = useHistory();
@@ -14,24 +18,33 @@ const FesterfontClassCard = ({ festerfontClass }) => {
   const getIcon = () => {
     switch (festerfontClass) {
       case 'Clarion':
-        return faGem;
+        return faGenderless;
       case 'Umbra':
-        return faTint;
+        return faCircleNotch;
       default:
-        return faWind;
+        return faAdjust;
     }
   };
 
   return (
     <div
-      id='festerfont-class-card-container'
-      className=''
+      className='festerfont-class-card-container'
       onClick={() => handleClick()}
     >
       <div className='festerfont-class-title-container'>
-        <FontAwesomeIcon size='2x' icon={getIcon()} />
-        <h1 className='header festerfont-class-title'>{festerfontClass}</h1>
-        <FontAwesomeIcon size='2x' icon={getIcon()} />
+        <FontAwesomeIcon
+          className='festerfont-class-icon'
+          size='2x'
+          icon={getIcon()}
+        />
+        <h1 className='header ml-1 mr-1 festerfont-class-name'>
+          {festerfontClass}
+        </h1>
+        <FontAwesomeIcon
+          className='festerfont-class-icon'
+          size='2x'
+          icon={getIcon()}
+        />
       </div>
     </div>
   );

@@ -1,0 +1,29 @@
+.festerfont-class-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.festerfont-class-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+  @extend .ml-2;
+}
+
+.festerfont-class-icon {
+  flex-grow: 2;
+  margin: auto;
+}
+
+.festerfont-class-name {
+  flex-grow: 8;
+}

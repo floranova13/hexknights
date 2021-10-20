@@ -30,13 +30,13 @@ const KnownFesterfontCard = ({ festerfont }) => {
 
   return (
     <div
-      id='festerfont-biome-card-container'
+      id='known-festerfont-card-container'
       className=''
       onClick={() => handleClick()}
     >
-      <div className='festerfont-biome-title-container'>
+      <div className='known-festerfont-title-container'>
         <FontAwesomeIcon size='2x' icon={getIcon()} />
-        <h1 className='header festerfont-biome-title'>{festerfontBiome}</h1>
+        <h1 className='header festerfont-biome-title'>{festerfont.name}</h1>
         <FontAwesomeIcon size='2x' icon={getIcon()} />
       </div>
     </div>
