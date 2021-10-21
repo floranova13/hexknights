@@ -12,7 +12,6 @@ export default function BlightsourcesPage() {
 
   return (
     <Page>
-      <h1 className='page-title'>Festerfonts</h1>
       <FesterfontsTabs tab={tab} setTab={setTab} />
       <div>
         {tab === 'General' && <FesterfontsGeneral />}

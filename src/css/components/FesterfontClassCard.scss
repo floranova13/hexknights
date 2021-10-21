@@ -16,14 +16,16 @@
   align-items: center;
   width: 80%;
   text-align: center;
-  @extend .ml-2;
+  @extend .ml-1;
+  @extend .mr-1;
 }
 
 .festerfont-class-icon {
-  flex-grow: 2;
   margin: auto;
 }
 
 .festerfont-class-name {
   flex-grow: 8;
+  @extend .ml-1;
+  @extend .mr-1;
 }

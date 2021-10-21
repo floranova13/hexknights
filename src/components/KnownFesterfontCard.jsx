@@ -35,9 +35,17 @@ const KnownFesterfontCard = ({ festerfont }) => {
       onClick={() => handleClick()}
     >
       <div className='known-festerfont-title-container'>
-        <FontAwesomeIcon size='2x' icon={getIcon()} />
-        <h1 className='header festerfont-biome-title'>{festerfont.name}</h1>
-        <FontAwesomeIcon size='2x' icon={getIcon()} />
+        <FontAwesomeIcon
+          className='known-festerfont-icon'
+          size='2x'
+          icon={getIcon()}
+        />
+        <h1 className='header known-festerfont-title'>{festerfont.name}</h1>
+        <FontAwesomeIcon
+          className='known-festerfont-icon'
+          size='2x'
+          icon={getIcon()}
+        />
       </div>
     </div>
   );

@@ -36,7 +36,7 @@ const FesterfontConfigurationCard = ({ festerfontConfiguration }) => {
     >
       <div className='festerfont-configuration-title-container'>
         <FontAwesomeIcon size='2x' icon={getIcon()} />
-        <h1 className='header festerfont-configuration-title'>
+        <h1 className='header festerfont-configuration-name'>
           {festerfontConfiguration}
         </h1>
         <FontAwesomeIcon size='2x' icon={getIcon()} />

@@ -37,6 +37,21 @@
   z-index: 2;
 }
 
+.short-tab {
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $primary-lighter;
+  height: 2em;
+  width: 10em;
+  border: 0.25rem solid $primary-lighter;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: transform 0.25s;
+  z-index: 2;
+}
+
 .selected-tab {
   background-color: black;
   color: white;

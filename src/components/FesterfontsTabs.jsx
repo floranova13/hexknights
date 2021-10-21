@@ -16,8 +16,8 @@ import {
 const FesterfontsTabs = ({ tab, setTab }) => {
   const getSelectedClass = (tabName) => {
     return tabName === tab
-      ? 'tab text selected-tab'
-      : 'tab text unselected-tab';
+      ? 'short-tab text selected-tab'
+      : 'short-tab text unselected-tab';
   };
 
   return (
@@ -45,6 +45,14 @@ const FesterfontsTabs = ({ tab, setTab }) => {
         >
           <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faCubes} />
           <span>Saturations</span>
+        </div>
+        <hr className='tab-interlink' />
+        <div
+          className={getSelectedClass('Configurations')}
+          onClick={() => setTab('Configurations')}
+        >
+          <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faCubes} />
+          <span>Configurations</span>
         </div>
         <hr className='tab-interlink' />
         <div

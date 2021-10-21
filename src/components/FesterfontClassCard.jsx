@@ -37,9 +37,7 @@ const FesterfontClassCard = ({ festerfontClass }) => {
           size='2x'
           icon={getIcon()}
         />
-        <h1 className='header ml-1 mr-1 festerfont-class-name'>
-          {festerfontClass}
-        </h1>
+        <h1 className='header festerfont-class-name'>{festerfontClass}</h1>
         <FontAwesomeIcon
           className='festerfont-class-icon'
           size='2x'

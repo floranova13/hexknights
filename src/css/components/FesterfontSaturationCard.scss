@@ -1,4 +1,4 @@
-.festerfont-class-card-container {
+.festerfont-saturation-card-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,18 +10,21 @@
   }
 }
 
-.festerfont-class-title-container {
-  display: inline-flex;
+.festerfont-saturation-title-container {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 80%;
   text-align: center;
-  @extend .ml-2;
+  @extend .ml-1;
+  @extend .mr-1;
 }
 
-// #blightsource-card-icon {
-// }
+.festerfont-saturation-icon {
+  flex-grow: 1;
+  margin: auto;
+}
 
-#blightsource-card-name {
-  width: 100%;
+.festerfont-saturation-name {
+  flex-grow: 8;
 }
