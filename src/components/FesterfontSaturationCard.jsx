@@ -24,13 +24,12 @@ const FesterfontSaturationCard = ({ festerfontSaturation }) => {
 
   return (
     <div
-      id='festerfont-saturation-card-container'
-      className=''
+      className='festerfont-saturation-card-container'
       onClick={() => handleClick()}
     >
       <div className='festerfont-saturation-title-container'>
         <FontAwesomeIcon size='2x' icon={getIcon()} />
-        <h1 className='header festerfont-saturation-title'>
+        <h1 className='header festerfont-saturation-name'>
           {festerfontSaturation}
         </h1>
         <FontAwesomeIcon size='2x' icon={getIcon()} />

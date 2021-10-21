@@ -16,17 +16,17 @@ export default function FesterfontsSaturations() {
         <FesterfontSaturationCard
           key='Placid'
           className='mb-1'
-          festerfontBiome='Placid'
+          festerfontSaturation='Placid'
         />
         <FesterfontSaturationCard
           key='Rippling'
           className='mb-1'
-          festerfontBiome='Rippling'
+          festerfontSaturation='Rippling'
         />
         <FesterfontSaturationCard
           key='Violent'
           className='mb-1'
-          festerfontBiome='Violent'
+          festerfontSaturation='Violent'
         />
       </div>
     </div>
