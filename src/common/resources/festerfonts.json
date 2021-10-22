@@ -134,9 +134,10 @@
     },
     "saturation": {
       "description": [
-        "This rank is tied to the energy saturation of the Festerfont. This grows gradually, but is expended to spawn Blightbeasts. It will also fluctuate based on Command Configuration’s manipulations.",
-        "",
-        ""
+        "Over time, a Festerfont will gradually grow more saturated with energy. An unknown source fuels this growth, but the Guild Intelligence Division has been working on determining whether it is possible to interrupt this process, or whether it is perhaps possible to tap into it themselves so that the sentient organisms on the planet can obtain an easily renewable source of energy to fuel civilizations in an age where booming populations and advanced technologies have caused energy demands to skyrocket.",
+        "This energy is expended to spawn defenders in the form of blightbeasts. Killing the blightbeasts rapidly enough is a way of slowly depleting the festerfont of energy, but it will always replenish until the Blight Locus is destroyed.",
+        "Higher saturation thresholds give rise to more dangerous blightbeasts, but a festerfont will not normally change configurations. Only the Invasion and Failsafe festerfont configurations are involved in configuration transition.",
+        "The more saturated a festerfont becomes, the larger an area it encompasses. To account for this, the Guild will add a buffer in the mapping of festerfonts. Periodic tests are run on festerfonts to observe whether they have grown or shrunk in size. A rank is also assigned to a festerfont to indicate the general saturation level. This rank is only tied to the estimated energy saturation of the festerfont, and no other factors. This grows gradually, but is expended to spawn Blightbeasts. It will also fluctuate based on Command Configuration’s manipulations."
       ],
       "saturations": [
         {
@@ -166,7 +167,11 @@
       ]
     },
     "biome": {
-      "description": ["", "", ""],
+      "description": [
+        "Festerfonts differ depending on the 'biome' in which they are spawned. Different biomes give rise to different Festerfont Configurations, blightbeasts, and blightsources, with some specimens appearing more or less frequently, or not at all.",
+        "",
+        ""
+      ],
       "biomes": [
         {
           "name": "Forest",
@@ -185,6 +190,11 @@
             "Infection+",
             "Invasion",
             "Failsafe"
+          ],
+          "description": [
+            "Tropical, deciduous, and boreal forests. Give rise to an incredible variety of festerfonts. Perhaps this is because the trees are better able to hide the Blight while it grows, or perhaps there is some interaction going on between the land and the ecosystem the Blight is supplanting.",
+            "One danger more present in forest festerfonts are the Infection configurations. Veteran seekers know to avoid these locations unless the rewards outweigh the risks. Even then, only reckless fools advance.",
+            ""
           ]
         },
         {
@@ -204,6 +214,11 @@
             "Infection",
             "Invasion+",
             "Failsafe"
+          ],
+          "description": [
+            "Savanna and temperate grasslands afford plentiful space to reform the landscape to the will of the festerfont. Grassland festerfonts will sometimes become sprawling labyrinths, inexplicably sprouting up from Blighted plants and, rarely horrific fleshy matter. Here in these mazes, seekers must be wary of growing lost in twisting passages, to become feed for the blightbeasts stalking them. Some festerfont labyrinths will also change, ensnaring wandering seekers before they even know their exit has been cut off.",
+            "The Invasion configuration is more common in grasslands than in other biomes. A specific variant of grassland festerfont lures prey by embedding blightbeasts underground, to jump out and swarm trespassers and annihilate them in one fell swoop.",
+            ""
           ]
         },
         {
@@ -223,6 +238,11 @@
             "Infection",
             "Invasion",
             "Failsafe"
+          ],
+          "description": [
+            "Hot and dry, semiarid, coastal, and cold deserts are all places a festerfont can spawn, proving that no matter where you are on the planet, you can't let your guard down. These locations are often inhospitable enough without the added lethality of the malevolent Blight. These festerfonts usually make use of the environment to kill efficiently. If the desert biome in question is necessary enough to the nation in charge of it, seekers will often purge these festerfonts as soon as they are able to.",
+            "Desert festerfonts are deprived of many blightsources abundantly found in forests, tundra, and grasslands, for example, but a healthy supply Blightstones could make the area valuable as a harvesting spot. If that is the case, some Seeker Branches will decide to preserve the festerfont for a time, diverting civilian traffic through a waystation, allowing them to resupply there in exchange for a longer journey than was previously allowable.",
+            ""
           ]
         },
         {
@@ -242,6 +262,11 @@
             "Infection",
             "Invasion",
             "Failsafe"
+          ],
+          "description": [
+            "Arctic and alpine tundra environments, like deserts, are not places you want to have to content with the Blight. Festerfonts spawning here add another layer of danger. Others include the cold, ice, and potentially fatal mountain climbs. Sometimes, these festerfonts will burrow deep into a mountain's core, nestling their own Blight Locus within that inaccessible rock. Such specimens are less deadly, but significantly harder to root out during a purge.",
+            "Blightbeasts found in these environments are often hulking apes, burrowing mammals and insects, and scavenging avians. Seekers must learn not to rely on agility, learn to fight on an incline, and also beware of falling snow, ice, and rock. If they are skilled, they can use the environment to level the playing field. Otherwise, their bodies might never be found.",
+            ""
           ]
         },
         {
@@ -261,7 +286,8 @@
             "Infection+",
             "Invasion",
             "Failsafe"
-          ]
+          ],
+          "description": ["", "", ""]
         },
         {
           "name": "Marine",
@@ -280,7 +306,8 @@
             "Infection",
             "Invasion",
             "Failsafe"
-          ]
+          ],
+          "description": ["", "", ""]
         }
       ]
     }
