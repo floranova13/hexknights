@@ -47,25 +47,14 @@ export default function BlightsourceSubcategoryPage() {
 
   return (
     <Page>
-      <div id='blightsource-category-page-container'>
-        <div className='category-title-container'>
+      <div id='paragon-page-container'>
+        <h1 className='page-title'>{paragon.name}</h1>
+        <div className='paragon-hexalignment-container'>
           <FontAwesomeIcon size='2x' icon={getIcon()} />
-          <h1 className='page-title'>{category.category}</h1>
+          <h1 className='header'>{paragon.hexalignment}</h1>
           <FontAwesomeIcon size='2x' icon={getIcon()} />
         </div>
-        <Text paragraphs={category.description} classes='text' />
-        <h1 className='header mb-1'>Subcategories</h1>
-        <div id='blightsource-subcategory-container'>
-          {category.subcategories.map((subcategory, i) => {
-            return (
-              <BlightsourceSubcategoryCard
-                className='mb-1'
-                key={i}
-                subcategory={subcategory}
-              />
-            );
-          })}
-        </div>
+        <Text paragraphs={paragon.description} classes='text' />
       </div>
     </Page>
   );
