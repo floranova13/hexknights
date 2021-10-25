@@ -8,10 +8,12 @@ const ChannelerPage = () => {
   return (
     <Page>
       <div id='channeler-page-container'>
-        <h1 className='page-title'>{hexknight.name}</h1>
-        <div id='channeler-name-container'>
+        <h1 className='page-title'>Channeler</h1>
+        <div id='channeler-name-container' className='mb-4'>
           <FontAwesomeIcon size='2x' icon={faMoon} />
-          <h1 className='header mr-2 ml-2'>{info.religion.channeler.name}</h1>
+          <h1 className='header inline mr-2 ml-2'>
+            {info.religion.channeler.name}
+          </h1>
           <FontAwesomeIcon size='2x' icon={faMoon} />
         </div>
         <h1 className='description mb-4'>

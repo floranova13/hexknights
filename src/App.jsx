@@ -13,9 +13,9 @@ import BlightsourceSubcategoryPage from './pages/BlightsourceSubcategoryPage';
 import FesterfontsPage from './pages/FesterfontsPage';
 import BlightPage from './pages/BlightPage';
 import ShroudPage from './pages/ShroudPage';
-// import ChannelerPage from './pages/ChannelerPage';
-// import ParagonsPage from './pages/ParagonsPage';
-// import ParagonPage from './pages/ParagonPage';
+import ChannelerPage from './pages/ChannelerPage';
+import ParagonsPage from './pages/ParagonsPage';
+import ParagonPage from './pages/ParagonPage';
 
 const App = () => {
   return (
@@ -47,7 +47,7 @@ const App = () => {
           <Route exact path='/festerfonts'>
             <FesterfontsPage />
           </Route>
-          {/* <Route exact path='/channeler'>
+          <Route exact path='/channeler'>
             <ChannelerPage />
           </Route>
           <Route path='/paragons'>
@@ -55,7 +55,7 @@ const App = () => {
           </Route>
           <Route path='/paragons/:paragonHexalignment'>
             <ParagonPage />
-          </Route> */}
+          </Route>
           <Route exact path='/'>
             <HomePage />
           </Route>
