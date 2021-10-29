@@ -10,16 +10,22 @@ import {
   faShieldAlt,
   faBurn,
 } from '@fortawesome/free-solid-svg-icons';
+import { getEncryptionClass } from '../utils/hexknights';
+import { getParagon } from '../utils/religion';
 
-const ParagonCard = ({ festerfontSaturation }) => {
+const ParagonCard = ({ paragon }) => {
   let history = useHistory();
 
   const handleClick = () => {
-    history.push(`/festerfonts/saturations/${festerfontSaturation}`);
+    if (
+      !getEncryptionClass(localStorage.getItem('chapter'), paragon.introduced)
+    ) {
+      history.push(`/paragons/${paragon.hexalignment}`);
+    }
   };
 
-  const getIcon = (hexalignment) => {
-    switch (hexalignment) {
+  const getIcon = () => {
+    switch (paragon.hexalignment) {
       case 'Judgement':
         return faFire;
       case 'Mercy':
@@ -36,14 +42,12 @@ const ParagonCard = ({ festerfontSaturation }) => {
   };
 
   return (
-    <div
-      className='festerfont-saturation-card-container'
-      onClick={() => handleClick()}
-    >
-      <div className='festerfont-saturation-title-container'>
+    <div className='paragon-card-container' onClick={() => handleClick()}>
+      <h1 className='header paragon-card-name'>{paragon.name}</h1>
+      <div className='paragon-card-title-container'>
         <FontAwesomeIcon size='2x' icon={getIcon()} />
-        <h1 className='header festerfont-saturation-name'>
-          {festerfontSaturation}
+        <h1 className='subheader paragon-card-hexalignment'>
+          {getParagon(paragon.hexalignment)}
         </h1>
         <FontAwesomeIcon size='2x' icon={getIcon()} />
       </div>
