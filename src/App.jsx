@@ -50,7 +50,7 @@ const App = () => {
           <Route exact path='/channeler'>
             <ChannelerPage />
           </Route>
-          <Route path='/paragons'>
+          <Route exact path='/paragons'>
             <ParagonsPage />
           </Route>
           <Route path='/paragons/:paragonHexalignment'>

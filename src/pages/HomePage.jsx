@@ -4,10 +4,11 @@ import HomeTabs from '../components/HomeTabs';
 import GeneralInfo from '../components/GeneralInfo';
 import ShroudInfo from '../components/ShroudInfo';
 import BlightsourcesInfo from '../components/BlightsourcesInfo';
+import { getParagons } from '../utils/religion';
 
 const HomePage = () => {
   const [tab, setTab] = useState('General');
-  useEffect(() => {});
+  console.log(getParagons());
 
   return (
     <Page>

@@ -45,11 +45,19 @@ const ParagonCard = ({ paragon }) => {
     <div className='paragon-card-container' onClick={() => handleClick()}>
       <h1 className='header paragon-card-name'>{paragon.name}</h1>
       <div className='paragon-card-title-container'>
-        <FontAwesomeIcon size='2x' icon={getIcon()} />
+        <FontAwesomeIcon
+          size='2x'
+          className='paragon-card-icon'
+          icon={getIcon()}
+        />
         <h1 className='subheader paragon-card-hexalignment'>
-          {getParagon(paragon.hexalignment)}
+          {paragon.hexalignment}
         </h1>
-        <FontAwesomeIcon size='2x' icon={getIcon()} />
+        <FontAwesomeIcon
+          size='2x'
+          className='paragon-card-icon'
+          icon={getIcon()}
+        />
       </div>
     </div>
   );
