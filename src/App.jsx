@@ -63,7 +63,7 @@ const App = () => {
           <Route path='/festerfonts/zone/:festerfontName'>
             <FesterfontsPage />
           </Route>
-          <Route exact path='/festerfonts'>
+          <Route exact path='/festerfonts/:activeTab?'>
             <FesterfontsPage />
           </Route>
           <Route exact path='/channeler'>

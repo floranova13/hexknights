@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useParams } from 'react-router';
 import Page from '../components/Page';
 import FesterfontsTabs from '../components/FesterfontsTabs';
 import FesterfontsGeneral from '../components/FesterfontsGeneral';
@@ -8,7 +9,8 @@ import FesterfontsBiomes from '../components/FesterfontsBiomes';
 import KnownFesterfonts from '../components/KnownFesterfonts';
 
 export default function BlightbeastsPage() {
-  const [tab, setTab] = useState('General');
+  const { activeTab } = useParams();
+  const [tab, setTab] = useState(activeTab || 'General');
 
   return (
     <Page>

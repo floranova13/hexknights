@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
 import Page from '../components/Page';
 import Text from '../components/Text';
+import BackButton from '../components/BackButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faGenderless,
@@ -40,6 +41,7 @@ export default function FesterfontClassPage() {
 
   return (
     <Page>
+      <BackButton pageString='/festerfonts/Classes' />
       <div className='festerfont-class-page-container'>
         <div className='festerfont-class-page-name-container'>
           <FontAwesomeIcon size='2x' icon={getIcon()} />
