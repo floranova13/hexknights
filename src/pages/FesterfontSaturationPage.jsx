@@ -39,43 +39,13 @@ export default function FesterfontSaturationPage() {
     <Page>
       <div className='festerfont-saturation-page-container'>
         <div className='festerfont-saturation-page-name-container'>
-          <FontAwesomeIcon size='2x' icon={getIcon()} />
+          <FontAwesomeIcon className='icon' size='2x' icon={getIcon()} />
           <h1 className='page-title festerfont-saturation-name'>
             {saturation.name}
           </h1>
-          <FontAwesomeIcon size='2x' icon={getIcon()} />
+          <FontAwesomeIcon className='icon' size='2x' icon={getIcon()} />
         </div>
         <Text paragraphs={saturation.description} classes='text' />
-        <div>
-          <h1 className='header'>Blightsource Distribution</h1>
-          <div className='festerfont-saturation-blightsources'>
-            {saturation.blightsources.map((blightsource, i) => {
-              return (
-                <h1
-                  key={i}
-                  className='subheader festerfont-saturation-blightsource'
-                >
-                  {blightsource}
-                </h1>
-              );
-            })}
-          </div>
-        </div>
-        <div>
-          <h1 className='header'>Configurations</h1>
-          <div className='festerfont-saturation-configurations'>
-            {saturation.blightsources.map((configuration, i) => {
-              return (
-                <h1
-                  key={i}
-                  className='subheader festerfont-saturation-configuration'
-                >
-                  {configuration}
-                </h1>
-              );
-            })}
-          </div>
-        </div>
       </div>
     </Page>
   );

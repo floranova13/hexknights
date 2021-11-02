@@ -2,7 +2,6 @@
 import React from 'react';
 
 const Text = ({ paragraphs, classes }) => {
-  console.log(paragraphs);
   return (
     <>
       {paragraphs

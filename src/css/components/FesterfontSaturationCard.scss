@@ -18,13 +18,13 @@
   text-align: center;
   @extend .ml-1;
   @extend .mr-1;
-}
 
-.festerfont-saturation-icon {
-  flex-grow: 1;
-  margin: auto;
-}
-
-.festerfont-saturation-name {
-  flex-grow: 8;
+  .festerfont-saturation-icon {
+    flex-grow: 1;
+    margin: auto;
+  }
+  
+  .festerfont-saturation-name {
+    flex-grow: 8;
+  }
 }

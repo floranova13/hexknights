@@ -18,15 +18,15 @@
   text-align: center;
   @extend .ml-1;
   @extend .mr-1;
-}
 
-.festerfont-biome-icon {
-  flex-grow: 1;
-  margin: auto;
-}
+  .festerfont-biome-icon {
+    flex-grow: 1;
+    margin: auto;
+  }
 
-.festerfont-biome-name {
-  flex-grow: 8;
-  @extend .ml-1;
-  @extend .mr-1;
+  .festerfont-biome-name {
+    flex-grow: 8;
+    @extend .ml-1;
+    @extend .mr-1;
+  }
 }

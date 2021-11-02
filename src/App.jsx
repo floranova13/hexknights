@@ -11,6 +11,10 @@ import BlightsourcesPage from './pages/BlightsourcesPage';
 import BlightsourceCategoryPage from './pages/BlightsourceCategoryPage';
 import BlightsourceSubcategoryPage from './pages/BlightsourceSubcategoryPage';
 import FesterfontsPage from './pages/FesterfontsPage';
+import FesterfontClassPage from './pages/FesterfontClassPage';
+import FesterfontBiomePage from './pages/FesterfontBiomePage';
+import FesterfontConfigurationPage from './pages/FesterfontConfigurationPage';
+import FesterfontSaturationPage from './pages/FesterfontSaturationPage';
 import BlightPage from './pages/BlightPage';
 import ShroudPage from './pages/ShroudPage';
 import ChannelerPage from './pages/ChannelerPage';
@@ -44,22 +48,22 @@ const App = () => {
           <Route path='/blightsources/:categoryName'>
             <BlightsourceCategoryPage />
           </Route>
-          <Route exact path='/festerfonts'>
-            <FesterfontsPage />
-          </Route>
           <Route path='/festerfonts/classes/:festerfontClassName'>
-            <FesterfontsPage />
+            <FesterfontClassPage />
           </Route>
           <Route path='/festerfonts/saturations/:saturationName'>
-            <FesterfontsPage />
+            <FesterfontSaturationPage />
           </Route>
           <Route path='/festerfonts/configurations/:configurationName'>
-            <FesterfontsPage />
+            <FesterfontConfigurationPage />
           </Route>
           <Route path='/festerfonts/biomes/:biomeName'>
-            <FesterfontsPage />
+            <FesterfontBiomePage />
           </Route>
           <Route path='/festerfonts/zone/:festerfontName'>
+            <FesterfontsPage />
+          </Route>
+          <Route exact path='/festerfonts'>
             <FesterfontsPage />
           </Route>
           <Route exact path='/channeler'>

@@ -7,7 +7,7 @@ import FesterfontsSaturations from '../components/FesterfontsSaturations';
 import FesterfontsBiomes from '../components/FesterfontsBiomes';
 import KnownFesterfonts from '../components/KnownFesterfonts';
 
-export default function BlightsourcesPage() {
+export default function BlightbeastsPage() {
   const [tab, setTab] = useState('General');
 
   return (
