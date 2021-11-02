@@ -47,6 +47,21 @@ const App = () => {
           <Route exact path='/festerfonts'>
             <FesterfontsPage />
           </Route>
+          <Route path='/festerfonts/classes/:festerfontClassName'>
+            <FesterfontsPage />
+          </Route>
+          <Route path='/festerfonts/saturations/:saturationName'>
+            <FesterfontsPage />
+          </Route>
+          <Route path='/festerfonts/configurations/:configurationName'>
+            <FesterfontsPage />
+          </Route>
+          <Route path='/festerfonts/biomes/:biomeName'>
+            <FesterfontsPage />
+          </Route>
+          <Route path='/festerfonts/zone/:festerfontName'>
+            <FesterfontsPage />
+          </Route>
           <Route exact path='/channeler'>
             <ChannelerPage />
           </Route>

@@ -4,6 +4,7 @@ import FesterfontsTabs from '../components/FesterfontsTabs';
 import FesterfontsGeneral from '../components/FesterfontsGeneral';
 import FesterfontsClasses from '../components/FesterfontsClasses';
 import FesterfontsSaturations from '../components/FesterfontsSaturations';
+import FesterfontsConfigurations from '../components/FesterfontsConfigurations';
 import FesterfontsBiomes from '../components/FesterfontsBiomes';
 import KnownFesterfonts from '../components/KnownFesterfonts';
 
@@ -17,6 +18,7 @@ export default function BlightsourcesPage() {
         {tab === 'General' && <FesterfontsGeneral />}
         {tab === 'Classes' && <FesterfontsClasses />}
         {tab === 'Saturations' && <FesterfontsSaturations />}
+        {tab === 'Configurations' && <FesterfontsConfigurations />}
         {tab === 'Biomes' && <FesterfontsBiomes />}
         {tab === 'Festerfonts' && <KnownFesterfonts />}
       </div>

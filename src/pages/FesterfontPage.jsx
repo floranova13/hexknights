@@ -13,8 +13,8 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { getParagon, getParagons } from '../utils/religion';
 
-export default function BlightsourceSubcategoryPage() {
-  const { paragonHexalignment } = useParams();
+export default function FesterfontPage() {
+  const { festerfontName } = useParams();
   const [isLoaded, setIsLoaded] = useState(false);
   const [paragon, setParagon] = useState(getParagons()[0]);
 
