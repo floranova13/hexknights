@@ -1,0 +1,361 @@
+{
+  "blightbeasts": [
+    {
+      "name": "",
+      "threat": "",
+      "saturation": "",
+      "biome": "",
+      "configuration": "",
+      "layers": {
+        "outskirts": {
+          "blightbeasts": ["", "", ""],
+          "description": ["", "", ""]
+        },
+        "body": {
+          "blightbeasts": ["", "", ""],
+          "description": ["", "", ""]
+        },
+        "core": {
+          "blightbeasts": ["", "", ""],
+          "description": ["", "", ""]
+        }
+      },
+      "description": ["", "", ""],
+      "region": "",
+      "introduced": 0
+    }
+  ],
+  "information": {
+    "description": ["", "", ""],
+    "knownBlightbeastsDescription": ["", "", ""],
+    "filterDescription": [""],
+    "threat": {
+      "description": ["", "", ""],
+      "tiers": [
+        {
+          "name": "Tier 1",
+          "description": [
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
+            "",
+            ""
+          ],
+          "threats": [
+            {
+              "threat": "Threat 1",
+              "description": [
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
+                "",
+                ""
+              ]
+            },
+            {
+              "threat": "Threat 2",
+              "description": [
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
+                "",
+                ""
+              ]
+            },
+            {
+              "threat": "Threat 3",
+              "description": [
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tier 2",
+          "description": [
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
+            "",
+            ""
+          ],
+          "threats": [
+            {
+              "threat": "Threat 4",
+              "description": [
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
+                "",
+                ""
+              ]
+            },
+            {
+              "threat": "Threat 5",
+              "description": [
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
+                "",
+                ""
+              ]
+            },
+            {
+              "threat": "Threat 6",
+              "description": [
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tier 3",
+          "description": [
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
+            "",
+            ""
+          ],
+          "threats": [
+            {
+              "threat": "Threat 7",
+              "description": [
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
+                "",
+                ""
+              ]
+            },
+            {
+              "threat": "Threat 8",
+              "description": [
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
+                "",
+                ""
+              ]
+            },
+            {
+              "threat": "Threat 9",
+              "description": [
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "taxonomy": {
+      "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+      "seeds": [
+        {
+          "name": "Arth",
+          "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+          "roots": [
+            {
+              "name": "Titarche",
+              "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+              "stems": [
+                {
+                  "name": "Titarche Stem 1",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Titarche Stem 2",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Titarche Stem 3",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                }
+              ],
+              "introduced": 0
+            },
+            {
+              "name": "Medimite",
+              "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+              "stems": [
+                {
+                  "name": "Medimite Stem 1",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Medimite Stem 2",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Medimite Stem 3",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                }
+              ],
+              "introduced": 0
+            },
+            {
+              "name": "Fellchital",
+              "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+              "stems": [
+                {
+                  "name": "Fellchital Stem 1",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Fellchital Stem 2",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Fellchital Stem 3",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                }
+              ],
+              "introduced": 0
+            }
+          ]
+        },
+        {
+          "name": "Botan",
+          "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+          "roots": [
+            {
+              "name": "Marole",
+              "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+              "stems": [
+                {
+                  "name": "Marole Stem 1",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Marole Stem 2",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Marole Stem 3",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                }
+              ],
+              "introduced": 0
+            },
+            {
+              "name": "Coreplet",
+              "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+              "stems": [
+                {
+                  "name": "Coreplet Stem 1",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Coreplet Stem 2",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Coreplet Stem 3",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                }
+              ],
+              "introduced": 0
+            },
+            {
+              "name": "Felldrasil",
+              "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+              "stems": [
+                {
+                  "name": "Felldrasil Stem 1",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Felldrasil Stem 2",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Felldrasil Stem 3",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                }
+              ],
+              "introduced": 0
+            }
+          ]
+        },
+        {
+          "name": "Chorth",
+          "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+          "roots": [
+            {
+              "name": "Piscel",
+              "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+              "stems": [
+                {
+                  "name": "Piscel Stem 1",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Piscel Stem 2",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Piscel Stem 3",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                }
+              ],
+              "introduced": 0
+            },
+            {
+              "name": "Elfirmant",
+              "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+              "stems": [
+                {
+                  "name": "Elfirmant Stem 1",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Elfirmant Stem 2",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Elfirmant Stem 3",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                }
+              ],
+              "introduced": 0
+            },
+            {
+              "name": "Fellmal",
+              "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+              "stems": [
+                {
+                  "name": "Fellmal Stem 1",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Fellmal Stem 2",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                },
+                {
+                  "name": "Fellmal Stem 3",
+                  "description": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.", "", ""],
+                  "introduced": 0
+                }
+              ],
+              "introduced": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

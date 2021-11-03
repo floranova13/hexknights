@@ -11,6 +11,7 @@ import BlightsourcesPage from './pages/BlightsourcesPage';
 import BlightsourceCategoryPage from './pages/BlightsourceCategoryPage';
 import BlightsourceSubcategoryPage from './pages/BlightsourceSubcategoryPage';
 import FesterfontsPage from './pages/FesterfontsPage';
+import BlightbeastsPage from './pages/BlightbeastsPage';
 import FesterfontClassPage from './pages/FesterfontClassPage';
 import FesterfontBiomePage from './pages/FesterfontBiomePage';
 import FesterfontConfigurationPage from './pages/FesterfontConfigurationPage';
@@ -65,6 +66,9 @@ const App = () => {
           </Route>
           <Route exact path='/festerfonts/:activeTab?'>
             <FesterfontsPage />
+          </Route>
+          <Route exact path='/blightbeasts/:activeTab?'>
+            <BlightbeastsPage />
           </Route>
           <Route exact path='/channeler'>
             <ChannelerPage />
