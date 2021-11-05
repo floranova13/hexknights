@@ -32,43 +32,19 @@ const FesterfontsTabs = ({ tab, setTab }) => {
         </div>
         <hr className='tab-interlink' />
         <div
-          className={getSelectedClass('Classes')}
-          onClick={() => setTab('Classes')}
+          className={getSelectedClass('Threat')}
+          onClick={() => setTab('Threat')}
         >
           <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faCity} />
-          <span>Classes</span>
+          <span>Threat</span>
         </div>
         <hr className='tab-interlink' />
         <div
-          className={getSelectedClass('Saturations')}
-          onClick={() => setTab('Saturations')}
+          className={getSelectedClass('Taxonomy')}
+          onClick={() => setTab('Taxonomy')}
         >
           <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faCubes} />
-          <span>Saturations</span>
-        </div>
-        <hr className='tab-interlink' />
-        <div
-          className={getSelectedClass('Configurations')}
-          onClick={() => setTab('Configurations')}
-        >
-          <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faCubes} />
-          <span>Configurations</span>
-        </div>
-        <hr className='tab-interlink' />
-        <div
-          className={getSelectedClass('Biomes')}
-          onClick={() => setTab('Biomes')}
-        >
-          <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faCity} />
-          <span>Biomes</span>
-        </div>
-        <hr className='tab-interlink' />
-        <div
-          className={getSelectedClass('Festerfonts')}
-          onClick={() => setTab('Festerfonts')}
-        >
-          <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faCubes} />
-          <span>Festerfonts</span>
+          <span>Taxonomy</span>
         </div>
         <hr className='tab-interlink' />
       </div>
