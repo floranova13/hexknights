@@ -1,0 +1,36 @@
+import React from 'react';
+import Page from '../components/Page';
+import Text from '../components/Text';
+import BlightbeastRootCard from '../components/BlightbeastRootCard';
+import { useParams } from 'react-router';
+import { getBlightbeastRoots, getBlightbeastSeed } from '../utils/blightbeasts';
+
+export default function BlightbeastsRoots() {
+  const { blightbeastSeed } = useParams();
+
+  return (
+    <Page>
+      <div className='blightbeasts-roots-outer-container'>
+        <div className='blightbeasts-roots-inner-container'>
+          <h1 className='page-title'>{blightbeastSeed}</h1>
+          <Text
+            paragraphs={getBlightbeastSeed(blightbeastSeed).description}
+            classes='text'
+          />
+          <h1 className='header'>Roots</h1>
+          <div className='blightbeasts-roots-container'>
+            {getBlightbeastRoots().map((root, i) => {
+              return (
+                <BlightbeastRootCard
+                  key={i}
+                  blightbeastSeed={blightbeastSeed}
+                  blightbeastRoot={root}
+                />
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    </Page>
+  );
+}
