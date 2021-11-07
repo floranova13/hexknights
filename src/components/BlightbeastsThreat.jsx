@@ -1,7 +1,6 @@
 import React from 'react';
 import Text from './Text';
 import beasts from '../common/resources/blightbeasts.json';
-import blight from '../common/resources/blight.json';
 
 export default function BlightbeastsThreat() {
   return (

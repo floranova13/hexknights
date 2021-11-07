@@ -10,7 +10,9 @@ export const getBlightbeastSeed = (seed) => {
 
 export const getBlightbeastRoots = (seedName = '') => {
   return getBlightbeastSeeds().reduce((roots, seed) => {
-    return !seedName || seed.name === seedName ? [...roots, seed.roots] : roots;
+    return !seedName || seed.name === seedName
+      ? [...roots, ...seed.roots]
+      : roots;
   }, []);
 };
 

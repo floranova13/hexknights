@@ -72,11 +72,11 @@ const App = () => {
           <Route exact path='/blightbeasts/:activeTab?'>
             <BlightbeastsPage />
           </Route>
-          <Route path='/blightbeasts/:blightbeastSeed'>
-            <BlightbeastsRootsPage />
-          </Route>
-          <Route path='/blightbeasts/:blightbeastSeed/:blightbeastRoot'>
+          <Route path='/blightbeasts/taxonomy/:blightbeastSeed/:blightbeastRoot'>
             <BlightbeastsStemsPage />
+          </Route>
+          <Route path='/blightbeasts/taxonomy/:blightbeastSeed'>
+            <BlightbeastsRootsPage />
           </Route>
           <Route exact path='/channeler'>
             <ChannelerPage />

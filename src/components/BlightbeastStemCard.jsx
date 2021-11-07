@@ -11,7 +11,7 @@ const BlightbeastStemCard = ({
 
   const handleClick = () => {
     history.push(
-      `/blightbeasts/taxonomy/${blightbeastSeed}/${blightbeastRoot}/${blightbeastStem}`
+      `/blightbeasts/taxonomy/${blightbeastSeed}/${blightbeastRoot}/${blightbeastStem.name}`
     );
   };
 
@@ -21,7 +21,7 @@ const BlightbeastStemCard = ({
       onClick={() => handleClick()}
     >
       <div className='blightbeast-stem-title-container'>
-        <h1 className='header blightbeast-stem-name'>{blightbeastRoot}</h1>
+        <h1 className='header blightbeast-stem-name'>{blightbeastStem.name}</h1>
       </div>
     </div>
   );

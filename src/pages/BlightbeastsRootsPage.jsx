@@ -5,7 +5,7 @@ import BlightbeastRootCard from '../components/BlightbeastRootCard';
 import { useParams } from 'react-router';
 import { getBlightbeastRoots, getBlightbeastSeed } from '../utils/blightbeasts';
 
-export default function BlightbeastsRoots() {
+export default function BlightbeastsRootsPage() {
   const { blightbeastSeed } = useParams();
 
   return (
@@ -19,7 +19,7 @@ export default function BlightbeastsRoots() {
           />
           <h1 className='header'>Roots</h1>
           <div className='blightbeasts-roots-container'>
-            {getBlightbeastRoots().map((root, i) => {
+            {getBlightbeastRoots(blightbeastSeed).map((root, i) => {
               return (
                 <BlightbeastRootCard
                   key={i}

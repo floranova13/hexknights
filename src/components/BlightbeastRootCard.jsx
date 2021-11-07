@@ -13,7 +13,7 @@ const BlightbeastRootCard = ({ blightbeastSeed, blightbeastRoot }) => {
 
   const handleClick = () => {
     history.push(
-      `/blightbeasts/taxonomy/${blightbeastSeed}/${blightbeastRoot}`
+      `/blightbeasts/taxonomy/${blightbeastSeed}/${blightbeastRoot.name}`
     );
   };
 
@@ -51,7 +51,7 @@ const BlightbeastRootCard = ({ blightbeastSeed, blightbeastRoot }) => {
           size='2x'
           icon={getIcon()}
         />
-        <h1 className='header blightbeast-root-name'>{blightbeastRoot}</h1>
+        <h1 className='header blightbeast-root-name'>{blightbeastRoot.name}</h1>
         <FontAwesomeIcon
           className='blightbeast-root-icon'
           size='2x'

@@ -1,0 +1,31 @@
+.blightbeast-root-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.blightbeast-root-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+  @extend .ml-1;
+  @extend .mr-1;
+
+  .blightbeast-root-icon {
+    margin: auto;
+  }
+
+  .blightbeast-root-name {
+    flex-grow: 8;
+    @extend .ml-1;
+    @extend .mr-1;
+  }
+}
