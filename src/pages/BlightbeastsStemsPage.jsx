@@ -5,7 +5,7 @@ import BlightbeastStemCard from '../components/BlightbeastStemCard';
 import { useParams } from 'react-router';
 import { getBlightbeastStems, getBlightbeastRoot } from '../utils/blightbeasts';
 
-export default function BlightbeastsStems() {
+export default function BlightbeastsStemsPage() {
   const { blightbeastSeed, blightbeastRoot } = useParams();
 
   return (
@@ -20,16 +20,18 @@ export default function BlightbeastsStems() {
           />
           <h1 className='header'>Stems</h1>
           <div className='blightbeasts-stems-container'>
-            {getBlightbeastStems().map((stem, i) => {
-              return (
-                <BlightbeastStemCard
-                  key={i}
-                  blightbeastSeed={blightbeastSeed}
-                  blightbeastRoot={blightbeastRoot}
-                  blightbeastStem={stem}
-                />
-              );
-            })}
+            {getBlightbeastStems(blightbeastSeed, blightbeastRoot).map(
+              (stem, i) => {
+                return (
+                  <BlightbeastStemCard
+                    key={i}
+                    blightbeastSeed={blightbeastSeed}
+                    blightbeastRoot={blightbeastRoot}
+                    blightbeastStem={stem}
+                  />
+                );
+              }
+            )}
           </div>
         </div>
       </div>

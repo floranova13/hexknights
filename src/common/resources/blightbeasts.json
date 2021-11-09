@@ -164,7 +164,7 @@
               ],
               "stems": [
                 {
-                  "name": "Titarche Stem 1",
+                  "name": "TitarcheStem1",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -173,7 +173,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Titarche Stem 2",
+                  "name": "TitarcheStem2",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -182,7 +182,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Titarche Stem 3",
+                  "name": "TitarcheStem3",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -202,7 +202,7 @@
               ],
               "stems": [
                 {
-                  "name": "Medimite Stem 1",
+                  "name": "MedimiteStem1",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -211,7 +211,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Medimite Stem 2",
+                  "name": "MedimiteStem2",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -220,7 +220,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Medimite Stem 3",
+                  "name": "MedimiteStem3",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -240,7 +240,7 @@
               ],
               "stems": [
                 {
-                  "name": "Fellchital Stem 1",
+                  "name": "FellchitalStem1",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -249,7 +249,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Fellchital Stem 2",
+                  "name": "FellchitalStem2",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -258,7 +258,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Fellchital Stem 3",
+                  "name": "FellchitalStem3",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -288,7 +288,7 @@
               ],
               "stems": [
                 {
-                  "name": "Marole Stem 1",
+                  "name": "MaroleStem1",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -297,7 +297,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Marole Stem 2",
+                  "name": "MaroleStem2",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -306,7 +306,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Marole Stem 3",
+                  "name": "MaroleStem3",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -326,7 +326,7 @@
               ],
               "stems": [
                 {
-                  "name": "Coreplet Stem 1",
+                  "name": "CorepletStem1",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -335,7 +335,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Coreplet Stem 2",
+                  "name": "CorepletStem2",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -344,7 +344,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Coreplet Stem 3",
+                  "name": "CorepletStem3",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -364,7 +364,7 @@
               ],
               "stems": [
                 {
-                  "name": "Felldrasil Stem 1",
+                  "name": "FelldrasilStem1",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -373,7 +373,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Felldrasil Stem 2",
+                  "name": "FelldrasilStem2",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -382,7 +382,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Felldrasil Stem 3",
+                  "name": "FelldrasilStem3",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -412,7 +412,7 @@
               ],
               "stems": [
                 {
-                  "name": "Piscel Stem 1",
+                  "name": "PiscelStem1",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -421,7 +421,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Piscel Stem 2",
+                  "name": "PiscelStem2",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -430,7 +430,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Piscel Stem 3",
+                  "name": "PiscelStem3",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -450,7 +450,7 @@
               ],
               "stems": [
                 {
-                  "name": "Elfirmant Stem 1",
+                  "name": "ElfirmantStem1",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -459,7 +459,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Elfirmant Stem 2",
+                  "name": "ElfirmantStem2",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -468,7 +468,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Elfirmant Stem 3",
+                  "name": "ElfirmantStem3",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -488,7 +488,7 @@
               ],
               "stems": [
                 {
-                  "name": "Fellmal Stem 1",
+                  "name": "FellmalStem1",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -497,7 +497,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Fellmal Stem 2",
+                  "name": "FellmalStem2",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",
@@ -506,7 +506,7 @@
                   "introduced": 0
                 },
                 {
-                  "name": "Fellmal Stem 3",
+                  "name": "FellmalStem3",
                   "description": [
                     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                     "",

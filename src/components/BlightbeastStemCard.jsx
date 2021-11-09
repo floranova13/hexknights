@@ -9,6 +9,8 @@ const BlightbeastStemCard = ({
 }) => {
   let history = useHistory();
 
+  console.log(blightbeastStem);
+
   const handleClick = () => {
     history.push(
       `/blightbeasts/taxonomy/${blightbeastSeed}/${blightbeastRoot}/${blightbeastStem.name}`

@@ -26,7 +26,7 @@ export const getBlightbeastStems = (seedName = '', rootName = '') => {
 
     for (let i = 0; i < seed.roots.length; i++) {
       if (!rootName || seed.roots[i].name === rootName)
-        stems.push(seed.roots[i].stems);
+        stems.push(...seed.roots[i].stems);
     }
 
     return stems;

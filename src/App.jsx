@@ -14,6 +14,7 @@ import FesterfontsPage from './pages/FesterfontsPage';
 import BlightbeastsPage from './pages/BlightbeastsPage';
 import BlightbeastsRootsPage from './pages/BlightbeastsRootsPage';
 import BlightbeastsStemsPage from './pages/BlightbeastsStemsPage';
+import BlightbeastsStemPage from './pages/BlightbeastsStemPage';
 import FesterfontClassPage from './pages/FesterfontClassPage';
 import FesterfontBiomePage from './pages/FesterfontBiomePage';
 import FesterfontConfigurationPage from './pages/FesterfontConfigurationPage';
@@ -71,6 +72,9 @@ const App = () => {
           </Route>
           <Route exact path='/blightbeasts/:activeTab?'>
             <BlightbeastsPage />
+          </Route>
+          <Route path='/blightbeasts/taxonomy/:blightbeastSeed/:blightbeastRoot/:blightbeastStem'>
+            <BlightbeastsStemPage />
           </Route>
           <Route path='/blightbeasts/taxonomy/:blightbeastSeed/:blightbeastRoot'>
             <BlightbeastsStemsPage />
