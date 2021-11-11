@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
 import Page from '../components/Page';
 import Text from '../components/Text';
-import BackButton from '../components/BackButton';
+import NavButton from '../components/NavButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faTree,
@@ -48,7 +48,10 @@ export default function FesterfontBiomePage() {
 
   return (
     <Page>
-      <BackButton pageString='/festerfonts/Biomes' />
+      <div className='back-button-flex'>
+        <NavButton pageString='/festerfonts/Biomes' />
+        <NavButton pageString='/festerfonts?General' label='Festerfonts' />
+      </div>
       <div className='festerfont-biome-page-container'>
         <div className='festerfont-biome-page-name-container'>
           <FontAwesomeIcon size='2x' icon={getIcon()} />

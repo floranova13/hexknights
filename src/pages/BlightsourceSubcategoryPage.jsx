@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
 import Page from '../components/Page';
 import Text from '../components/Text';
+import NavButton from '../components/NavButton';
 import BlightsourceCard from '../components/BlightsourceCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -57,6 +58,10 @@ export default function BlightsourceCategoryPage() {
 
   return (
     <Page>
+      <div className='back-button-flex'>
+        <NavButton pageString={`/blightsources/${subcategory.category}`} />
+        <NavButton pageString='/blightsources' label='Blightsources' />
+      </div>
       <div id='blightsource-subcategory-page-container'>
         <h1 className='page-title'>{subcategory.subcategory}</h1>
         <div className='subcategory-category-container'>
