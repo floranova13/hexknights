@@ -13,7 +13,7 @@ export default function BlightbeastsPage() {
   return (
     <Page className='blightbeasts-page-container'>
       <BlightbeastsTabs tab={tab} setTab={setTab} />
-      <div>
+      <div className='page-container'>
         {tab === 'General' && <BlightbeastsGeneral />}
         {tab === 'Threat' && <BlightbeastsThreat />}
         {tab === 'Taxonomy' && <BlightbeastsTaxonomy />}

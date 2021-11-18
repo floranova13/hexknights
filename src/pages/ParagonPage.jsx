@@ -47,7 +47,7 @@ export default function BlightsourceSubcategoryPage() {
 
   return (
     <Page>
-      <div className='paragon-page-container'>
+      <div className='page-container'>
         <h1 className='page-title'>{paragon.name}</h1>
         <div className='paragon-hexalignment-container'>
           <FontAwesomeIcon size='2x' icon={getIcon()} />

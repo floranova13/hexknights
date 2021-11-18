@@ -3,7 +3,7 @@ import Page from '../components/Page';
 import HomeTabs from '../components/HomeTabs';
 import GeneralInfo from '../components/GeneralInfo';
 import ShroudInfo from '../components/ShroudInfo';
-import BlightsourcesInfo from '../components/BlightsourcesInfo';
+import BlightInfo from '../components/BlightInfo';
 import { getParagons } from '../utils/religion';
 
 const HomePage = () => {
@@ -13,10 +13,10 @@ const HomePage = () => {
   return (
     <Page>
       <HomeTabs tab={tab} setTab={setTab} />
-      <div>
+      <div className='home-page-container page-container'>
         {tab === 'General' && <GeneralInfo />}
         {tab === 'Shroud' && <ShroudInfo />}
-        {tab === 'Blightsources' && <BlightsourcesInfo />}
+        {tab === 'Blight' && <BlightInfo />}
       </div>
     </Page>
   );

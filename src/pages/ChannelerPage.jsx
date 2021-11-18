@@ -7,7 +7,7 @@ import info from '../common/resources/generalInformation.json';
 const ChannelerPage = () => {
   return (
     <Page>
-      <div id='channeler-page-container'>
+      <div className='page-container'>
         <h1 className='page-title'>Channeler</h1>
         <div id='channeler-name-container' className='mb-4'>
           <FontAwesomeIcon size='2x' icon={faMoon} />

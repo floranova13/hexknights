@@ -2,6 +2,7 @@ import React from 'react';
 import Page from '../components/Page';
 import Text from '../components/Text';
 import BlightbeastStemCard from '../components/BlightbeastStemCard';
+import NavButton from '../components/NavButton';
 import { useParams } from 'react-router';
 import { getBlightbeastStems, getBlightbeastRoot } from '../utils/blightbeasts';
 
@@ -10,7 +11,12 @@ export default function BlightbeastsStemsPage() {
 
   return (
     <Page>
-      <div className='blightbeasts-stems-container'>
+      <div className='back-button-flex'>
+        <NavButton pageString={`/blightbeasts/taxonomy/${blightbeastSeed}`} />
+        <NavButton pageString='/blightbeasts' label='Blightbeasts' />
+      </div>
+
+      <div className='blightbeasts-stems-container page-container'>
         <div className='blightbeasts-stems-inner-container'>
           <h1 className='page-title'>{blightbeastSeed}</h1>
           <h1 className='header'>{blightbeastRoot}</h1>

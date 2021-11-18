@@ -2,6 +2,7 @@ import React from 'react';
 import Page from '../components/Page';
 import Text from '../components/Text';
 import BlightbeastRootCard from '../components/BlightbeastRootCard';
+import NavButton from '../components/NavButton';
 import { useParams } from 'react-router';
 import { getBlightbeastRoots, getBlightbeastSeed } from '../utils/blightbeasts';
 
@@ -10,7 +11,8 @@ export default function BlightbeastsRootsPage() {
 
   return (
     <Page>
-      <div className='blightbeasts-roots-outer-container'>
+      <NavButton pageString='/blightbeasts' />
+      <div className='blightbeasts-roots-outer-container page-container'>
         <div className='blightbeasts-roots-inner-container'>
           <h1 className='page-title'>{blightbeastSeed}</h1>
           <Text

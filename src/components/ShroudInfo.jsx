@@ -5,8 +5,8 @@ import info from '../common/resources/generalInformation.json';
 const ShroudInfo = () => {
   return (
     <div className='shroud-info-container'>
-      <h1 className='title-text'>Shroud</h1>
-      <h1 className='subheader subheader-left'>The Covenant of Shade:</h1>
+      <h1 className='page-title'>Shroud</h1>
+      <h1 className='header header-left'>The Covenant of Shade:</h1>
       <p className='text'>
         The only acceptable faith in the Shrouded Theocracy. All others are
         divined to be the work of the Strangers, and purged with extreme
