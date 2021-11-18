@@ -1,0 +1,16 @@
+@import '../variables.scss';
+
+.paragon-page-container {
+  width: 50%;
+}
+
+.paragon-hexalignment-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  .paragon-hexalignment {
+    @extend .ml-2;
+    @extend .mr-2;
+  }
+}

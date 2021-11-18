@@ -18,14 +18,14 @@
   text-align: center;
   @extend .ml-1;
   @extend .mr-1;
-}
 
-.festerfont-class-icon {
-  margin: auto;
-}
+  .festerfont-class-icon {
+    margin: auto;
+  }
 
-.festerfont-class-name {
-  flex-grow: 8;
-  @extend .ml-1;
-  @extend .mr-1;
+  .festerfont-class-name {
+    flex-grow: 8;
+    @extend .ml-1;
+    @extend .mr-1;
+  }
 }

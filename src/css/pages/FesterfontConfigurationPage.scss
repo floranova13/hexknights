@@ -1,0 +1,19 @@
+@import '../variables.scss';
+
+.festerfont-configuration-page-container {
+  width: 50%;
+}
+
+.festerfont-configuration-page-name-container {
+  margin: 0 auto 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+
+  h1 {
+    @extend .ml-1;
+    @extend .mr-1;
+  }
+}

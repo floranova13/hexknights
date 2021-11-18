@@ -11,8 +11,19 @@ import BlightsourcesPage from './pages/BlightsourcesPage';
 import BlightsourceCategoryPage from './pages/BlightsourceCategoryPage';
 import BlightsourceSubcategoryPage from './pages/BlightsourceSubcategoryPage';
 import FesterfontsPage from './pages/FesterfontsPage';
+import BlightbeastsPage from './pages/BlightbeastsPage';
+import BlightbeastsRootsPage from './pages/BlightbeastsRootsPage';
+import BlightbeastsStemsPage from './pages/BlightbeastsStemsPage';
+import BlightbeastsStemPage from './pages/BlightbeastsStemPage';
+import FesterfontClassPage from './pages/FesterfontClassPage';
+import FesterfontBiomePage from './pages/FesterfontBiomePage';
+import FesterfontConfigurationPage from './pages/FesterfontConfigurationPage';
+import FesterfontSaturationPage from './pages/FesterfontSaturationPage';
 import BlightPage from './pages/BlightPage';
 import ShroudPage from './pages/ShroudPage';
+import ChannelerPage from './pages/ChannelerPage';
+import ParagonsPage from './pages/ParagonsPage';
+import ParagonPage from './pages/ParagonPage';
 
 const App = () => {
   return (
@@ -41,8 +52,44 @@ const App = () => {
           <Route path='/blightsources/:categoryName'>
             <BlightsourceCategoryPage />
           </Route>
-          <Route exact path='/festerfonts'>
+          <Route path='/festerfonts/classes/:festerfontClassName'>
+            <FesterfontClassPage />
+          </Route>
+          <Route path='/festerfonts/saturations/:saturationName'>
+            <FesterfontSaturationPage />
+          </Route>
+          <Route path='/festerfonts/configurations/:configurationName'>
+            <FesterfontConfigurationPage />
+          </Route>
+          <Route path='/festerfonts/biomes/:biomeName'>
+            <FesterfontBiomePage />
+          </Route>
+          <Route path='/festerfonts/zone/:festerfontName'>
             <FesterfontsPage />
+          </Route>
+          <Route exact path='/festerfonts/:activeTab?'>
+            <FesterfontsPage />
+          </Route>
+          <Route exact path='/blightbeasts/:activeTab?'>
+            <BlightbeastsPage />
+          </Route>
+          <Route path='/blightbeasts/taxonomy/:blightbeastSeed/:blightbeastRoot/:blightbeastStem'>
+            <BlightbeastsStemPage />
+          </Route>
+          <Route path='/blightbeasts/taxonomy/:blightbeastSeed/:blightbeastRoot'>
+            <BlightbeastsStemsPage />
+          </Route>
+          <Route path='/blightbeasts/taxonomy/:blightbeastSeed'>
+            <BlightbeastsRootsPage />
+          </Route>
+          <Route exact path='/channeler'>
+            <ChannelerPage />
+          </Route>
+          <Route exact path='/paragons'>
+            <ParagonsPage />
+          </Route>
+          <Route path='/paragons/:paragonHexalignment'>
+            <ParagonPage />
           </Route>
           <Route exact path='/'>
             <HomePage />

@@ -1,0 +1,21 @@
+.blightbeasts-threat-tiers-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blightbeasts-threat-tier-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blightbeasts-threat-tier-threats-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  @extend .ml-1;
+  @extend .mr-1;
+}

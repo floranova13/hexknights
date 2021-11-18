@@ -2,6 +2,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
+  faBrain,
   faCity,
   faCodeBranch,
   faBacteria,
@@ -10,53 +11,40 @@ import {
   faCubes,
   faAddressCard,
   faHome,
-  faChess,
 } from '@fortawesome/free-solid-svg-icons';
 
-const BlightbeastsTabs = ({ tab, setTab }) => {
+const FesterfontsTabs = ({ tab, setTab }) => {
   const getSelectedClass = (tabName) => {
     return tabName === tab
-      ? 'tab text selected-tab'
-      : 'tab text unselected-tab';
+      ? 'short-tab text selected-tab'
+      : 'short-tab text unselected-tab';
   };
 
   return (
-    <div id='festerfonts-tab-container'>
-      <div id='festerfonts-tab-inner-container'>
+    <div className='tab-container'>
+      <div className='tab-inner-container'>
         <div
-          className={getSelectedClass('Blight')}
-          onClick={() => setTab('Blight')}
+          className={getSelectedClass('General')}
+          onClick={() => setTab('General')}
         >
-          <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faBacteria} />
-          <span>Blight</span>
+          <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faHome} />
+          <span>General</span>
         </div>
         <hr className='tab-interlink' />
         <div
-          className={getSelectedClass('Festerfonts')}
-          onClick={() => setTab('Festerfonts')}
+          className={getSelectedClass('Threat')}
+          onClick={() => setTab('Threat')}
         >
-          <FontAwesomeIcon
-            className='ml-1 mr-1'
-            size='1x'
-            icon={faCodeBranch}
-          />
-          <span>Festerfonts</span>
+          <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faCity} />
+          <span>Threat</span>
         </div>
         <hr className='tab-interlink' />
         <div
-          className={getSelectedClass('Blightbeasts')}
-          onClick={() => setTab('Blightbeasts')}
-        >
-          <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faChessRook} />
-          <span>Blightbeasts</span>
-        </div>
-        <hr className='tab-interlink' />
-        <div
-          className={getSelectedClass('Blightsources')}
-          onClick={() => setTab('Blightsources')}
+          className={getSelectedClass('Taxonomy')}
+          onClick={() => setTab('Taxonomy')}
         >
           <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faCubes} />
-          <span>Blightsources</span>
+          <span>Taxonomy</span>
         </div>
         <hr className='tab-interlink' />
       </div>
@@ -64,4 +52,4 @@ const BlightbeastsTabs = ({ tab, setTab }) => {
   );
 };
 
-export default BlightbeastsTabs;
+export default FesterfontsTabs;

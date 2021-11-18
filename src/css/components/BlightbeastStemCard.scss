@@ -1,4 +1,4 @@
-.festerfont-configuration-card-container {
+.blightbeast-stem-card-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +10,7 @@
   }
 }
 
-.festerfont-configuration-title-container {
+.blightbeast-stem-title-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,12 +19,11 @@
   @extend .ml-1;
   @extend .mr-1;
 
-  .festerfont-configuration-icon {
-    flex-grow: 1;
+  .blightbeast-stem-icon {
     margin: auto;
   }
 
-  .festerfont-configuration-name {
+  .blightbeast-stem-name {
     flex-grow: 8;
     @extend .ml-1;
     @extend .mr-1;

@@ -1,0 +1,40 @@
+@import '../variables.scss';
+
+.paragon-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  border: 0.25em solid $primary-lighter;
+  border-radius: 9px;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+    border: 0.25em solid white;
+  }
+
+  @extend .mb-4;
+}
+
+.paragon-card-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+  @extend .ml-1;
+  @extend .mr-1;
+}
+
+.paragon-card-icon {
+  flex-grow: 1;
+  margin: auto;
+}
+
+.paragon-card-hexalignment {
+  flex-grow: 8;
+  @extend .ml-1;
+  @extend .mr-1;
+}
