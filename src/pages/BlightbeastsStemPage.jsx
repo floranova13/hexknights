@@ -25,7 +25,7 @@ export default function BlightbeastsStemPage() {
           label='Blightbeasts'
         />
       </div>
-      <div className='blightbeasts-stem-page-container'>
+      <div className='blightbeasts-stem-page-container page-container'>
         <div className='blightbeasts-stem-page-inner-container'>
           <h1 className='page-title'>{blightbeastSeed}</h1>
           <h1 className='header'>{blightbeastRoot}</h1>

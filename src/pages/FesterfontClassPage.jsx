@@ -45,7 +45,7 @@ export default function FesterfontClassPage() {
         <NavButton pageString='/festerfonts/Classes' />
         <NavButton pageString='/festerfonts?General' label='Festerfonts' />
       </div>
-      <div className='festerfont-class-page-container'>
+      <div className='festerfont-class-page-container page-container'>
         <div className='festerfont-class-page-name-container'>
           <FontAwesomeIcon size='2x' icon={getIcon()} />
           <h1 className='page-title festerfont-class-name'>

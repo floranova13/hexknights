@@ -48,20 +48,22 @@ export default function FesterfontPage() {
 
   return (
     <Page>
-      <div className='back-button-flex'>
-        <NavButton pageString='/festerfonts?Festerfonts' />
-        <NavButton pageString='/festerfonts?General' label='Festerfonts' />
-      </div>
-      <div className='paragon-page-container'>
-        <h1 className='page-title'>{paragon.name}</h1>
-        <div className='paragon-hexalignment-container'>
-          <FontAwesomeIcon size='2x' icon={getIcon()} />
-          <h1 className='header paragon-hexalignment'>
-            {paragon.hexalignment}
-          </h1>
-          <FontAwesomeIcon size='2x' icon={getIcon()} />
+      <div className='page-container'>
+        <div className='back-button-flex'>
+          <NavButton pageString='/festerfonts?Festerfonts' />
+          <NavButton pageString='/festerfonts?General' label='Festerfonts' />
         </div>
-        <Text paragraphs={paragon.description} classes='text' />
+        <div className='paragon-page-container'>
+          <h1 className='page-title'>{paragon.name}</h1>
+          <div className='paragon-hexalignment-container'>
+            <FontAwesomeIcon size='2x' icon={getIcon()} />
+            <h1 className='header paragon-hexalignment'>
+              {paragon.hexalignment}
+            </h1>
+            <FontAwesomeIcon size='2x' icon={getIcon()} />
+          </div>
+          <Text paragraphs={paragon.description} classes='text' />
+        </div>
       </div>
     </Page>
   );

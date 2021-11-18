@@ -62,7 +62,10 @@ export default function BlightsourceCategoryPage() {
         <NavButton pageString={`/blightsources/${subcategory.category}`} />
         <NavButton pageString='/blightsources' label='Blightsources' />
       </div>
-      <div id='blightsource-subcategory-page-container'>
+      <div
+        id='blightsource-subcategory-page-container'
+        className='page-container'
+      >
         <h1 className='page-title'>{subcategory.subcategory}</h1>
         <div className='subcategory-category-container'>
           <FontAwesomeIcon size='2x' icon={getIcon()} />

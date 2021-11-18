@@ -46,19 +46,21 @@ export default function FesterfontConfigurationPage() {
 
   return (
     <Page>
-      <div className='back-button-flex'>
-        <NavButton pageString='/festerfonts/Configurations' />
-        <NavButton pageString='/festerfonts?General' label='Festerfonts' />
-      </div>
-      <div className='festerfont-configuration-page-container'>
-        <div className='festerfont-configuration-page-name-container'>
-          <FontAwesomeIcon size='2x' icon={getIcon()} />
-          <h1 className='page-title festerfont-configuration-name'>
-            {configuration.name}
-          </h1>
-          <FontAwesomeIcon size='2x' icon={getIcon()} />
+      <div className='page-container'>
+        <div className='back-button-flex'>
+          <NavButton pageString='/festerfonts/Configurations' />
+          <NavButton pageString='/festerfonts?General' label='Festerfonts' />
         </div>
-        <Text paragraphs={configuration.description} classes='text' />
+        <div className='festerfont-configuration-page-container'>
+          <div className='festerfont-configuration-page-name-container'>
+            <FontAwesomeIcon size='2x' icon={getIcon()} />
+            <h1 className='page-title festerfont-configuration-name'>
+              {configuration.name}
+            </h1>
+            <FontAwesomeIcon size='2x' icon={getIcon()} />
+          </div>
+          <Text paragraphs={configuration.description} classes='text' />
+        </div>
       </div>
     </Page>
   );

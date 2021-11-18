@@ -16,7 +16,7 @@ export default function BlightbeastsStemsPage() {
         <NavButton pageString='/blightbeasts' label='Blightbeasts' />
       </div>
 
-      <div className='blightbeasts-stems-container'>
+      <div className='blightbeasts-stems-container page-container'>
         <div className='blightbeasts-stems-inner-container'>
           <h1 className='page-title'>{blightbeastSeed}</h1>
           <h1 className='header'>{blightbeastRoot}</h1>

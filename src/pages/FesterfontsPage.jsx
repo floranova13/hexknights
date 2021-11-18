@@ -16,13 +16,15 @@ export default function BlightsourcesPage() {
   return (
     <Page>
       <FesterfontsTabs tab={tab} setTab={setTab} />
-      <div>
-        {tab === 'General' && <FesterfontsGeneral />}
-        {tab === 'Classes' && <FesterfontsClasses />}
-        {tab === 'Saturations' && <FesterfontsSaturations />}
-        {tab === 'Configurations' && <FesterfontsConfigurations />}
-        {tab === 'Biomes' && <FesterfontsBiomes />}
-        {tab === 'Festerfonts' && <KnownFesterfonts />}
+      <div className='page-container'>
+        <div>
+          {tab === 'General' && <FesterfontsGeneral />}
+          {tab === 'Classes' && <FesterfontsClasses />}
+          {tab === 'Saturations' && <FesterfontsSaturations />}
+          {tab === 'Configurations' && <FesterfontsConfigurations />}
+          {tab === 'Biomes' && <FesterfontsBiomes />}
+          {tab === 'Festerfonts' && <KnownFesterfonts />}
+        </div>
       </div>
     </Page>
   );

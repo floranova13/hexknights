@@ -10,8 +10,10 @@ export default function ParagonsPage() {
 
   return (
     <Page>
-      <h1 className='page-title'>Paragons</h1>
-      <div>{paragonsList}</div>
+      <div className='page-container'>
+        <h1 className='page-title'>Paragons</h1>
+        <div>{paragonsList}</div>
+      </div>
     </Page>
   );
 }

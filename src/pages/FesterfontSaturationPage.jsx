@@ -38,19 +38,21 @@ export default function FesterfontSaturationPage() {
 
   return (
     <Page>
-      <div className='back-button-flex'>
-        <NavButton pageString='/festerfonts/Saturations' />
-        <NavButton pageString='/festerfonts?General' label='Festerfonts' />
-      </div>
-      <div className='festerfont-saturation-page-container'>
-        <div className='festerfont-saturation-page-name-container'>
-          <FontAwesomeIcon className='icon' size='2x' icon={getIcon()} />
-          <h1 className='page-title festerfont-saturation-name'>
-            {saturation.name}
-          </h1>
-          <FontAwesomeIcon className='icon' size='2x' icon={getIcon()} />
+      <div className='page-container'>
+        <div className='back-button-flex'>
+          <NavButton pageString='/festerfonts/Saturations' />
+          <NavButton pageString='/festerfonts?General' label='Festerfonts' />
         </div>
-        <Text paragraphs={saturation.description} classes='text' />
+        <div className='festerfont-saturation-page-container'>
+          <div className='festerfont-saturation-page-name-container'>
+            <FontAwesomeIcon className='icon' size='2x' icon={getIcon()} />
+            <h1 className='page-title festerfont-saturation-name'>
+              {saturation.name}
+            </h1>
+            <FontAwesomeIcon className='icon' size='2x' icon={getIcon()} />
+          </div>
+          <Text paragraphs={saturation.description} classes='text' />
+        </div>
       </div>
     </Page>
   );

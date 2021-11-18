@@ -29,43 +29,45 @@ export default function HexknightsPage() {
 
   return (
     <Page>
-      <h1 className='page-title'>Hexknights</h1>
-      <Hexalignment
-        hexalignment='Judgement'
-        hexknights={judgementKnights}
-        expanded={judgementExpanded}
-        toggleExpansion={setJudgementToggle}
-      />
-      <Hexalignment
-        hexalignment='Mercy'
-        hexknights={mercyKnights}
-        expanded={mercyExpanded}
-        toggleExpansion={setMercyToggle}
-      />
-      <Hexalignment
-        hexalignment='Progress'
-        hexknights={progressKnights}
-        expanded={progressExpanded}
-        toggleExpansion={setProgressToggle}
-      />
-      <Hexalignment
-        hexalignment={'Expedition'}
-        hexknights={expeditionKnights}
-        expanded={expeditionExpanded}
-        toggleExpansion={setExpeditionToggle}
-      />
-      <Hexalignment
-        hexalignment={'Resilience'}
-        hexknights={resilienceKnights}
-        expanded={resilienceExpanded}
-        toggleExpansion={setResilienceToggle}
-      />
-      <Hexalignment
-        hexalignment={'Sacrifice'}
-        hexknights={sacrificeKnights}
-        expanded={sacrificeExpanded}
-        toggleExpansion={setSacrificeToggle}
-      />
+      <div className='page-container'>
+        <h1 className='page-title'>Hexknights</h1>
+        <Hexalignment
+          hexalignment='Judgement'
+          hexknights={judgementKnights}
+          expanded={judgementExpanded}
+          toggleExpansion={setJudgementToggle}
+        />
+        <Hexalignment
+          hexalignment='Mercy'
+          hexknights={mercyKnights}
+          expanded={mercyExpanded}
+          toggleExpansion={setMercyToggle}
+        />
+        <Hexalignment
+          hexalignment='Progress'
+          hexknights={progressKnights}
+          expanded={progressExpanded}
+          toggleExpansion={setProgressToggle}
+        />
+        <Hexalignment
+          hexalignment={'Expedition'}
+          hexknights={expeditionKnights}
+          expanded={expeditionExpanded}
+          toggleExpansion={setExpeditionToggle}
+        />
+        <Hexalignment
+          hexalignment={'Resilience'}
+          hexknights={resilienceKnights}
+          expanded={resilienceExpanded}
+          toggleExpansion={setResilienceToggle}
+        />
+        <Hexalignment
+          hexalignment={'Sacrifice'}
+          hexknights={sacrificeKnights}
+          expanded={sacrificeExpanded}
+          toggleExpansion={setSacrificeToggle}
+        />
+      </div>
     </Page>
   );
 }

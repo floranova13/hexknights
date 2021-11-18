@@ -12,7 +12,7 @@ export default function BlightbeastsRootsPage() {
   return (
     <Page>
       <NavButton pageString='/blightbeasts' />
-      <div className='blightbeasts-roots-outer-container'>
+      <div className='blightbeasts-roots-outer-container page-container'>
         <div className='blightbeasts-roots-inner-container'>
           <h1 className='page-title'>{blightbeastSeed}</h1>
           <Text

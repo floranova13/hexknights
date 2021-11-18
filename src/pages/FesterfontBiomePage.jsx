@@ -52,7 +52,7 @@ export default function FesterfontBiomePage() {
         <NavButton pageString='/festerfonts/Biomes' />
         <NavButton pageString='/festerfonts?General' label='Festerfonts' />
       </div>
-      <div className='festerfont-biome-page-container'>
+      <div className='page-container'>
         <div className='festerfont-biome-page-name-container'>
           <FontAwesomeIcon size='2x' icon={getIcon()} />
           <h1 className='page-title festerfont-biome-name'>{biome.name}</h1>

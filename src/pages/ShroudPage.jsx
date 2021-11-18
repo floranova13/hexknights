@@ -7,7 +7,7 @@ import shroud from '../common/resources/shroud.json';
 const ShroudPage = () => {
   return (
     <Page>
-      <div id='shroud-page-container'>
+      <div className='page-container'>
         <h1 className='page-title'>Shroud</h1>
         <Text paragraphs={shroud.shroudDescription} classes='text' />
         <h1 className='header-left'>The Channeler</h1>

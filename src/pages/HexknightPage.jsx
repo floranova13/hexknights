@@ -49,7 +49,7 @@ const HexknightPage = () => {
 
   return (
     <Page>
-      <div id='hexknight-page-container'>
+      <div className='page-container'>
         <h1 className='page-title'>{hexknight.name}</h1>
         <div id='alignment-container'>
           <FontAwesomeIcon size='2x' icon={getIcon(hexknight.hexalignment)} />
