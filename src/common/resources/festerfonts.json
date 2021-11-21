@@ -26,7 +26,21 @@
     }
   ],
   "information": {
-    "description": ["", "", ""],
+    "description": [
+      "Festerfonts are locations around the planet that are under the influence of the phenomena collectively referred to as 'The Blight'. The Blightbane Guild has attempted to study them, but little progress has been made. They remain a mysterious, growing collection of territories, each one defended by fearsome creatures known as blightbeasts. These creatures are creatures seemingly for the sole purpose of defending the occupied land, warding off invaders who would attempt to cleanse the festerfont's domain.",
+      "Young festerfonts will have starkly different biomes from untainted land. As a festerfont accumulates saturation and age, it learns to blend in by finding living creatures to occupy its land. It is a learned disguise. A young festerfont may disturb travellers with its presence, but an ancient festerfont is a thing to fear. Travellers may not know it, but they have no chance of escaping alive once they cross the threshold. ",
+      ""
+    ],
+    "layersDescription": [
+      "Festerfonts are each composed of three layers. The outermost layer is referred to as the 'Outskirts', the middle layer is the 'Body', and the innermost layer is the 'Core'. Danger increases drastically when one passes the typically-invisible boundary from layer to layer. The Blightbane Guild places totems known as 'Seekerstones' to mark the location of these layers, though they must move them as the boundary shifts with the ebb and flow of blight accumulation and degradation.",
+      "",
+      ""
+    ],
+    "locusDescription": [
+      "Also referred to as the 'Sourcefonts', these are festerfont structures are located somewhere within the Core layer of the festerfont. Accessing one is not easy, but destroying it will stop the spawning of blightbeasts, rapidly removing the festerfont entirely. Most Blight Loci cannot be destroyed without extensive digging or exploratory work, some do not appear to be vulnerable to destruction at all.",
+      "",
+      ""
+    ],
     "knownFesterfontsDescription": ["", "", ""],
     "filterDescription": [""],
     "class": {

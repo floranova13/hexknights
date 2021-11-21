@@ -7,7 +7,9 @@
           "subcategory": "Blightfoils",
           "name": "Forslone",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -15,7 +17,9 @@
           "subcategory": "Blightfoils",
           "name": "Erecombe",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -23,7 +27,9 @@
           "subcategory": "Blightfoils",
           "name": "Voidshimmer",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ],
@@ -33,7 +39,9 @@
           "subcategory": "Crystali",
           "name": "Apertrite",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -41,7 +49,9 @@
           "subcategory": "Crystali",
           "name": "Meartite",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -49,7 +59,9 @@
           "subcategory": "Crystali",
           "name": "Digitrite",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ],
@@ -59,7 +71,9 @@
           "subcategory": "Lylodes",
           "name": "Charke",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -67,7 +81,9 @@
           "subcategory": "Lylodes",
           "name": "Amplare",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -75,7 +91,9 @@
           "subcategory": "Lylodes",
           "name": "Curos",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ]
@@ -87,7 +105,9 @@
           "subcategory": "Lifeblight",
           "name": "Rigorvat",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -95,7 +115,9 @@
           "subcategory": "Lifeblight",
           "name": "Purivat",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -103,7 +125,9 @@
           "subcategory": "Lifeblight",
           "name": "Mirivat",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ],
@@ -113,7 +137,9 @@
           "subcategory": "Blightvenoms",
           "name": "Perceptyde",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -121,7 +147,9 @@
           "subcategory": "Blightvenoms",
           "name": "Residux",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -129,7 +157,9 @@
           "subcategory": "Blightvenoms",
           "name": "Falefate",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ],
@@ -139,7 +169,9 @@
           "subcategory": "Blightmares",
           "name": "Blissburn",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -147,7 +179,9 @@
           "subcategory": "Blightmares",
           "name": "Red Agony",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -155,7 +189,9 @@
           "subcategory": "Blightmares",
           "name": "Pulsepox",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ]
@@ -167,7 +203,9 @@
           "subcategory": "Rushblight",
           "name": "Mystic",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -175,7 +213,9 @@
           "subcategory": "Rushblight",
           "name": "Surge",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -183,7 +223,9 @@
           "subcategory": "Rushblight",
           "name": "Edge",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ],
@@ -193,7 +235,9 @@
           "subcategory": "Miasmeta",
           "name": "Lasperr",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -201,7 +245,9 @@
           "subcategory": "Miasmeta",
           "name": "Manaphage",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -209,7 +255,9 @@
           "subcategory": "Miasmeta",
           "name": "Ominox",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ],
@@ -219,7 +267,9 @@
           "subcategory": "Blightmists",
           "name": "Nullmist",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -227,7 +277,9 @@
           "subcategory": "Blightmists",
           "name": "Magnimist",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -235,7 +287,9 @@
           "subcategory": "Blightmists",
           "name": "Intermist",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ]
@@ -247,7 +301,9 @@
           "subcategory": "Blightblooms",
           "name": "Shrineflower",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -255,7 +311,9 @@
           "subcategory": "Blightblooms",
           "name": "Hydrobloom",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -263,7 +321,9 @@
           "subcategory": "Blightblooms",
           "name": "Shimmering Nightblight",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ],
@@ -273,7 +333,9 @@
           "subcategory": "Blightpillars",
           "name": "Whitespire",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -281,7 +343,9 @@
           "subcategory": "Blightpillars",
           "name": "Greyspire",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -289,7 +353,9 @@
           "subcategory": "Blightpillars",
           "name": "Blackspire",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ],
@@ -299,7 +365,9 @@
           "subcategory": "Blightsnarls",
           "name": "Silverclutch",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -307,7 +375,9 @@
           "subcategory": "Blightsnarls",
           "name": "Wenderweave",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -315,7 +385,9 @@
           "subcategory": "Blightsnarls",
           "name": "Darkcoil",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ]
@@ -327,7 +399,9 @@
           "subcategory": "Blightshrooms",
           "name": "Darkcoil",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -335,7 +409,9 @@
           "subcategory": "Blightshrooms",
           "name": "Metashroom",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -343,7 +419,9 @@
           "subcategory": "Blightshrooms",
           "name": "Tranceloom",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ],
@@ -353,7 +431,9 @@
           "subcategory": "Blightbleeds",
           "name": "Trickelpus",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -361,7 +441,9 @@
           "subcategory": "Blightbleeds",
           "name": "Rockmole",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -369,7 +451,9 @@
           "subcategory": "Blightbleeds",
           "name": "Achromatic Ooze",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ],
@@ -379,7 +463,9 @@
           "subcategory": "Sporesprawls",
           "name": "Sporesprawl1",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -387,7 +473,9 @@
           "subcategory": "Sporesprawls",
           "name": "Sporesprawl2",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -395,7 +483,9 @@
           "subcategory": "Sporesprawls",
           "name": "Sporesprawl3",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ]
@@ -407,7 +497,9 @@
           "subcategory": "Blightanomalies",
           "name": "Dusk Orb",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -415,7 +507,9 @@
           "subcategory": "Blightanomalies",
           "name": "Token2",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -423,7 +517,9 @@
           "subcategory": "Blightanomalies",
           "name": "Token3",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ],
@@ -433,7 +529,9 @@
           "subcategory": "Blightanomalies",
           "name": "Locus1",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -441,7 +539,9 @@
           "subcategory": "Blightanomalies",
           "name": "Locus2",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -449,7 +549,9 @@
           "subcategory": "Blightanomalies",
           "name": "Locus3",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ],
@@ -459,7 +561,9 @@
           "subcategory": "Blightanomalies",
           "name": "Lightmare Prism",
           "rarity": 27,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -467,7 +571,9 @@
           "subcategory": "Blightanomalies",
           "name": "Vestige2",
           "rarity": 9,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         },
         {
@@ -475,136 +581,192 @@
           "subcategory": "Blightanomalies",
           "name": "Vestige3",
           "rarity": 1,
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ],
           "introduced": 1
         }
       ]
     }
   },
+  "description": [
+    "Sometimes called 'Blight Resources', these strange constructs can only be found within festerfonts. Each unique festerfont will have a different composition of blightsources, with many variants entirely exclusive to specific biome, festerfont configuration, and saturation combinations.",
+    "Over time, blightsources have been organized into groupings based on apparent features. This system of organization differs from region to region, but the Shrouded Theocracy uses a list of six major categories, each with subcategories clustered within. These are: 'Blightstones', 'Blightichors', 'Blightfumes', 'Blightflora', 'Blightfungi', and 'Blightanomalies'.",
+    "Some blightsources are more or less useful than others. Some can be used as fuel, as magical catalysts, molded into armor, or store magical energies, among other applications. The Blightbane Guild serves as the most prominent buyer, consumer, and distributer of most varieties of blightsources. This is their major source of income, and the backbone upon which they pay their staff, contractors, and bankroll research endeavors.",
+    "Some Blight Seekers specialize in harvesting and transporting blightsources. They are known as 'Harvesters', but among them are the porters and guards. This work is more lucrative than taking on blightbeast culling contracts, but it comes with a unique set of risks. They must collect resources in a battlefield where they must trust that their guards can protect them, focusing on extracting what they need without damaging the product. For this reason, the Guild requires that all Harvesters be full seekers, trained to defend themselves if need be. However, if a Harvester needs to defend themselves, it is often too late."
+  ],
   "information": [
     {
       "category": "Blightstones",
-      "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+      "description": [
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+      ],
       "subcategories": [
         {
           "category": "Blightstones",
           "subcategory": "Blightfoils",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         },
         {
           "category": "Blightstones",
           "subcategory": "Crystali",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         },
         {
           "category": "Blightstones",
           "subcategory": "Lylodes",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         }
       ]
     },
     {
       "category": "Blightichors",
-      "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+      "description": [
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+      ],
       "subcategories": [
         {
           "category": "Blightichors",
           "subcategory": "Lifeblight",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         },
         {
           "category": "Blightichors",
           "subcategory": "Blightvenoms",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         },
         {
           "category": "Blightichors",
           "subcategory": "Blightmares",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         }
       ]
     },
     {
       "category": "Blightfumes",
-      "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+      "description": [
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+      ],
       "subcategories": [
         {
           "category": "Blightfumes",
           "subcategory": "Rushblight",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         },
         {
           "category": "Blightfumes",
           "subcategory": "Miasmeta",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         },
         {
           "category": "Blightfumes",
           "subcategory": "Blightmists",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         }
       ]
     },
     {
       "category": "Blightflora",
-      "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+      "description": [
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+      ],
       "subcategories": [
         {
           "category": "Blightflora",
           "subcategory": "Blightblooms",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         },
         {
           "category": "Blightflora",
           "subcategory": "Blightpillars",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         },
         {
           "category": "Blightflora",
           "subcategory": "Blightsnarls",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         }
       ]
     },
     {
       "category": "Blightfungi",
-      "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+      "description": [
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+      ],
       "subcategories": [
         {
           "category": "Blightfungi",
           "subcategory": "Blightshrooms",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         },
         {
           "category": "Blightfungi",
           "subcategory": "Blightbleeds",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         },
         {
           "category": "Blightfungi",
           "subcategory": "Sporesprawls",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         }
       ]
     },
     {
       "category": "Blightanomalies",
-      "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"],
+      "description": [
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+      ],
       "subcategories": [
         {
           "category": "Blightanomalies",
           "subcategory": "Tokens",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         },
         {
           "category": "Blightanomalies",
           "subcategory": "Loci",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         },
         {
           "category": "Blightanomalies",
           "subcategory": "Vestiges",
-          "description": ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"]
+          "description": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+          ]
         }
       ]
     }

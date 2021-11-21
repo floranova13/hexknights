@@ -16,8 +16,10 @@ import {
   faCubes,
   faAddressCard,
   faHome,
+  faInfoCircle,
 } from '@fortawesome/free-solid-svg-icons';
 import settings from '../common/resources/novelSettings.json';
+import ReactTooltip from 'react-tooltip';
 
 const Nav = () => {
   const history = useHistory();
@@ -54,6 +56,20 @@ const Nav = () => {
         </Link>
       </div>
       <div id='chapter-selection-container'>
+        <div
+          onMouseEnter={() => {
+            return ReactTooltip.show(this);
+          }}
+          onMouseLeave={() => {
+            return ReactTooltip.hide(this);
+          }}
+        >
+          <FontAwesomeIcon
+            className='ml-1 mr-1'
+            size='1x'
+            icon={faInfoCircle}
+          />
+        </div>
         <input
           id='chapter-selection-input'
           type='text'
@@ -62,6 +78,13 @@ const Nav = () => {
         />
         <AdjustmentsIcon className='icon' />
       </div>
+      <ReactTooltip className='tooltip'>
+        Enter the chapter number you have read through at the top right of the
+        page to ensure you will not spoil the story for yourself. Information
+        about characters that have not been introduced yet will be
+        unreadable.You will be unable to enter a chapter that has not been
+        released yet.
+      </ReactTooltip>
     </div>
   );
 };
