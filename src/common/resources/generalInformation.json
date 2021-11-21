@@ -1,23 +1,61 @@
 {
   "general": {
-    "missionStatement": "Lorem ipsum, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
     "missionName": "Gossamer Scales",
+    "missionStatement": [
+      "When you don’t know the rules of the game, start making them up. When you are constrained by unfavorable conditions, inject a little chaos."
+    ],
     "missionDescription": [
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!"
-    ]
+      "The Experiment, labelled 'Gossamer Scales', is this Orchestrator Division’s first foray into research. Though the precise goals and methods of the experiment are disseminated in pieces to select layers of Orchestrator experimenters, the main method of data collection is the active observation of living subjects.",
+      "Some of our members in the Formation Division have selected subjects from the Shadow of Pulse. They've implanted them with sourcetech of their own design, at their own discretion, and they've sent them off to the target planet. Our leader is patient, but not obsessively so. Granting power to these subjects provides focus points of accelerated world development.",
+      ""
+    ],
+    "staff": {
+      "description": ["", "", ""],
+      "divisions": [
+        {
+          "name": "Formation",
+          "description": ["", "", ""],
+          "teams": [
+            {
+              "name": "",
+              "description": ["", "", ""]
+            }
+          ]
+        },
+        {
+          "name": "Observation",
+          "description": ["", "", ""],
+          "teams": [
+            {
+              "name": "",
+              "description": ["", "", ""]
+            }
+          ]
+        },
+        {
+          "name": "Intervention",
+          "description": ["", "", ""],
+          "teams": [
+            {
+              "name": "",
+              "description": ["", "", ""]
+            }
+          ]
+        }
+      ]
+    }
   },
   "religion": {
     "general": [
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!"
+      "There is only one acceptable faith in the Shrouded Theocracy. All others are divined to be the work of the Strangers, and purged with extreme prejudice.",
+      "The followers of the Covenant of Shade are called 'The Shaden' or 'Shaden'. However, within the territory of the Shrouded Theocracy, people are assumed to be either Shaden or targets for 'enforcement'."
     ],
+    "paragonDescription": ["The Paragons the Shrouded Theocracy's governers. Every Paragon has a specialty, an aspect of Shroud that they a responsible for maintaining. Each one also commands six Hexknights.", "", ""],
+    "hexknightDescription": ["", "", ""],
     "channeler": {
       "name": "Reach",
       "description": [
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+        "The Channeler is the single highest authority in The Shrouded Theocracy.",
         "",
         ""
       ]
@@ -27,8 +65,8 @@
         "hexalignment": "Sacrifice",
         "name": "",
         "description": [
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!"
+          "",
+          ""
         ],
         "introduced": 0
       },
@@ -79,9 +117,9 @@
       }
     ],
     "hexknights": [
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!"
+      "The Hexaline Knights, also known as Hexknights, are the Shrouded Theocracy's might. Every Hexknight commands a squad of six knights.",
+      "",
+      ""
     ]
   },
   "blightsources": {
