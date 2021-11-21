@@ -9,6 +9,8 @@ const BlightPage = () => {
     <Page>
       <div className='page-container'>
         <h1 className='page-title'>Blight</h1>
+        <Text paragraphs={blight.blightIntro} classes='text' />
+        <hr />
         <Text paragraphs={blight.blightDescription} classes='text' />
         <h1 className='header-left'>Festerfonts</h1>
         <Text paragraphs={blight.festerfontsIntro} classes='text' />
