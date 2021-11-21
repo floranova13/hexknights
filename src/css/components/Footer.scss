@@ -3,7 +3,7 @@
 #footer-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   background-color: $primary;
   border: 0.5rem solid $primary-lighter;
   border-radius: 9px;
@@ -47,7 +47,6 @@
   justify-content: flex-start;
 }
 
-#footer-note {
-  font-style: italic;
-  @extend .ml-1
+.footer-note {
+  color: #ffffff21;
 }

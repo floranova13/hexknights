@@ -17,11 +17,9 @@ const Nav = () => {
         </a>
       </div>
       <div id='note-container'>
-        <p id='footer-note' className='ml-2 mr-2'>
-          Enter the chapter number you have read through at the top right of the
-          page to ensure you will not spoil the story for yourself. Information
-          about characters that have not been introduced yet will be unreadable.
-          You will be unable to enter a chapter that has not been released yet.
+        <p className='ml-2 mr-2 w-100 footer-note'>
+          This link leads to the web novel on which this website is based. It is
+          a rough draft.
         </p>
       </div>
     </div>
