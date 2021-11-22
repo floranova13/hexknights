@@ -38,7 +38,6 @@
 }
 
 .short-tab {
-  height: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,7 +47,7 @@
   border: 0.25rem solid $primary-lighter;
   border-radius: 6px;
   text-decoration: none;
-  transition: transform 0.25s;
+  transition: color 0.25s;
   z-index: 2;
 }
 
@@ -71,4 +70,17 @@
   border: 0.25em solid $primary-lighter;
   z-index: 1;
   margin: 0;
+}
+
+.tab-description {
+  background-color: $primary-darker;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $primary-lighter;
+  height: 3em;
+  width: 3em;
+  border: 0.25rem solid $primary-lighter;
+  border-radius: 50%;
+  font-weight: 700;
 }

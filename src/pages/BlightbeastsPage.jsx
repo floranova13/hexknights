@@ -11,7 +11,7 @@ export default function BlightbeastsPage() {
   const [tab, setTab] = useState(activeTab || 'General');
 
   return (
-    <Page className='blightbeasts-page-container'>
+    <Page>
       <BlightbeastsTabs tab={tab} setTab={setTab} />
       <div className='page-container'>
         {tab === 'General' && <BlightbeastsGeneral />}

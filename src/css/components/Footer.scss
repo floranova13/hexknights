@@ -3,7 +3,7 @@
 #footer-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   background-color: $primary;
   border: 0.5rem solid $primary-lighter;
   border-radius: 9px;
@@ -47,7 +47,19 @@
   justify-content: flex-start;
 }
 
-#footer-note {
-  font-style: italic;
-  @extend .ml-1
+.footer-note {
+  color: #ffffff21;
+}
+
+.top-page-arrow {
+  margin-left: auto;
+  border: 3px solid gray;
+  border-radius: 50%;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+    transform: scale(1.15);
+    border-color: black;
+  }
 }

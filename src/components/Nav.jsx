@@ -56,18 +56,12 @@ const Nav = () => {
         </Link>
       </div>
       <div id='chapter-selection-container'>
-        <div
-          onMouseEnter={() => {
-            return ReactTooltip.show(this);
-          }}
-          onMouseLeave={() => {
-            return ReactTooltip.hide(this);
-          }}
-        >
+        <div>
           <FontAwesomeIcon
             className='ml-1 mr-1'
             size='1x'
             icon={faInfoCircle}
+            data-tip='chapter-number-info'
           />
         </div>
         <input
@@ -78,11 +72,19 @@ const Nav = () => {
         />
         <AdjustmentsIcon className='icon' />
       </div>
-      <ReactTooltip className='tooltip'>
-        Enter the chapter number you have read through at the top right of the
-        page to ensure you will not spoil the story for yourself. Information
-        about characters that have not been introduced yet will be
-        unreadable.You will be unable to enter a chapter that has not been
+      <ReactTooltip
+        className='z-front'
+        multiline
+        data-place='bottom'
+        data-padding='15px 15px'
+      >
+        Enter the chapter number you have read through at the top right of the{' '}
+        <br />
+        page to ensure you will not spoil the story for yourself. Information{' '}
+        <br />
+        about characters that have not been introduced yet will be <br />
+        unreadable.You will be unable to enter a chapter that has not been{' '}
+        <br />
         released yet.
       </ReactTooltip>
     </div>

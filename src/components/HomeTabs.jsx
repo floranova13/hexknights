@@ -16,13 +16,15 @@ import {
 const HomeTabs = ({ tab, setTab }) => {
   const getSelectedClass = (tabName) => {
     return tabName === tab
-      ? 'tab text selected-tab'
-      : 'tab text unselected-tab';
+      ? 'short-tab text selected-tab'
+      : 'short-tab text unselected-tab';
   };
 
   return (
     <div className='tab-container'>
       <div className='tab-inner-container'>
+        <div className='tab-description'>Info</div>
+        <hr className='tab-interlink' />
         <div
           className={getSelectedClass('General')}
           onClick={() => setTab('General')}
