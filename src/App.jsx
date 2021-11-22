@@ -24,6 +24,7 @@ import ShroudPage from './pages/ShroudPage';
 import ChannelerPage from './pages/ChannelerPage';
 import ParagonsPage from './pages/ParagonsPage';
 import ParagonPage from './pages/ParagonPage';
+import TeeteringScalesPage from './pages/TeeteringScalesPage';
 
 const App = () => {
   return (
@@ -31,6 +32,9 @@ const App = () => {
       <Router>
         <Nav />
         <Switch>
+          <Route path='/teetering-scales'>
+            <TeeteringScalesPage />
+          </Route>
           <Route path='/hexknights/:knightName'>
             <HexknightPage />
           </Route>

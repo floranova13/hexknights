@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBook } from '@fortawesome/free-solid-svg-icons';
+import { faBook, faArrowCircleUp } from '@fortawesome/free-solid-svg-icons';
 
 const Nav = () => {
   return (
@@ -22,6 +22,14 @@ const Nav = () => {
           a rough draft.
         </p>
       </div>
+      <FontAwesomeIcon
+        className='mr-1 top-page-arrow'
+        size='2x'
+        onClick={() => {
+          window.scrollTo(0, 0);
+        }}
+        icon={faArrowCircleUp}
+      />
     </div>
   );
 };

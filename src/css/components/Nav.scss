@@ -28,9 +28,9 @@
   justify-content: center;
   background-color: $primary-darkest;
   color: $primary-lighter;
-  height: 2em;
-  width: 12em;
-  border: 0.5rem solid $primary-darker;
+  height: 1.5em;
+  width: 7em;
+  border: 0.25rem solid $primary-darker;
   border-radius: 6px;
   text-decoration: none;
   transition: transform 0.25s;
@@ -38,7 +38,7 @@
   &:hover {
     color: white;
     cursor: pointer;
-    transform: scale(1.03);
+    border-color: white;
   }
 }
 

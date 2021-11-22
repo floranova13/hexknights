@@ -50,3 +50,16 @@
 .footer-note {
   color: #ffffff21;
 }
+
+.top-page-arrow {
+  margin-left: auto;
+  border: 3px solid gray;
+  border-radius: 50%;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+    transform: scale(1.15);
+    border-color: black;
+  }
+}
