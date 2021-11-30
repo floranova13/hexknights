@@ -1,0 +1,31 @@
+@import '../variables.scss';
+
+.icon-xl {
+  height: 256px;
+  width: 256px;
+  color: $primary-lighter;
+}
+
+.icon-lg {
+  height: 128px;
+  width: 128px;
+  color: $primary-lighter;
+}
+
+.icon-md {
+  height: 64px;
+  width: 64px;
+  color: $primary-lighter;
+}
+
+.icon-sm {
+  height: 32px;
+  width: 32px;
+  color: $primary-lighter;
+}
+
+.icon-xs {
+  height: 16px;
+  width: 16px;
+  color: $primary-lighter;
+}

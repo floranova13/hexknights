@@ -67,19 +67,3 @@
   }
 }
 
-#chapter-selection-button {
-  outline: none;
-  height: 3em;
-  width: 6em;
-  border: 0.5rem solid $primary-darker;
-  border-radius: 9px;
-  background-color: $primary-darkest;
-  color: $primary-lightest;
-  font-weight: 900;
-
-  &:hover {
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-  }
-}

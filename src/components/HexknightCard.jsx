@@ -16,11 +16,12 @@ const HexknightCard = ({ hexknight }) => {
 
   return (
     <div
-      id='hexknight-card-container'
-      className={getEncryptionClass(
-        localStorage.getItem('chapter'),
-        hexknight.introduced
-      )}
+      className={
+        getEncryptionClass(
+          localStorage.getItem('chapter'),
+          hexknight.introduced
+        ) + ' hexknight-card-container'
+      }
       onClick={() => handleClick(hexknight.name)}
     >
       <h4 className='header hexknight-card-content'>{hexknight.name}</h4>
