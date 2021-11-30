@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
 import Page from '../components/Page';
 import Text from '../components/Text';
+import NavButton from '../components/NavButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faGem,
@@ -48,6 +49,7 @@ export default function BlightsourceSubcategoryPage() {
   return (
     <Page>
       <div className='page-container'>
+        <NavButton pageString='/paragons' />
         <h1 className='page-title'>{paragon.name}</h1>
         <div className='paragon-hexalignment-container'>
           <FontAwesomeIcon size='2x' icon={getIcon()} />

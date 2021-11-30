@@ -1,23 +1,73 @@
 @import '../variables.scss';
 
-.shroud-button {
-  margin: 0.35rem auto;
-  height: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: $primary-darkest;
-  color: $primary-lighter;
-  height: 2em;
-  width: 12em;
-  border: 0.5rem solid $primary-darker;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: transform 0.25s;
+.shroud-page-container {
+  .shroud-page-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 
-  &:hover {
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
+  .channeler-icon-container {
+    height: 256px;
+  }
+
+  .paragon-icon-container {
+    height: 128px;
+  }
+
+  .hexknight-icon-container {
+    height: 150px;
+  }
+
+  .knight-icon-container {
+    height: 32px;
+  }
+
+  .paragon-icon {
+    margin: 0 2.65em;
+  }
+
+  .knight-icon {
+    margin: 0 0.056em;
+  }
+
+  .icon-color {
+    color: $primary-lighter;
+  }
+
+  .paragon-hexknight-icon-container {
+    // background-color: $primary-darker;
+    // border: 0.25em solid $primary-darkest;
+    // border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.8em;
+    padding-top: 0.25em;
+
+    .paragon-hexknight-inner-icon-container {
+      display: flex;
+    }
+  }
+
+  .shroud-button {
+    margin: 0.35rem auto;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $primary-darkest;
+    color: $primary-lighter;
+    height: 2em;
+    width: 12em;
+    border: 0.5rem solid $primary-darker;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: transform 0.25s;
+
+    &:hover {
+      color: white;
+      cursor: pointer;
+    }
   }
 }

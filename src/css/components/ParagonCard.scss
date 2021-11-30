@@ -12,29 +12,32 @@
   &:hover {
     color: white;
     cursor: pointer;
-    border: 0.25em solid white;
   }
 
-  @extend .mb-4;
+  @extend .mb-2;
+  @extend .mr-1;
+  @extend .ml-1;
 }
 
 .paragon-card-title-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 300px;
+  flex-grow: 0;
+  flex-shrink: 0;
   text-align: center;
-  @extend .ml-1;
-  @extend .mr-1;
+  margin-top: 0.25em;
+
 }
 
 .paragon-card-icon {
-  flex-grow: 1;
+  flex-grow: 0;
   margin: auto;
 }
 
 .paragon-card-hexalignment {
-  flex-grow: 8;
+  flex-grow: 1;
   @extend .ml-1;
   @extend .mr-1;
 }

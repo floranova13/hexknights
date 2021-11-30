@@ -1,0 +1,19 @@
+@import '../variables.scss';
+
+.paragons-page-container {
+  margin: auto;
+  flex-shrink: 0;
+
+  .paragon-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .paragon-inner-container {
+    display: flex;
+  }
+
+}
