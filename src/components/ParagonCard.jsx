@@ -12,6 +12,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { getEncryptionClass } from '../utils/hexknights';
 import { getParagon } from '../utils/religion';
+import Card from './Card';
 
 const ParagonCard = ({ paragon }) => {
   let history = useHistory();
@@ -42,7 +43,7 @@ const ParagonCard = ({ paragon }) => {
   };
 
   return (
-    <div className='paragon-card-container' onClick={() => handleClick()}>
+    <Card width={[250, 600]} classes='' handleClick={() => handleClick()}>
       <h1 className='header paragon-card-name'>{paragon.name}</h1>
       <div className='paragon-card-title-container'>
         <FontAwesomeIcon
@@ -59,7 +60,7 @@ const ParagonCard = ({ paragon }) => {
           icon={getIcon()}
         />
       </div>
-    </div>
+    </Card>
   );
 };
 
