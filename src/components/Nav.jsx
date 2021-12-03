@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import useWindowDimensions from '../hooks/useWindowDimensions';
 import { Link, useHistory } from 'react-router-dom';
 import {
   AdjustmentsIcon,
@@ -17,11 +18,13 @@ import {
   faAddressCard,
   faHome,
   faInfoCircle,
+  faSlidersH,
 } from '@fortawesome/free-solid-svg-icons';
 import settings from '../common/resources/novelSettings.json';
 import ReactTooltip from 'react-tooltip';
 
 const Nav = () => {
+  const { height, width } = useWindowDimensions();
   const history = useHistory();
   const [chapter, setChapter] = useState(90);
 
@@ -30,6 +33,10 @@ const Nav = () => {
     console.log('Chapter: ' + localStorage.getItem('chapter'));
     history.push('/');
   }, [chapter]);
+
+  const handleIconClick = (url) => {
+    history.push(url);
+  };
 
   const filterText = (s) => {
     const parsed = parseInt(s, 10);
@@ -40,20 +47,41 @@ const Nav = () => {
   return (
     <div className='nav-container'>
       <div className='nav-link-container'>
-        <FontAwesomeIcon className='ml-1 mr-1' size='2x' icon={faHome} />
+        <FontAwesomeIcon
+          className='ml-1 mr-1 nav-icon'
+          size='2x'
+          icon={faHome}
+          onClick={() => handleIconClick('/')}
+        />
         {/* <CogIcon className='icon ml-2' /> */}
-        <Link className='nav-link text' to='/'>
-          Home
-        </Link>
-        <FontAwesomeIcon className='ml-1 mr-1' size='2x' icon={faCity} />
+        {width > 900 && (
+          <Link className='nav-link text' to='/'>
+            Home
+          </Link>
+        )}
+        <FontAwesomeIcon
+          className='ml-1 mr-1 nav-icon'
+          size='2x'
+          icon={faCity}
+          onClick={() => handleIconClick('/shroud')}
+        />
         {/* <CubeTransparentIcon className='icon' /> */}
-        <Link className='nav-link text' to='/shroud'>
-          Shroud
-        </Link>
-        <FontAwesomeIcon className='ml-1 mr-1' size='2x' icon={faBacteria} />
-        <Link className='nav-link text' to='/blight'>
-          Blight
-        </Link>
+        {width > 900 && (
+          <Link className='nav-link text' to='/shroud'>
+            Shroud
+          </Link>
+        )}
+        <FontAwesomeIcon
+          className='ml-1 mr-1 nav-icon'
+          size='2x'
+          icon={faBacteria}
+          onClick={() => handleIconClick('/blight')}
+        />
+        {width > 900 && (
+          <Link className='nav-link text' to='/blight'>
+            Blight
+          </Link>
+        )}
       </div>
       <div className='chapter-selection-container'>
         <div>
@@ -70,7 +98,8 @@ const Nav = () => {
           value={chapter}
           onChange={(e) => setChapter(filterText(e.target.value))}
         />
-        <AdjustmentsIcon className='icon' />
+        <FontAwesomeIcon className='mr-1' size='2x' icon={faSlidersH} />
+        {/* <AdjustmentsIcon className='icon' /> */}
       </div>
       <ReactTooltip
         className='z-front'
