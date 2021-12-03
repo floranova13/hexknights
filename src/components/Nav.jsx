@@ -38,8 +38,8 @@ const Nav = () => {
   };
 
   return (
-    <div id='nav-container'>
-      <div id='nav-link-container'>
+    <div className='nav-container'>
+      <div className='nav-link-container'>
         <FontAwesomeIcon className='ml-1 mr-1' size='2x' icon={faHome} />
         {/* <CogIcon className='icon ml-2' /> */}
         <Link className='nav-link text' to='/'>
@@ -55,7 +55,7 @@ const Nav = () => {
           Blight
         </Link>
       </div>
-      <div id='chapter-selection-container'>
+      <div className='chapter-selection-container'>
         <div>
           <FontAwesomeIcon
             className='ml-1 mr-1'
@@ -65,7 +65,7 @@ const Nav = () => {
           />
         </div>
         <input
-          id='chapter-selection-input'
+          className='chapter-selection-input'
           type='text'
           value={chapter}
           onChange={(e) => setChapter(filterText(e.target.value))}

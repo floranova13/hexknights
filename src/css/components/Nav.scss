@@ -1,6 +1,6 @@
 @import '../variables.scss';
 
-#nav-container {
+.nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,12 +9,21 @@
   border-radius: 9px;
   color: $primary-lightest;
   text-align: center;
-  width: 80%;
   max-width: 1600px;
-  margin: 60px auto 15px;
+  margin: 60px auto 5px;
+
+  @media (max-width: '600px') {
+    width: 95%;
+  }
+  @media (min-width: '601px') and (max-width: '1200px') {
+    width: 90%;
+  }
+  @media (min-width: '1201px') {
+    width: 80%;
+  }
 }
 
-#nav-link-container {
+.nav-link-container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -42,14 +51,14 @@
   }
 }
 
-#chapter-selection-container {
+.chapter-selection-container {
   margin-right: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#chapter-selection-input {
+.chapter-selection-input {
   text-align: center;
   margin-right: 1em;
   height: 3em;
