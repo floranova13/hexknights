@@ -10,16 +10,17 @@
   color: $primary-lightest;
   max-width: 1600px;
   margin: 5px auto 60px;
+  width: 90%;
 
-  @media (max-width: '600px') {
-    width: 95%;
-  }
-  @media (min-width: '601px') and (max-width: '1200px') {
-    width: 90%;
-  }
-  @media (min-width: '1201px') {
-    width: 80%;
-  }
+  // @media (max-width: '600px') {
+
+  // }
+  // @media (min-width: '601px') and (max-width: '1200px') {
+
+  // }
+  // @media (min-width: '1201px') {
+
+  // }
 }
 
 .footer-link-container {
