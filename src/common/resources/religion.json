@@ -1,5 +1,12 @@
 {
+  "general": {
+
+  },
   "channeler": {
+    "name": "",
+    "description": ["", "", ""]
+  },
+  "paragons": {
     "name": ""
   }
 }

@@ -10,12 +10,12 @@ const ShroudPage = () => {
     <Page>
       <div className='page-container shroud-page-container'>
         <h1 className='page-title'>Shroud</h1>
-        <Text paragraphs={shroud.shroudDescription} classes='text' />
+        <Text paragraphs={shroud.general.shroudDescription} classes='text' />
         <h1 className='header-left'>The Channeler</h1>
         <div className='shroud-page-icon-container channeler-icon-container'>
           <Image icon='Channeler' />
         </div>
-        <Text paragraphs={shroud.channelerIntro} classes='text' />
+        <Text paragraphs={shroud.general.channelerIntro} classes='text' />
         <Link className='shroud-button text' to='/channeler'>
           Channeler
         </Link>
@@ -25,7 +25,7 @@ const ShroudPage = () => {
             <Image key={`paragon ${i}`} icon='Paragon' classes='paragon-icon' />
           ))}
         </div>
-        <Text paragraphs={shroud.paragonsIntro} classes='text' />
+        <Text paragraphs={shroud.general.paragonsIntro} classes='text' />
         <Link className='shroud-button text' to='/paragons'>
           Paragons
         </Link>
@@ -49,12 +49,12 @@ const ShroudPage = () => {
             </div>
           ))}
         </div>
-        <Text paragraphs={shroud.hexknightsIntro} classes='text' />
+        <Text paragraphs={shroud.general.hexknightsIntro} classes='text' />
         <Link className='shroud-button text' to='/hexknights'>
           Hexknights
         </Link>
         <h1 className='header-left'>The Knights</h1>
-        <Text paragraphs={shroud.knightsIntro} classes='text' />
+        <Text paragraphs={shroud.general.knightsIntro} classes='text' />
         <div className='shroud-page-icon-container knight-icon-container'>
           {[...Array(72)].map((e, i) => (
             <Image key={`paragon ${i}`} icon='Knight' classes='knight-icon' />

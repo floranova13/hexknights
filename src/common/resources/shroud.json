@@ -1,32 +1,36 @@
 {
-  "shroudDescription": [
-    "Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta.",
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
-    "Laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!"
-  ],
-  "religionDescription": [
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
-    ""
-  ],
-  "channelerIntro": [
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
-    "",
-    ""
-  ],
-  "paragonsIntro": [
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
-    "",
-    ""
-  ],
-  "hexknightsIntro": [
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
-    "",
-    ""
-  ],
-  "knightsIntro": [
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
-    "",
-    ""
-  ]
+  "general": {
+    "shroudDescription": [
+      "Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta.",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+      "Laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!"
+    ],
+    "religionDescription": [
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat enim cum tempora dolore perferendis magni quia voluptas tempore nisi ab, provident consectetur commodi adipisci dicta. Modi rem voluptate quaerat quam nobis, repellat vero natus sunt mollitia. Unde, consectetur nihil!",
+      ""
+    ],
+    "channelerIntro": [
+      "The Channeler is the single highest authority in The Shrouded Theocracy. They are responsible for maintaining the public's faith within the theocracy. Their voice is the voice of the nation, and the voice of The Remnant, most holy of holy deities, and her children fragments of the Hexaline Covenant.",
+      "One Channeler to the next may differ greatly in their method of operating. A Channeler is often selected for a particular reason, a strength that separates them from others. This could be diplomacy, warfare tactics, scientific innovation, or any number of things. Usually, it relates to the more dire needs of the moment. Does the nation have a pressing pressing problem? The Channeler will solve it.",
+      "Sitting Channelers must fight to retain their position, and by extension, their life. Some choose to inspire confidence in their competence. Others take a more devoted approach, favoring dramatic theatrics to inspire faith. Others still, win the public’s favor with looks and charm. Sometimes, a hybrid approach is taken.",
+      "Rumors about that a Channeler can be saddled by politics just as a normal politician may. The stance of the theocracy is that these are falsehoods, and spreading them is punishable by death. To entertain the idea that an avatar of The Remnant and her Hexaline Covenant, could be yanked around like any common mortal, is downright heresy."
+    ],
+    "paragonsIntro": [
+      "The Paragons are the Shrouded Theocracy's governors. Every Paragon has a specialty, an aspect of Shroud that they a responsible for maintaining. Often, Paragons will overlap responsibilities with their peers and assist one-another when necessary.",
+      "Each Paragon also commands six Hexknights. These Hexknight are their supporters and their instruments, to enact their will and realize their vision for Shroud's future. Paragons do not normally defend themselves from harm. They have security forces for that, so it is also important that a Paragon garners the respect of their Hexknights, so that they are defended should the worst come to pass.",
+      "Most Paragons are in the public eye. Unlike the intimidatingly powerful Hexknights, the faithful find more to identify with in these pious governors. There are always exceptions, as some Paragons done things such as wage public wars against heresy, ruling by fear. That said, fear and faith draw citizens to the Paragons. They believe because they need to believe their rulers are somehow better than them, that they can rise above their humanity."
+    ],
+    "hexknightsIntro": [
+      "Hexaline Knights, often shortened to 'Hexknights', are the nation's most elite soldiers, and also direct instruments of the Paragons. There are only thirty-six in total, with each Paragon commanding six. Just the mention of the Hexknight title strikes fear in the hearts of most, and only fools trifle with them.",
+      "Each Hexaline Knight commands a squad of six standard knights. The skill and abilities of these Hexknights and their knights, greatly vary based on the Hexalignment of the Paragon they serve. This can range from taking charge of the nation's defenses like the Temple Guardians, to espionage as the Tendril Cells do, to furthering research and design like the Breachers.",
+      "Beyond being an instrument of their Paragon, a Hexknight commands the authority of Shroud. Only a Paragon can give them an official command, and even the Paragons dare not risk falling out of favor of their Hexknights by issuing too many commands or to pointless a command."
+    ],
+    "knightsIntro": [
+      "Knights are Shroud's elite soldiers.  The difference between most Hexknights and the knights in their retinue may seem like night and day following their appointment, but all knights are Hexknight candidates at the Umbral Citadel where they train. Each passes a similarly grueling sieving process, consisting of academics and physical training over the course of six years.",
+      "A knight officially renounces their birth name, and any family affiliations on their first day at the citadel. Harsh punishments await those who cling to such attachments, especially those who attempt to use former connections as leverage or to curry favor. The administrators of the citadel, the Umbral Nine, go to many lengths to ensure all candidates receive an equal chance to demonstrate their skills.",
+      "The number of knight candidates who make it out to the other end of training amounts to a paltry three percent. These few are showered with respect and favor, but the test isn't over. Only a small number of those knights have the chance of replacing a fallen knight in a Hexknight's squad. Even during the appointment of a new Channeler, the highest number of knights that can be appointed is 216.",
+      "All other times, knights are arranged into divisions under the shadowed authority of Paragons and the Channeler themselves. Even the knight candidates who do not make it are too valuable to waste. Most continue on to train to be Enforcers, often bypassing many rank and file Enforcers upon their initial appointment."
+    ]
+  }
 }
