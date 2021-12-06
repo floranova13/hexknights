@@ -1,17 +1,19 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import '../css/variables.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faBrain,
   faCity,
   faCodeBranch,
-  faBacteria,
+  faVirus,
   faBomb,
   faChessRook,
   faCubes,
   faAddressCard,
   faHome,
 } from '@fortawesome/free-solid-svg-icons';
+import Hex from '../common/img/Hex';
 
 const HomeTabs = ({ tab, setTab }) => {
   const getSelectedClass = (tabName) => {
@@ -23,7 +25,7 @@ const HomeTabs = ({ tab, setTab }) => {
   return (
     <div className='tab-container'>
       <div className='tab-inner-container'>
-        <div className='tab-description'>Info</div>
+        <Hex className='tab-description' />
         <hr className='tab-interlink' />
         <div
           className={getSelectedClass('General')}
@@ -45,7 +47,7 @@ const HomeTabs = ({ tab, setTab }) => {
           className={getSelectedClass('Blight')}
           onClick={() => setTab('Blight')}
         >
-          <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faBacteria} />
+          <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faVirus} />
           <span>Blight</span>
         </div>
         <hr className='tab-interlink' />

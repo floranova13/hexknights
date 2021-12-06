@@ -10,7 +10,7 @@ const ShroudPage = () => {
     <Page>
       <div className='page-container shroud-page-container'>
         <h1 className='page-title'>Shroud</h1>
-        <Text paragraphs={shroud.general.shroudDescription} classes='text' />
+        <Text paragraphs={shroud.general.religionDescription} classes='text' />
         <h1 className='header-left'>The Channeler</h1>
         <div className='shroud-page-icon-container channeler-icon-container'>
           <Image icon='Channeler' />

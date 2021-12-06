@@ -1,17 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import useWindowDimensions from '../hooks/useWindowDimensions';
 import { Link, useHistory } from 'react-router-dom';
-import {
-  AdjustmentsIcon,
-  CogIcon,
-  CubeTransparentIcon,
-} from '@heroicons/react/solid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faBrain,
   faCity,
   faCodeBranch,
-  faBacteria,
+  faVirus,
   faBomb,
   faChessRook,
   faCubes,
@@ -74,7 +69,7 @@ const Nav = () => {
         <FontAwesomeIcon
           className='ml-1 mr-1 nav-icon'
           size='2x'
-          icon={faBacteria}
+          icon={faVirus}
           onClick={() => handleIconClick('/blight')}
         />
         {width > 900 && (

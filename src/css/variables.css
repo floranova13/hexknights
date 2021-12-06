@@ -1,8 +1,8 @@
 :root {
   --primary: rgba(67, 47, 117, 1);
   --primary-lightest: rgba(137, 123, 175, 1);
-  --primary-lighter: rgba(99, 81, 146, 1);
-  --primary-darker: rgba(41, 23, 88, 1);
+  --primary-lighter: #635192;
+  --primary-darker: #291758;
   --primary-darkest: rgba(21, 6, 58, 1);
 }
 
