@@ -598,28 +598,32 @@
     {
       "category": "Blightstones",
       "description": [
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+        "Blightstones are materials ranging from the metals smelted from blightfoils, to the crystal clusters of semi-transparent crystali, to the dense leylode deposits. They are more easily found in desert, tundras, and marine biome festerfonts. Conversely, they are less likely to be found in grassland biome festerfonts.",
+        "Blightstones are primarily harvested using miner's picks, or jeweler's chisels for the more delicate Crystali. Some guilds, however, have the resources to equip their harvesters with magitech harvesting tools, or equipment of wholly mechanical make. These guilds are few and far between, and they are discouraged by regular losses to blightbeasts, or high maintenance costs of expensive and fickle equipment."
       ],
       "subcategories": [
         {
           "category": "Blightstones",
           "subcategory": "Blightfoils",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "Blightfoils are metals smelted from minerals carrying inherently magical qualities. One would think that this would make such materials exceptionally valuable, but it is not so. Their worth is inflated due to the metals being difficult to work with and even more difficult to find a use for. Predicting how a blightfoil will interact with any given spell is tricky. Mages are notoriously reckless, but who uses a blightfoil catalyst is going a step further than the norm in regards to disregard for personal safety.",
+            "The most popular blightfoil would have to be forslone, which effectively cloaks the bearer in a magically repellant shield. It is more complicated than that, but defense against magic is one thing anyone will upend their coin purses for. Other metals are sometimes used for decoration, such as the beautiful voidshimmer, with its midnight black base, full of everlasting purple sparkles."
           ]
         },
         {
           "category": "Blightstones",
           "subcategory": "Crystali",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "Crystali are found in fragile clusters, often glittering in the caves of festerfonts, far off the beaten path. They are unique for their ability to store and expel magical energy. For this reason, they are used as vessels for energy, and portable spell containers. Some crystali are durable enough to expend the stored spell multiple times, but these are rare, and most simple shatter once they are used.",
+            "As disposable as these materials are, a merchant is always willing to buy one, no matter how small the crystal fragment may be. Harvesting them is no easy task. They are prone to shattering at the lightest touch. That goes doubly for using them to store a spell. Commonly, vitality and clarity shards are formed from small crystals of apertrite, which is the least expensive crystali on the market."
           ]
         },
         {
           "category": "Blightstones",
           "subcategory": "Lylodes",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "Leylodes are dense deposits found in the depths of festerfont rock, or less commonly, on the surface said blighted land. Though festerfonts spawn blightbeasts and blightsources seemingly randomly and spontaneously, leylodes have been observed to proliferate from existing deposits. In this way, a harvest crew can leave a small portion of easily-accessible leylode untouched, until it grows enough to tap into once more. That is, if another crew hasn't gotten their first.",
+            "Harvesting leylodes is easy enough, as the real chore is transporting any sizable quantity out of the festerfont and getting a good price for it. Fortunately, the price of charke, the most commonly encountered leylode, is always high enough to make it worth the effort. The Guild will always buy other leylodes, especially curos, for which they remain the sole buyer."
           ]
         }
       ]

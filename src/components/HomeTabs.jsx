@@ -25,7 +25,7 @@ const HomeTabs = ({ tab, setTab }) => {
   return (
     <div className='tab-container'>
       <div className='tab-inner-container'>
-        <Hex className='tab-description' />
+        <Hex />
         <hr className='tab-interlink' />
         <div
           className={getSelectedClass('General')}

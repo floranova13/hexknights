@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import useWindowDimensions from '../hooks/useWindowDimensions';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faBrain,
@@ -14,6 +15,8 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 const FesterfontsTabs = ({ tab, setTab }) => {
+  const { width } = useWindowDimensions();
+
   const getSelectedClass = (tabName) => {
     return tabName === tab
       ? 'short-tab text selected-tab'
@@ -21,14 +24,14 @@ const FesterfontsTabs = ({ tab, setTab }) => {
   };
 
   return (
-    <div className='tab-container'>
+    <div className='tab-container festerfont-tabs'>
       <div className='tab-inner-container'>
         <div
           className={getSelectedClass('General')}
           onClick={() => setTab('General')}
         >
           <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faHome} />
-          <span>General</span>
+          {width > 900 && <span>General</span>}
         </div>
         <hr className='tab-interlink' />
         <div
@@ -36,7 +39,7 @@ const FesterfontsTabs = ({ tab, setTab }) => {
           onClick={() => setTab('Classes')}
         >
           <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faCity} />
-          <span>Classes</span>
+          {width > 900 && <span>Classes</span>}
         </div>
         <hr className='tab-interlink' />
         <div
@@ -44,7 +47,7 @@ const FesterfontsTabs = ({ tab, setTab }) => {
           onClick={() => setTab('Saturations')}
         >
           <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faCubes} />
-          <span>Saturations</span>
+          {width > 900 && <span>Saturations</span>}
         </div>
         <hr className='tab-interlink' />
         <div
@@ -52,7 +55,7 @@ const FesterfontsTabs = ({ tab, setTab }) => {
           onClick={() => setTab('Configurations')}
         >
           <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faCubes} />
-          <span>Configurations</span>
+          {width > 900 && <span>Configurations</span>}
         </div>
         <hr className='tab-interlink' />
         <div
@@ -60,7 +63,7 @@ const FesterfontsTabs = ({ tab, setTab }) => {
           onClick={() => setTab('Biomes')}
         >
           <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faCity} />
-          <span>Biomes</span>
+          {width > 900 && <span>Biomes</span>}
         </div>
         <hr className='tab-interlink' />
         <div
@@ -68,7 +71,7 @@ const FesterfontsTabs = ({ tab, setTab }) => {
           onClick={() => setTab('Festerfonts')}
         >
           <FontAwesomeIcon className='ml-1 mr-1' size='1x' icon={faCubes} />
-          <span>Festerfonts</span>
+          {width > 900 && <span>Festerfonts</span>}
         </div>
         <hr className='tab-interlink' />
       </div>

@@ -19,7 +19,7 @@ import settings from '../common/resources/novelSettings.json';
 import ReactTooltip from 'react-tooltip';
 
 const Nav = () => {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
   const history = useHistory();
   const [chapter, setChapter] = useState(90);
 
