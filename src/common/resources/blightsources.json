@@ -639,21 +639,24 @@
           "category": "Blightichors",
           "subcategory": "Lifeblight",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "Used in the creation of restoratives, this is a peculiar category of liquids. Lifeblight flow with low viscosity, much more like water than the sludge some other blightichors are. Of all the blightichors, lifeblight is the most valuable, as most people prioritize safety. For this reason, harvesters will selectively seek lifeblight when harvesting blightichors, leading to fierce competition over easy-to-tap wells and fresh springs.",
+            "Interestingly enough, in dangerous festerfonts where easily-processed lifeblight can be found, it's wise to bring along a portable harvest and processing kit for mid-contract rejuvenation. Even crudely processed lifeblight can be the difference between life and death, when you're party is cornered and running low on everything."
           ]
         },
         {
           "category": "Blightichors",
           "subcategory": "Blightvenoms",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "Blightvenoms are much more viscous than lifeblight. They are used to make dangerous concoctions and blade coatings. The difference between treatment and toxin is sometimes a fine line in medicine, but this is not the case with blightvenoms. Almost all of these festerfont secretions are poisons, plain and simple. Gatherers of blightvenoms are an odd sort, even among seekers. They stand out, rarely bonding with their defending seekers, and their closest friends are usually other blightvenom harvesters and the deathdealers whom they sell to.",
+            "National restrictions on trade, even within the increasingly authoritarian nation of Shroud, are still in their infancy. For this reason, trade in poisons are still going strong. This is especially the case with ill-understood substances, like most blightsources. That said, authorities 'in the know' will still lean heavily on deathdealers and harvesters, often forcing them to play down their specialties, to varying effect. Some are simply ill-suited to such deceptions."
           ]
         },
         {
           "category": "Blightichors",
           "subcategory": "Blightmares",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "Blightmares are a rare blightichor variant. It is like very thick molasses, with chemical properties far more varied than other blightichors. One thing all blightmares share is an alteration of perception on the target. Sometimes, a concoction will make use of the beneficial properties of this altered perception, at the cost of detrimental affects. It is difficult to argue that any given blightmare is entirely harmless. A willing subject may tolerate the affects of a blightmare, but they do so at their own risk.",
+            "This blightichor variant is named after an ancient belief that the Blight contains many trickster spirits. Supposedly, these spirits enjoy toying with sapient creatures, delighting in their reactions. Most civilized parts of Shroud have shrugged off such superstitions, in large part motivated by cultural purges conducted by knights and enforcers, but wilderness villages will sometimes conduct rituals using blightmares to commune with spirits, exchanging drug-borne entertainment for whatever the wants of the villagers may be. Sometimes, there are even rumors of spirits granting these requests."
           ]
         }
       ]
