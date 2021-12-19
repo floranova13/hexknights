@@ -664,28 +664,32 @@
     {
       "category": "Blightfumes",
       "description": [
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+        "Blightfumes are materials ranging from the performance-altering rushblight, to efficiently-lethal miasmeta, to variable and far-ranging blightmists.  They are more easily found in desert and freshwater biome festerfonts. Conversely, they are less likely to be found in grassland and marine biome festerfonts. These gases leak out of festerfonts, and aren't always easy to collect.",
+        "The gaseous blightfumes are are primarily acquired by specialized harvesters nicknamed 'palemasks'. Palemasks wear self-fashioned to protect them from the fumes they collect, and are often interesting characters, unavoidably inhaling enough of their own product over their work to manifest any number of mental disorders. Acute or chronic, it depends how prone they are to checking their suits for breaches on a regular basis, and how tempted they are to intentionally inhale their own product. Many end up dead before they know it."
       ],
       "subcategories": [
         {
           "category": "Blightfumes",
           "subcategory": "Rushblight",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "Rushblight are fumes inhaled by those who want to alter their performance, or are maybe just looking for an expensive high. The long-term effect of these chemicals is unknown, but that doesn't stop seekers from using it out in the field. It doesn't matter, so long as they can surpass normal limits in the short term. There is always a tradeoff in using rushblight to perform. The consequences of a crash at the wrong time can lead to death, and it can also be death, depending on the inhalant. Sometimes, seekers will carry a dose of rushblight to take if things get chancy, only to take if they find their back against the wall.",
+            "Addiction abounds in competitive seeker markets. When seekers need to be nearly immortal just to make a living, it leads to people trying to find any edge they can, just to survive. When stress and tight budgets cause riskier and riskier behavior, a seeker relying on rushblight to make ends meet might have to quit the profession. However, it doesn't end there. They are reliant on rushblight, even if it is no longer necessary for them. Rushblight is expensive, so these ex-seekers turn to crime to buy more, and it only goes poorly from there."
           ]
         },
         {
           "category": "Blightfumes",
           "subcategory": "Miasmeta",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "As the name implies, these blightfumes are dangerous to inhale. They have few applications save to kill biological organisms. This is not, in fact, a misspelling of miasmata. It alludes to what researchers classify as a 'self-referential' nature of the Blight Miasma's as it annihilates a subject.",
+            "Miasmeta is highly reactive to external stimuli, and to itself, allowing a festerfont to 'tune' Miasmeta to kill a marked target that it's own blightbeasts cannot kill themselves. This was a horrifying discovery, but there is a sliver of hope within this deadly material. If sapient organisms could somehow tune miasmeta themselves, they could turn it back on the Blight. However, where this possible, there would be no stopping ambitious and morally flexible scientists from turning it back on an enemy nation or population."
           ]
         },
         {
           "category": "Blightfumes",
           "subcategory": "Blightmists",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "These blightfumes cover a wide area with low-density gaseous particles. These particles alter the properties of magical energies that enter their area of influence. This alteration is predictable, to some extent. Blightmists can be released to protect a group from dangerous magic, nullifying it. An area can also be coated in a mist that alters magic for offensive purposes. Additionally, it can be used in technology to make certain reactors function as intended.",
+            "Given the diverse applications of blightmists, they are valuable desirable to research and manufacturing guilds, and therefore traded in high quantities. This is a period of great discovery and interest in further applications of blightsources, with blightmists are among the most sought-out materials."
           ]
         }
       ]
