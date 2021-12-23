@@ -25,6 +25,7 @@ import ChannelerPage from './pages/ChannelerPage';
 import ParagonsPage from './pages/ParagonsPage';
 import ParagonPage from './pages/ParagonPage';
 import TeeteringScalesPage from './pages/TeeteringScalesPage';
+import GlossaryPage from './pages/GlossaryPage';
 
 const App = () => {
   return (
@@ -32,6 +33,9 @@ const App = () => {
       <Router>
         <Nav />
         <Switch>
+          <Route path='/glossary'>
+            <GlossaryPage />
+          </Route>
           <Route path='/teetering-scales'>
             <TeeteringScalesPage />
           </Route>

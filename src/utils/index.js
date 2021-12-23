@@ -11,3 +11,7 @@ export const encryptParagraph = (s) => {
     return { encrypt: false, text: str };
   });
 };
+
+export const searchAnyCase = (searchString, searchTarget) => {
+  return searchTarget.toLowerCase().includes(searchString.toLowerCase());
+};
