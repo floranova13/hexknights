@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import useWindowDimensions from '../hooks/useWindowDimensions';
-import { Link, useHistory } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faBrain,
@@ -14,23 +14,24 @@ import {
   faHome,
   faInfoCircle,
   faSlidersH,
+  faBook,
 } from '@fortawesome/free-solid-svg-icons';
 import settings from '../common/resources/novelSettings.json';
 import ReactTooltip from 'react-tooltip';
 
 const Nav = () => {
   const { width } = useWindowDimensions();
-  const history = useHistory();
+  const history = useNavigate();
   const [chapter, setChapter] = useState(90);
 
   useEffect(() => {
     localStorage.setItem('chapter', chapter);
     console.log('Chapter: ' + localStorage.getItem('chapter'));
-    history.push('/');
+    history('/');
   }, [chapter]);
 
   const handleIconClick = (url) => {
-    history.push(url);
+    history(url);
   };
 
   const filterText = (s) => {
@@ -79,6 +80,17 @@ const Nav = () => {
         )}
       </div>
       <div className='chapter-selection-container'>
+        <FontAwesomeIcon
+          className='nav-icon'
+          size='lg'
+          icon={faBook}
+          onClick={() => handleIconClick('/glossary')}
+        />
+        {width > 900 && (
+          <Link className='nav-link text' to='/glossary'>
+            Glossary
+          </Link>
+        )}
         <div>
           <FontAwesomeIcon
             className='ml-1 mr-1'

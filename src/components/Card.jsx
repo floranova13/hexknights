@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import '../css/variables.css';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import React from 'react';
 

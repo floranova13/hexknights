@@ -8,7 +8,6 @@ import { getParagons } from '../utils/religion';
 
 const HomePage = () => {
   const [tab, setTab] = useState('General');
-  console.log(getParagons());
 
   return (
     <Page>

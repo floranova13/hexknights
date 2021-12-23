@@ -1,14 +1,14 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import Text from './Text';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { getEncryptionClass } from '../utils/hexknights';
 
 const BlightsourceSubcategoryCard = ({ subcategory }) => {
-  let history = useHistory();
+  let history = useNavigate();
 
   const handleClick = () => {
-    history.push(
+    history(
       `/blightsources/${subcategory.category}/${subcategory.subcategory}`
     );
   };

@@ -1,14 +1,14 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGem, faTint, faWind } from '@fortawesome/free-solid-svg-icons';
 
 const FesterfontConfigurationCard = ({ festerfontConfiguration }) => {
-  let history = useHistory();
+  let history = useNavigate();
 
   const handleClick = () => {
-    history.push(`/festerfonts/configurations/${festerfontConfiguration}`);
+    history(`/festerfonts/configurations/${festerfontConfiguration}`);
   };
 
   const getIcon = () => {

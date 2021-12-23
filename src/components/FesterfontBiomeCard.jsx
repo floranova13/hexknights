@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faTree,
@@ -12,10 +12,10 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 const FesterfontBiomeCard = ({ festerfontBiome }) => {
-  let history = useHistory();
+  let history = useNavigate();
 
   const handleClick = () => {
-    history.push(`/festerfonts/biomes/${festerfontBiome}`);
+    history(`/festerfonts/biomes/${festerfontBiome}`);
   };
 
   const getIcon = () => {

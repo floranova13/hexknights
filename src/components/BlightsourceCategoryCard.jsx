@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import Text from './Text';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faGem,
@@ -13,10 +13,10 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 const BlightsourceCategoryCard = ({ category }) => {
-  let history = useHistory();
+  let history = useNavigate();
 
   const handleClick = () => {
-    history.push(`/blightsources/${category.category}`);
+    history(`/blightsources/${category.category}`);
   };
 
   const getIcon = () => {

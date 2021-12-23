@@ -1,16 +1,16 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { getEncryptionClass } from '../utils/hexknights';
 
 const HexknightCard = ({ hexknight }) => {
-  let history = useHistory();
+  let history = useNavigate();
 
   const handleClick = (knightName) => {
     if (
       !getEncryptionClass(localStorage.getItem('chapter'), hexknight.introduced)
     ) {
-      history.push(`/hexknights/${knightName}`);
+      history(`/hexknights/${knightName}`);
     }
   };
 

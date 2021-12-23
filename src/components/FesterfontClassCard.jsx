@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faGenderless,
@@ -9,10 +9,10 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 const FesterfontClassCard = ({ festerfontClass }) => {
-  let history = useHistory();
+  let history = useNavigate();
 
   const handleClick = () => {
-    history.push(`/festerfonts/classes/${festerfontClass}`);
+    history(`/festerfonts/classes/${festerfontClass}`);
   };
 
   const getIcon = () => {

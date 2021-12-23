@@ -1,18 +1,16 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const BlightbeastStemCard = ({
   blightbeastSeed,
   blightbeastRoot,
   blightbeastStem,
 }) => {
-  let history = useHistory();
-
-  console.log(blightbeastStem);
+  let history = useNavigate();
 
   const handleClick = () => {
-    history.push(
+    history(
       `/blightbeasts/taxonomy/${blightbeastSeed}/${blightbeastRoot}/${blightbeastStem.name}`
     );
   };

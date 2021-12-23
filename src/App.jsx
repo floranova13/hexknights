@@ -1,6 +1,6 @@
 import './css/index.scss';
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Nav from './components/Nav';
 import Footer from './components/Footer';
@@ -32,77 +32,74 @@ const App = () => {
     <div className='App'>
       <Router>
         <Nav />
-        <Switch>
-          <Route path='/glossary'>
-            <GlossaryPage />
+        <Routes>
+          <Route path='glossary' element={<GlossaryPage />} />
+          <Route path='/teetering-scales' element={<TeeteringScalesPage />} />
+          <Route path='/hexknights/:knightName' element={<HexknightPage />} />
+          <Route path='/hexknights' element={<HexknightsPage />} />
+          <Route path='/blight' element={<BlightPage />} />
+          <Route path='/shroud' element={<ShroudPage />} />
+          <Route path='/blightsources' element={<BlightsourcesPage />} />
+          <Route
+            path='/blightsources/:categoryName/:subcategoryName'
+            element={<BlightsourceSubcategoryPage />}
+          />
+          <Route
+            path='/blightsources/:categoryName'
+            element={<BlightsourceCategoryPage />}
+          />
+          <Route
+            path='/festerfonts/classes/:festerfontClassName'
+            element={<FesterfontClassPage />}
+          />
+          <Route
+            path='/festerfonts/saturations/:saturationName'
+            element={<FesterfontSaturationPage />}
+          />
+          <Route
+            path='/festerfonts/configurations/:configurationName'
+            element={<FesterfontConfigurationPage />}
+          />
+          <Route
+            path='/festerfonts/biomes/:biomeName'
+            element={<FesterfontBiomePage />}
+          />
+          <Route
+            path='/festerfonts/zone/:festerfontName'
+            element={<FesterfontsPage />}
+          />
+          <Route path='/festerfonts' element={<FesterfontsPage />}>
+            <Route
+              path='festerfonts/:activeTab'
+              element={<FesterfontsPage />}
+            />
           </Route>
-          <Route path='/teetering-scales'>
-            <TeeteringScalesPage />
+          <Route path='/blightbeasts' element={<BlightbeastsPage />}>
+            <Route
+              path='/blightbeasts/:activeTab'
+              component={<BlightbeastsPage />}
+            />
           </Route>
-          <Route path='/hexknights/:knightName'>
-            <HexknightPage />
-          </Route>
-          <Route exact path='/hexknights'>
-            <HexknightsPage />
-          </Route>
-          <Route exact path='/blight'>
-            <BlightPage />
-          </Route>
-          <Route exact path='/shroud'>
-            <ShroudPage />
-          </Route>
-          <Route exact path='/blightsources'>
-            <BlightsourcesPage />
-          </Route>
-          <Route path='/blightsources/:categoryName/:subcategoryName'>
-            <BlightsourceSubcategoryPage />
-          </Route>
-          <Route path='/blightsources/:categoryName'>
-            <BlightsourceCategoryPage />
-          </Route>
-          <Route path='/festerfonts/classes/:festerfontClassName'>
-            <FesterfontClassPage />
-          </Route>
-          <Route path='/festerfonts/saturations/:saturationName'>
-            <FesterfontSaturationPage />
-          </Route>
-          <Route path='/festerfonts/configurations/:configurationName'>
-            <FesterfontConfigurationPage />
-          </Route>
-          <Route path='/festerfonts/biomes/:biomeName'>
-            <FesterfontBiomePage />
-          </Route>
-          <Route path='/festerfonts/zone/:festerfontName'>
-            <FesterfontsPage />
-          </Route>
-          <Route exact path='/festerfonts/:activeTab?'>
-            <FesterfontsPage />
-          </Route>
-          <Route exact path='/blightbeasts/:activeTab?'>
-            <BlightbeastsPage />
-          </Route>
-          <Route path='/blightbeasts/taxonomy/:blightbeastSeed/:blightbeastRoot/:blightbeastStem'>
-            <BlightbeastsStemPage />
-          </Route>
-          <Route path='/blightbeasts/taxonomy/:blightbeastSeed/:blightbeastRoot'>
-            <BlightbeastsStemsPage />
-          </Route>
-          <Route path='/blightbeasts/taxonomy/:blightbeastSeed'>
-            <BlightbeastsRootsPage />
-          </Route>
-          <Route exact path='/channeler'>
-            <ChannelerPage />
-          </Route>
-          <Route exact path='/paragons'>
-            <ParagonsPage />
-          </Route>
-          <Route path='/paragons/:paragonHexalignment'>
-            <ParagonPage />
-          </Route>
-          <Route exact path='/'>
-            <HomePage />
-          </Route>
-        </Switch>
+          <Route
+            path='/blightbeasts/taxonomy/:blightbeastSeed/:blightbeastRoot/:blightbeastStem'
+            element={<BlightbeastsStemPage />}
+          />
+          <Route
+            path='/blightbeasts/taxonomy/:blightbeastSeed/:blightbeastRoot'
+            element={<BlightbeastsStemsPage />}
+          />
+          <Route
+            path='/blightbeasts/taxonomy/:blightbeastSeed'
+            element={<BlightbeastsRootsPage />}
+          />
+          <Route path='/channeler' element={<ChannelerPage />} />
+          <Route path='/paragons' element={<ParagonsPage />} />
+          <Route
+            path='/paragons/:paragonHexalignment'
+            element={<ParagonPage />}
+          />
+          <Route exact path='/' element={<HomePage />} />
+        </Routes>
         <Footer />
       </Router>
     </div>

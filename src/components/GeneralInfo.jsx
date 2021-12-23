@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React, { useState, useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Text from './Text';
 import info from '../common/resources/generalInformation.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -11,10 +11,10 @@ import {
 
 const GeneralInfo = () => {
   const [isLeft, toggleScale] = useState(true);
-  let history = useHistory();
+  let history = useNavigate();
 
   const handleClick = () => {
-    history.push('/teetering-scales');
+    history('/teetering-scales');
   };
   const toggleScalePos = () => toggleScale(!isLeft);
   const getScalePos = () => (isLeft ? faBalanceScaleLeft : faBalanceScaleRight);

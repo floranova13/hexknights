@@ -27,9 +27,6 @@ export const getBlightsourceSubcategories = (category = '') => {
 export const getBlightsources = (category = '', subcategory = '') => {
   const blightsourceArray = [];
 
-  console.log(typeof blightsources.blightsources);
-  console.log(typeof blightsources.blightsources.blightstones);
-
   Object.values(blightsources.blightsources).forEach((cat) =>
     Object.values(cat).forEach((sub) => {
       blightsourceArray.push(...sub);
@@ -37,9 +34,7 @@ export const getBlightsources = (category = '', subcategory = '') => {
   );
 
   // for (const cat in Object.values(blightsources.blightsources)) {
-  //   console.log(cat);
   //   // for (const sub in Object.values(cat)) {
-  //   //   console.log(sub);
   //   //   blightsourceArray.push(...sub);
   //   // }
   // }

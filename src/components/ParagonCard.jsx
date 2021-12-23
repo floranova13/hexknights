@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFire,
@@ -15,13 +15,13 @@ import { getParagon } from '../utils/religion';
 import Card from './Card';
 
 const ParagonCard = ({ paragon }) => {
-  let history = useHistory();
+  let history = useNavigate();
 
   const handleClick = () => {
     if (
       !getEncryptionClass(localStorage.getItem('chapter'), paragon.introduced)
     ) {
-      history.push(`/paragons/${paragon.hexalignment}`);
+      history(`/paragons/${paragon.hexalignment}`);
     }
   };
 
