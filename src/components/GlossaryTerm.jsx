@@ -6,36 +6,39 @@ import { getTerms, filterTerms } from '../utils/glossary';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
 
-const GlossaryTerm = ({ term }) => {
-  const TermContainer = styled.div`
-    @media screen and (max-width: 600px) {
-      font-size: 8px;
-    }
+const TermContainer = styled.div`
+  @media screen and (max-width: 600px) {
+    font-size: 8px;
+  }
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  `;
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+`;
 
-  const TermTitle = styled.span`
-    @media screen and (max-width: 600px) {
-      font-size: 8px;
-    }
+const TermTitle = styled.span`
+  @media screen and (max-width: 600px) {
+    font-size: 8px;
+  }
 
-    font-size: 3em;
-    font-weight: 900;
-    flex-grow: 3;
-  `;
+  width: 300px;
+  font-size: 3em;
+  font-weight: 900;
+  flex-shrink: 0;
+`;
 
-  const TermDescription = styled.span`
-    @media screen and (max-width: 600px) {
-      font-size: 8px;
-    }
+const TermDescription = styled.p`
+  @media screen and (max-width: 600px) {
+    font-size: 8px;
+  }
 
-    font-size: 3em;
-    font-weight: 900;
-    flex-grow: 9;
-  `;
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: 400;
+`;
+
+const GlossaryTerm = ({ term, clickHandler }) => {
   // const handleClick = () => {
 
   // };
@@ -52,13 +55,13 @@ const GlossaryTerm = ({ term }) => {
   // };
 
   return (
-    <TermContainer className='glossary-term'>
+    <TermContainer className='glossary-term' onClick={() => clickHandler(term)}>
       <FontAwesomeIcon
-        className='festerfont-class-icon fg-1'
+        className='festerfont-class-icon mr-1'
         size='2x'
         icon={faBook}
       />
-      <TermTitle>{term.name}</TermTitle>
+      <TermTitle className='text-left'>{term.name}</TermTitle>
       <TermDescription>{term.description}</TermDescription>
     </TermContainer>
   );

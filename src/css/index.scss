@@ -234,6 +234,26 @@ html {
   flex-grow: 9;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.fs-0 {
+  flex-shrink: 0;
+}
+
+.fb-1 {
+  flex-basis: 1;
+}
+
 // .colorpulse-anim {
 //   animation-duration: 6s;
 //   animation-iteration-count: infinite;

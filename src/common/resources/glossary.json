@@ -1,36 +1,37 @@
 {
   "description": [
-    "Search for the term you want, or look through the list of all available terms. You may also check the 'search all' box to search through both names and descriptions of glossary terms (this is especially helpful if you don't know exactly what you're searching for)."
+    "Search for the term you want, or look through the list of all available terms. You may also check the 'search all' box to search through both names and descriptions of glossary terms (this is especially helpful if you don't know exactly what you're searching for).",
+    "Click on a term and to focus on it."
   ],
   "terms": [
     {
       "name": "Vira",
-      "description": "",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae id nemo maxime voluptatem! Officiis, corrupti error veniam blanditiis hic officia.",
       "chapter": 0
     },
     {
       "name": "Sol",
-      "description": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, alias!",
       "chapter": 0
     },
     {
       "name": "Lumin",
-      "description": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aperiam placeat, excepturi eaque ad cupiditate temporibus nemo! Laboriosam magnam optio dignissimos aspernatur, recusandae similique soluta ullam laudantium veritatis fuga odio.",
       "chapter": 0
     },
     {
       "name": "Flourishflora",
-      "description": "",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae id nemo maxime voluptatem! Officiis, corrupti error veniam blanditiis hic officia.",
       "chapter": 0
     },
     {
       "name": "Hexknight",
-      "description": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, alias!",
       "chapter": 0
     },
     {
       "name": "Knight",
-      "description": "",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae id nemo maxime voluptatem! Officiis, corrupti error veniam blanditiis hic officia.",
       "chapter": 0
     }
   ]

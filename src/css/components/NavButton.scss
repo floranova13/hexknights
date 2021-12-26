@@ -1,8 +1,6 @@
 @import '../variables.scss';
 
 .back-button-flex {
-  position: -webkit-sticky; /* for Safari */
-  position: sticky;
   top: 1em;
   align-self: flex-start;
 }
