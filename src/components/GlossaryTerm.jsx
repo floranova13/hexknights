@@ -11,10 +11,15 @@ const TermContainer = styled.div`
     font-size: 8px;
   }
 
-  height: 5em;
+  min-height: 5em;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+
+  &:hover {
+    cursor: pointer;
+    color: white;
+  }
 `;
 
 const TermTitle = styled.span`

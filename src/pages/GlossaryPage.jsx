@@ -79,7 +79,7 @@ const GlossarySearchButton = styled.button`
   border: 0.25em solid var(--primary-lighter);
   border-radius: 9px;
   background-color: ${(props) =>
-    props.isDescriptionSearch ? 'rgba(21, 6, 58, 0.15)' : 'rgba(21, 6, 58, 1)'};
+    props.isDescriptionSearch ? 'rgba(21, 6, 58, 1)' : 'rgba(21, 6, 58, 0.15)'};
   align-self: flex-end;
   margin-right: 2em;
   width: 8em;
@@ -104,7 +104,7 @@ const GlossaryPage = () => {
 
   useEffect(() => {
     setFilteredTerms(filterTerms(searchString, isDescriptionSearch));
-  }, [searchString]);
+  }, [searchString, isDescriptionSearch]);
 
   // useEffect(() => {
   //   if()
