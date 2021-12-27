@@ -1,6 +1,8 @@
 import React from 'react';
 import Text from './Text';
-import FesterfontConfigurationCard from './FesterfontConfigurationCard';
+import IconItem from './IconItem';
+import ItemTable from './ItemTable';
+import { faGem, faTint, faWind } from '@fortawesome/free-solid-svg-icons';
 import font from '../common/resources/festerfonts.json';
 
 export default function FesterfontsConfigurations() {
@@ -11,39 +13,38 @@ export default function FesterfontsConfigurations() {
         paragraphs={font.information.configuration.description}
         classes='text'
       />
-      <h1 className='header mb-1'>Configurations</h1>
-      <div className='festerfonts-configurations-inner-container'>
-        <FesterfontConfigurationCard
-          key='Generic'
-          className='mb-1'
-          festerfontConfiguration='Generic'
+      <ItemTable title='Configurations'>
+        <IconItem
+          pageString='/festerfonts/configurations/Generic'
+          label='Generic'
+          icon={faGem}
         />
-        <FesterfontConfigurationCard
-          key='Command'
-          className='mb-1'
-          festerfontConfiguration='Command'
+        <IconItem
+          pageString='/festerfonts/configurations/Command'
+          label='Command'
+          icon={faTint}
         />
-        <FesterfontConfigurationCard
-          key='Waypoint'
-          className='mb-1'
-          festerfontConfiguration='Waypoint'
+        <IconItem
+          pageString='/festerfonts/configurations/Waypoint'
+          label='Waypoint'
+          icon={faWind}
         />
-        <FesterfontConfigurationCard
-          key='Infection'
-          className='mb-1'
-          festerfontConfiguration='Infection'
+        <IconItem
+          pageString='/festerfonts/configurations/Infection'
+          label='Infection'
+          icon={faGem}
         />
-        <FesterfontConfigurationCard
-          key='Invasion'
-          className='mb-1'
-          festerfontConfiguration='Invasion'
+        <IconItem
+          pageString='/festerfonts/configurations/Invasion'
+          label='Invasion'
+          icon={faTint}
         />
-        <FesterfontConfigurationCard
-          key='Failsafe'
-          className='mb-1'
-          festerfontConfiguration='Failsafe'
+        <IconItem
+          pageString='/festerfonts/configurations/Failsafe'
+          label='Failsafe'
+          icon={faWind}
         />
-      </div>
+      </ItemTable>
     </div>
   );
 }

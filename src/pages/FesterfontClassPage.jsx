@@ -42,7 +42,7 @@ export default function FesterfontClassPage() {
   return (
     <Page>
       <div className='back-button-flex'>
-        <NavButton pageString='/festerfonts/Classes' />
+        <NavButton pageString='/festerfonts?Classes' />
         <NavButton pageString='/festerfonts?General' label='Festerfonts' />
       </div>
       <div className='festerfont-class-page-container page-container'>

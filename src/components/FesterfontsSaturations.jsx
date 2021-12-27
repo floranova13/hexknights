@@ -1,6 +1,8 @@
 import React from 'react';
 import Text from './Text';
-import FesterfontSaturationCard from './FesterfontSaturationCard';
+import IconItem from './IconItem';
+import ItemTable from './ItemTable';
+import { faGem, faTint, faWind } from '@fortawesome/free-solid-svg-icons';
 import font from '../common/resources/festerfonts.json';
 
 export default function FesterfontsSaturations() {
@@ -11,24 +13,23 @@ export default function FesterfontsSaturations() {
         paragraphs={font.information.saturation.description}
         classes='text'
       />
-      <h1 className='header mb-1'>Saturation Levels</h1>
-      <div className='festerfonts-saturations-inner-container'>
-        <FesterfontSaturationCard
-          key='Placid'
-          className='mb-1'
-          festerfontSaturation='Placid'
+      <ItemTable title='Saturation Levels'>
+        <IconItem
+          pageString='/festerfonts/saturations/Placid'
+          label='Placid'
+          icon={faGem}
         />
-        <FesterfontSaturationCard
-          key='Rippling'
-          className='mb-1'
-          festerfontSaturation='Rippling'
+        <IconItem
+          pageString='/festerfonts/saturations/Rippling'
+          label='Rippling'
+          icon={faTint}
         />
-        <FesterfontSaturationCard
-          key='Violent'
-          className='mb-1'
-          festerfontSaturation='Violent'
+        <IconItem
+          pageString='/festerfonts/saturations/Violent'
+          label='Violent'
+          icon={faWind}
         />
-      </div>
+      </ItemTable>
     </div>
   );
 }

@@ -4,6 +4,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styled from 'styled-components';
 import '../css/variables.css';
 
+const Container = styled.div`
+  @media screen and (max-width: 600px) {
+    font-size: 8px;
+  }
+
+  width: 30em;
+  margin: 0 auto;
+`;
+
 const Table = styled.table`
   @media screen and (max-width: 600px) {
     font-size: 8px;
@@ -15,12 +24,12 @@ const Table = styled.table`
 
 const ItemTable = ({ children, title }) => {
   return (
-    <>
+    <Container>
       <h1 className='header'>{title}</h1>
       <Table>
         <tbody>{children}</tbody>
       </Table>
-    </>
+    </Container>
   );
 };
 

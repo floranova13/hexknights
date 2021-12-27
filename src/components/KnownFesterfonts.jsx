@@ -1,6 +1,8 @@
 import React from 'react';
 import Text from './Text';
-import KnownFesterfontCard from './KnownFesterfontCard';
+import IconItem from './IconItem';
+import ItemTable from './ItemTable';
+import { faGem, faTint, faWind } from '@fortawesome/free-solid-svg-icons';
 import font from '../common/resources/festerfonts.json';
 
 export default function KnownFesterfonts() {
@@ -13,13 +15,18 @@ export default function KnownFesterfonts() {
       />
       <h1 className='header mb-1'>Festerfonts</h1>
       <Text paragraphs={font.information.filterDescription} classes='text' />
-      <div className='known-festerfonts-inner-container'>
+      <ItemTable>
         {font.festerfonts.map((f, i) => {
           return (
-            <KnownFesterfontCard key={i} className='mb-1' festerfont={f} />
+            <IconItem
+              key={i}
+              pageString={`/festerfonts/${f.name}`}
+              label={f.name}
+              icon={faGem}
+            />
           );
         })}
-      </div>
+      </ItemTable>
     </div>
   );
 }
