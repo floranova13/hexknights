@@ -11,8 +11,33 @@ import {
   faBurn,
 } from '@fortawesome/free-solid-svg-icons';
 import { getEncryptionClass } from '../utils/hexknights';
-import { getParagon } from '../utils/religion';
-import Card from './Card';
+import '../css/variables.css';
+import styled from 'styled-components';
+
+const StyledCard = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  border: 0.25em solid var(--primary-lighter);
+  border-radius: 9px;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 600px) {
+    font-size: 8px;
+  }
+`;
+
+const TitleContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 
 const ParagonCard = ({ paragon }) => {
   let history = useNavigate();
@@ -43,24 +68,22 @@ const ParagonCard = ({ paragon }) => {
   };
 
   return (
-    <Card width={[250, 600]} classes='' handleClick={() => handleClick()}>
-      <h1 className='header paragon-card-name'>{paragon.name}</h1>
-      <div className='paragon-card-title-container'>
+    <StyledCard className='m-1' onClick={() => handleClick()}>
+      <h1 className='header'>{paragon.name}</h1>
+      <TitleContainer>
         <FontAwesomeIcon
           size='2x'
           className='paragon-card-icon'
           icon={getIcon()}
         />
-        <h1 className='subheader paragon-card-hexalignment'>
-          {paragon.hexalignment}
-        </h1>
+        <h1 className='subheader mr-1 ml-1'>{paragon.hexalignment}</h1>
         <FontAwesomeIcon
           size='2x'
           className='paragon-card-icon'
           icon={getIcon()}
         />
-      </div>
-    </Card>
+      </TitleContainer>
+    </StyledCard>
   );
 };
 

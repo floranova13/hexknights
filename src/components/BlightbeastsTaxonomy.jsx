@@ -1,6 +1,12 @@
 import React from 'react';
 import Text from './Text';
-import BlightbeastSeedCard from './BlightbeastSeedCard';
+import IconItem from '../components/IconItem';
+import ItemTable from '../components/ItemTable';
+import {
+  faGenderless,
+  faCircleNotch,
+  faAdjust,
+} from '@fortawesome/free-solid-svg-icons';
 import beasts from '../common/resources/blightbeasts.json';
 
 export default function BlightbeastsTaxonomy() {
@@ -12,12 +18,23 @@ export default function BlightbeastsTaxonomy() {
           paragraphs={beasts.information.taxonomy.description}
           classes='text'
         />
-        <h1 className='header'>Seeds</h1>
-        <div className='blightbeasts-taxonomy-seeds-container'>
-          <BlightbeastSeedCard blightbeastSeed='Arth' />
-          <BlightbeastSeedCard blightbeastSeed='Botan' />
-          <BlightbeastSeedCard blightbeastSeed='Chorth' />
-        </div>
+        <ItemTable title='Seeds'>
+          <IconItem
+            pageString='/blightbeasts/taxonomy/Arth'
+            label='Arth'
+            icon={faGenderless}
+          />
+          <IconItem
+            pageString='/blightbeasts/taxonomy/Botan'
+            label='Botan'
+            icon={faCircleNotch}
+          />
+          <IconItem
+            pageString='/blightbeasts/taxonomy/Chorth'
+            label='Chorth'
+            icon={faAdjust}
+          />
+        </ItemTable>
       </div>
     </div>
   );

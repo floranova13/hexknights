@@ -5,28 +5,40 @@ import Text from '../components/Text';
 import ParagonCard from '../components/ParagonCard';
 import info from '../common/resources/generalInformation.json';
 import { getParagons } from '../utils/religion';
+import useWindowDimensions from '../hooks/useWindowDimensions';
+
+const ParagonContainer = styled.div`
+  @media screen and (max-width: 600px) {
+    font-size: 8px;
+  }
+`;
 
 export default function ParagonsPage() {
-  const ParagonContainer = styled.div`
-    @media screen and (max-width: 600px) {
-      font-size: 8px;
-    }
-  `;
+  const { width } = useWindowDimensions();
 
   const paragonsPairList = getParagons()
-    .reduce((pairs, p, i) => {
-      if (i % 2 === 0) {
-        pairs.push([p]);
-      } else {
-        pairs[pairs.length - 1].push(p);
+    .reduce((groups, p, i) => {
+      let groupCount = 1;
+      if (width > 1024) {
+        groupCount = 3;
+      } else if (width > 720) {
+        groupCount = 2;
       }
-      return pairs;
+
+      if (i % groupCount === 0) {
+        groups.push([p]);
+      } else {
+        groups[groups.length - 1].push(p);
+      }
+      return groups;
     }, [])
-    .map((pair, i) => {
+    .map((group, i) => {
+      console.log(group);
       return (
         <div className='paragon-inner-container' key={i}>
-          <ParagonCard key={pair[0].name} paragon={pair[0]} />
-          <ParagonCard key={pair[1].name} paragon={pair[1]} />
+          {group.map((g) => (
+            <ParagonCard key={g.name} paragon={g} />
+          ))}
         </div>
       );
     });

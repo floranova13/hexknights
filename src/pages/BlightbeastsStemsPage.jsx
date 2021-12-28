@@ -1,7 +1,13 @@
 import React from 'react';
 import Page from '../components/Page';
 import Text from '../components/Text';
-import BlightbeastStemCard from '../components/BlightbeastStemCard';
+import IconItem from '../components/IconItem';
+import ItemTable from '../components/ItemTable';
+import {
+  faGenderless,
+  faCircleNotch,
+  faAdjust,
+} from '@fortawesome/free-solid-svg-icons';
 import NavButton from '../components/NavButton';
 import { useParams } from 'react-router';
 import { getBlightbeastStems, getBlightbeastRoot } from '../utils/blightbeasts';
@@ -24,21 +30,20 @@ export default function BlightbeastsStemsPage() {
             paragraphs={getBlightbeastRoot(blightbeastRoot).description}
             classes='text'
           />
-          <h1 className='header'>Stems</h1>
-          <div className='blightbeasts-stems-container'>
+          <ItemTable title='Stems'>
             {getBlightbeastStems(blightbeastSeed, blightbeastRoot).map(
               (stem, i) => {
                 return (
-                  <BlightbeastStemCard
+                  <IconItem
                     key={i}
-                    blightbeastSeed={blightbeastSeed}
-                    blightbeastRoot={blightbeastRoot}
-                    blightbeastStem={stem}
+                    pageString={`/blightbeasts/taxonomy/${blightbeastSeed}/${blightbeastRoot}/${stem.name}`}
+                    label={stem.name}
+                    icon={faGenderless}
                   />
                 );
               }
             )}
-          </div>
+          </ItemTable>
         </div>
       </div>
     </Page>
