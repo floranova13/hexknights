@@ -27,7 +27,8 @@ const TermTitle = styled.span`
     font-size: 8px;
   }
 
-  width: 300px;
+  /* width: 300px; */
+  width: 33%;
   font-size: 3em;
   font-weight: 900;
   flex-shrink: 0;

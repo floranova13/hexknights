@@ -37,7 +37,7 @@
       "description": ["", "", ""],
       "tiers": [
         {
-          "name": "Tier 1",
+          "name": "Shallow",
           "description": [
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
             "",
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "name": "Tier 2",
+          "name": "Sunken",
           "description": [
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
             "",
@@ -105,7 +105,7 @@
           ]
         },
         {
-          "name": "Tier 3",
+          "name": "Abyssal",
           "description": [
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
             "",
@@ -130,6 +130,40 @@
             },
             {
               "threat": "Threat 9",
+              "description": [
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unfathomed",
+          "description": [
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
+            "",
+            ""
+          ],
+          "threats": [
+            {
+              "threat": "???",
+              "description": [
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
+                "",
+                ""
+              ]
+            },
+            {
+              "threat": "???",
+              "description": [
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
+                "",
+                ""
+              ]
+            },
+            {
+              "threat": "???",
               "description": [
                 "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                 "",
