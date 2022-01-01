@@ -45,7 +45,7 @@
           ],
           "threats": [
             {
-              "threat": "Threat 1",
+              "threat": "Shallow Minor",
               "description": [
                 "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                 "",
@@ -53,7 +53,7 @@
               ]
             },
             {
-              "threat": "Threat 2",
+              "threat": "Shallow Major",
               "description": [
                 "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                 "",
@@ -61,7 +61,7 @@
               ]
             },
             {
-              "threat": "Threat 3",
+              "threat": "Shallow Superior",
               "description": [
                 "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                 "",
@@ -79,7 +79,7 @@
           ],
           "threats": [
             {
-              "threat": "Threat 4",
+              "threat": "Sunken Minor",
               "description": [
                 "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                 "",
@@ -87,7 +87,7 @@
               ]
             },
             {
-              "threat": "Threat 5",
+              "threat": "Sunken Major",
               "description": [
                 "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                 "",
@@ -95,7 +95,7 @@
               ]
             },
             {
-              "threat": "Threat 6",
+              "threat": "Sunken Superior",
               "description": [
                 "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                 "",
@@ -113,7 +113,7 @@
           ],
           "threats": [
             {
-              "threat": "Threat 7",
+              "threat": "Abyssal Minor",
               "description": [
                 "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                 "",
@@ -121,7 +121,7 @@
               ]
             },
             {
-              "threat": "Threat 8",
+              "threat": "Abyssal Major",
               "description": [
                 "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                 "",
@@ -129,7 +129,7 @@
               ]
             },
             {
-              "threat": "Threat 9",
+              "threat": "Abyssal Superior",
               "description": [
                 "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae iste impedit sunt rem veniam officia id totam vitae laborum fugiat.",
                 "",

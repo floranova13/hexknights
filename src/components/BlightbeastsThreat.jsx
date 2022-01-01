@@ -39,7 +39,7 @@ const TierButton = styled.button`
 
 const ThreatTable = styled.table`
   border-collapse: collapse;
-  width: 22em;
+  width: 38em;
   text-align: center;
   margin: 0 auto;
 `;
@@ -54,12 +54,16 @@ const ThreatButton = styled.div`
   font-weight: 400;
   background-color: var(--primary-darkest);
   color: var(--primary-lighter);
-  border: 0.5rem solid var(--primary-darker);
-  border-radius: 6px;
+  /* border: 0.5rem solid var(--primary-darker); */
+  width: 9em;
+  border-radius: 12px;
+  margin: 0 auto;
+  transition: color 0.25s, background-color 0.25s;
 
   &:hover {
     cursor: pointer;
     color: white;
+    background-color: black;
   }
 `;
 

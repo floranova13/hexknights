@@ -10,8 +10,11 @@ const Row = styled.tr`
     font-size: 8px;
   }
 
+  transition: color 0.25s;
+
   &:hover {
     color: white;
+    cursor: pointer;
   }
 `;
 
