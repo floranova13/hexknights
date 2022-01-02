@@ -697,28 +697,30 @@
     {
       "category": "Blightflora",
       "description": [
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+        "Blightflora resemble plants, though they appear to interact differently with the established natural laws, much like the very Festerfonts that spawn them. They must be harvested carefully to obtain the valuable parts. If the whole plant is desired, it is even more difficult to store it while in transit and harder still to keep it alive. If a blightflora somehow successfully makes it back to a lab without wilting, it must regularly suckle blight energy to 'live' on. Most harvesters will not bother learning to collect them, reasonably deeming them more trouble than they're worth. They are less likely to be found in desert biome festerfonts, but other biomes contain them in ample supply.",
+        "Some blightflora exhibit incredible properties, though this category of blightsource is surprisingly varied, so pinning down which variant of blightbloom or blightsnarl has which characteristic can be difficult. This difficulty is compounded by the festerfonts they spawn in, making them inherently difficult to document safely. However, There will always be reckless fools who try to collect them for sport, and it is these hobbyists who are in the best position to contribute to a more comprehensive image of blightflora variability."
       ],
       "subcategories": [
         {
           "category": "Blightflora",
           "subcategory": "Blightblooms",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "A blightbloom is a flowering plant that is produced and sustained by the Festerfont. They share a strange property with the festerfonts themselves, very slowly drawing energy from some unknown source. Scientists are fervently studying how this energy might be harvested, though there have been no successful attempts.",
+            "These blightflora are commonly compared to flourishflora, though they aren't very alike at all. Unlike flourishflora, a blightbloom requires no vira to sustain itself, and generates no vira. Instead, like all blightsources, they appear to be a physical manifestation of leaked blight energy. In turn, warped blight energy is all a blightbloom provides."
           ]
         },
         {
           "category": "Blightflora",
           "subcategory": "Blightpillars",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "Blightpillars closely resemble trees, but they are produced and sustained by a festerfont's blight energies, and thus, can only grow upon one. They can be cut down to obtain wood with strange properties. Many use this wood for innovative purposes.", "Axes work just as well on blightpillars as they do on normal trees, though inferior materials will quickly wear through. Another concern is that the sound of a blightpillar being felled announces the harvest party's presence, attracting nearby blightbeasts. There has not, to date, ever been a documented case of a harvester successfully collecting a living blightpillar specimen. At least, not one that lived long once it was replanted outside a festerfont."
           ]
         },
         {
           "category": "Blightflora",
           "subcategory": "Blightsnarls",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "These blightflora consist of bodies called 'soma', which produce extensions of different tissue called 'axons'. These two parts form intricate webs together with other members of a community of blightsnarls. Experimentation with active networks of blightsnarls reveal that they are capable of transmitting signals relating to resource locations and threats to their environment, across the network, and thereby guide the future development of the network. A blightsnarl does not need any of the resources it discovers. The function of the mapping behavior is unclear.", "One recent revelation is that blightsnarls only appear within 'command' configuration festerfonts, or where there are nearby neighboring command festerfonts. Disrupting blightsnarl networks growing around a festerfont will hinder the ability for a command festerfont to communicate with its neighbors, though, it is only one such communication mechanism a command type employs. Researchers believe blightsnarls will eventually be harvested for use in pseudo-biological computation technology, using the material's innate networking specialization to allow sentients to communicate across vast distances. There is also further speculation on whether artificial representations could be made possible through study."
           ]
         }
       ]
