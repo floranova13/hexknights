@@ -728,28 +728,28 @@
     {
       "category": "Blightfungi",
       "description": [
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+        "", ""
       ],
       "subcategories": [
         {
           "category": "Blightfungi",
           "subcategory": "Blightshrooms",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "", ""
           ]
         },
         {
           "category": "Blightfungi",
           "subcategory": "Blightbleeds",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "", ""
           ]
         },
         {
           "category": "Blightfungi",
           "subcategory": "Sporesprawls",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "", ""
           ]
         }
       ]
@@ -757,28 +757,28 @@
     {
       "category": "Blightanomalies",
       "description": [
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+        "", ""
       ],
       "subcategories": [
         {
           "category": "Blightanomalies",
           "subcategory": "Tokens",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "", ""
           ]
         },
         {
           "category": "Blightanomalies",
           "subcategory": "Loci",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "", ""
           ]
         },
         {
           "category": "Blightanomalies",
           "subcategory": "Vestiges",
           "description": [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi iure omnis perspiciatis veritatis molestiae sit accusamus tenetur, porro quibusdam eum!"
+            "", ""
           ]
         }
       ]
