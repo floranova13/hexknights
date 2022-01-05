@@ -8,7 +8,6 @@ import {
   faCircleNotch,
   faAdjust,
 } from '@fortawesome/free-solid-svg-icons';
-import BlightbeastRootCard from '../components/BlightbeastRootCard';
 import NavButton from '../components/NavButton';
 import { useParams } from 'react-router';
 import { getBlightbeastRoots, getBlightbeastSeed } from '../utils/blightbeasts';

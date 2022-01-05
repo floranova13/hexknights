@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Page from '../components/Page';
 import Text from '../components/Text';
 import GlossaryTerm from '../components/GlossaryTerm';
-import NavButton from '../components/NavButton';
+import Icon from '../components/Icon';
 import glossary from '../common/resources/glossary.json';
 import { getTerms, filterTerms } from '../utils/glossary';
 import '../css/variables.css';
@@ -50,28 +50,6 @@ const GlossarySearch = styled.input`
   height: 2.25em;
 `;
 
-const ClearButton = styled.button`
-  color: white;
-  font-weight: 600;
-  text-align: center;
-  border: 0.25em solid var(--primary-lighter);
-  border-radius: 9px;
-  background-color: var(--primary-darkest);
-  align-self: flex-end;
-  margin-right: 2em;
-  width: 12em;
-  height: 2.25em;
-
-  &:hover {
-    color: var(--primary-lighter);
-    cursor: pointer;
-  }
-
-  &:active {
-    background-color: var(--primary-darker);
-  }
-`;
-
 const GlossarySearchButton = styled.button`
   color: var(--primary-lightest);
   font-weight: 600;
@@ -81,7 +59,7 @@ const GlossarySearchButton = styled.button`
   background-color: ${(props) =>
     props.isDescriptionSearch ? 'rgba(21, 6, 58, 1)' : 'rgba(21, 6, 58, 0.15)'};
   align-self: flex-end;
-  margin-right: 2em;
+  margin-right: 0.2em;
   width: 8em;
   height: 2.25em;
 
@@ -95,16 +73,53 @@ const GlossarySearchButton = styled.button`
   }
 `;
 
+const GlossaryMultiSearchButton = styled(GlossarySearchButton)`
+  width: 2.35em;
+  background-color: ${(props) =>
+    props.isMultiSearch ? 'rgba(21, 6, 58, 1)' : 'rgba(21, 6, 58, 0.15)'};
+`;
+
+const ClearButton2 = styled(GlossarySearchButton)`
+  display: absolute;
+  width: 2.35em;
+  border: none;
+  color: white;
+  margin-left: -2em;
+  background: none;
+
+  &:hover {
+    color: var(--primary-lighter);
+    cursor: pointer;
+  }
+`;
+
+const ClearButton = styled.div`
+  display: absolute;
+  width: 2.35em;
+  height: 1em;
+  border: none;
+  color: white;
+  margin-left: -2.5em;
+
+  &:hover {
+    color: var(--primary-lighter);
+    cursor: pointer;
+  }
+`;
+
 const GlossaryPage = () => {
   const [searchString, setSearchString] = useState('');
   const [isDescriptionSearch, setIsDescriptionSearch] = useState(false);
+  const [isMultiSearch, setIsMultiSearch] = useState(false);
   // const [terms, setTerms] = useState(getTerms());
   const [filteredTerms, setFilteredTerms] = useState([]);
   // const [selectedId, setSelectedId] = useState('');
 
   useEffect(() => {
-    setFilteredTerms(filterTerms(searchString, isDescriptionSearch));
-  }, [searchString, isDescriptionSearch]);
+    setFilteredTerms(
+      filterTerms(searchString, isDescriptionSearch, isMultiSearch)
+    );
+  }, [searchString, isDescriptionSearch, isMultiSearch]);
 
   // useEffect(() => {
   //   if()
@@ -128,12 +143,21 @@ const GlossaryPage = () => {
               onChange={(e) => setSearchString(e.target.value)}
             />
           </GlossarySearchInputContainer>
+          <ClearButton onClick={() => setSearchString('')}>
+            <Icon iconLabel={'clear'} />
+          </ClearButton>
           <GlossarySearchButton
             isDescriptionSearch={isDescriptionSearch}
             onClick={() => setIsDescriptionSearch(!isDescriptionSearch)}
           >
             Search All
           </GlossarySearchButton>
+          <GlossaryMultiSearchButton
+            isMultiSearch={isMultiSearch}
+            onClick={() => setIsMultiSearch(!isMultiSearch)}
+          >
+            <Icon iconLabel={'multi-search'} />
+          </GlossaryMultiSearchButton>
         </GlossarySearchMainContainer>
         <GlossaryTermContainer className='glossary-term-container'>
           {filteredTerms.map((term, i) => (

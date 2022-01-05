@@ -1,25 +1,41 @@
 /* eslint-disable react/prop-types */
-import { IconName1 } from 'react-icons/ai'; //Ant Design Icons
-import { IconName2 } from 'react-icons/bs'; //Bootstrap Icons
-import { IconName3 } from 'react-icons/bi'; //Boxicons
-import { IconName4 } from 'react-icons/di'; //Devicon Icons
-import { IconName5 } from 'react-icons/fi'; //Feather
-import { IconName6 } from 'react-icons/fc'; //Flat Color Icons
-import { IconName7 } from 'react-icons/fa'; //Font Awesome Icons
-import { IconName8 } from 'react-icons/gi'; //Game Icons
-import { IconName9 } from 'react-icons/go'; //Github Octicons Icons
-import { IconName10 } from 'react-icons/gr'; //Grommet-Icons
-import { IconName11 } from 'react-icons/hi'; //HeroIcons
-import { IconName12 } from 'react-icons/im'; //IcoMoon Free
-import { IconName13 } from 'react-icons/io'; //Ionicon4
-import { IconName14 } from 'react-icons/io5'; //Ionicon5
-import { IconName15 } from 'react-icons/md'; //Material Design Icons
-import { IconName16 } from 'react-icons/ri'; //Remix Icons
-import { IconName17 } from 'react-icons/si'; //Simple Icons
-import { IconName18 } from 'react-icons/ti'; //Typicons
-import { IconName19 } from 'react-icons/vsc'; //VS Code Icons
-import { IconName20 } from 'react-icons/wi'; //Weather Icons
-import { IconName21 } from 'react-icons/cg'; //css.gg
+// import { IconName1 } from 'react-icons/ai'; //Ant Design Icons
+// import { IconName2 } from 'react-icons/bs'; //Bootstrap Icons
+// import { IconName3 } from 'react-icons/bi'; //Boxicons
+// import { IconName4 } from 'react-icons/di'; //Devicon Icons
+// import { IconName5 } from 'react-icons/fi'; //Feather
+// import { IconName6 } from 'react-icons/fc'; //Flat Color Icons
+// import { IconName7 } from 'react-icons/fa'; //Font Awesome Icons
+import {
+  GiCrossedSwords,
+  GiCrystalize,
+  GiBleedingEye,
+  GiBorderedShield,
+  GiErlenmeyer,
+  GiWingedShield,
+  GiWaveCrest,
+  GiEnergyShield,
+  GiVibratingShield,
+  GiPlantWatering,
+  GiPolarStar,
+  GiBoltShield,
+  GiSandsOfTime,
+  GiShieldcomb,
+  GiShield,
+} from 'react-icons/gi'; //Game Icons
+// import { IconName9 } from 'react-icons/go'; //Github Octicons Icons
+// import { IconName10 } from 'react-icons/gr'; //Grommet-Icons
+// import { IconName11 } from 'react-icons/hi'; //HeroIcons
+import { ImBookmark } from 'react-icons/im'; //IcoMoon Free
+// import { IconName13 } from 'react-icons/io'; //Ionicon4
+// import { IconName14 } from 'react-icons/io5'; //Ionicon5
+import { MdClear } from 'react-icons/md'; //Material Design Icons
+// import { IconName16 } from 'react-icons/ri'; //Remix Icons
+// import { IconName17 } from 'react-icons/si'; //Simple Icons
+// import { IconName18 } from 'react-icons/ti'; //Typicons
+import { VscSymbolKeyword } from 'react-icons/vsc'; //VS Code Icons
+// import { IconName20 } from 'react-icons/wi'; //Weather Icons
+// import { IconName21 } from 'react-icons/cg'; //css.gg
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
@@ -49,9 +65,21 @@ const GetIcon = (iconName) => {
     case 'shroud-paragon':
       return false;
     case 'shroud-hexknight':
-      return false;
+      return <GiBorderedShield />;
+    case 'shroud-hexknight2':
+      return <GiWingedShield />;
+    case 'shroud-hexknight3':
+      return <GiEnergyShield />;
+    case 'shroud-hexknight4':
+      return <GiVibratingShield />;
+    case 'shroud-hexknight5':
+      return <GiBoltShield />;
+    case 'shroud-hexknight6':
+      return <GiShieldcomb />;
+    case 'shroud-hexknight7':
+      return <GiShield />;
     case 'shroud-knight':
-      return false;
+      return <GiCrossedSwords />;
     case 'hexalignment-sacrifice':
       return false;
     case 'hexalignment-progress':
@@ -101,7 +129,7 @@ const GetIcon = (iconName) => {
     case 'festerfont-biomes-freshwater':
       return false;
     case 'festerfont-biomes-marine':
-      return false;
+      return <GiWaveCrest />;
     case 'blightbeast':
       return false;
     case 'blightbeast-threat':
@@ -151,7 +179,7 @@ const GetIcon = (iconName) => {
     case 'blightsource-blightstones':
       return false;
     case 'blightsource-blightichors':
-      return false;
+      return <GiCrystalize />;
     case 'blightsource-blightfumes':
       return false;
     case 'blightsource-blightflora':
@@ -167,7 +195,7 @@ const GetIcon = (iconName) => {
     case 'blightsource-blightstones-lylodes':
       return false;
     case 'blightsource-blightichors-lifeblight':
-      return false;
+      return <GiPlantWatering />;
     case 'blightsource-blightichors-blightvenoms':
       return false;
     case 'blightsource-blightichors-blightmares':
@@ -208,6 +236,26 @@ const GetIcon = (iconName) => {
       return false;
     case 'glossary':
       return false;
+    case 'chapter-number-reached':
+      return <ImBookmark />;
+    case 'orchestrator':
+      return false;
+    case 'orchestrator-allied-faction':
+      return false;
+    case 'orchestrator-splinter-faction':
+      return false;
+    case 'orchestrator-enemy-faction':
+      return <GiBleedingEye />;
+    case 'research':
+      return <GiErlenmeyer />;
+    case 'star':
+      return <GiPolarStar />;
+    case 'hourglass':
+      return <GiSandsOfTime />;
+    case 'multi-search':
+      return <VscSymbolKeyword />;
+    case 'clear':
+      return <MdClear />;
     default:
       return true;
   }
@@ -222,7 +270,10 @@ const Icon = ({ iconLabel, routerPath = '' }) => {
 
   const ChosenIcon = GetIcon(iconLabel);
 
-  return <ChosenIcon className='' onClick={() => handleClick()} />;
+  return React.cloneElement(ChosenIcon, {
+    className: '',
+    onClick: () => handleClick(),
+  });
 };
 
 export default Icon;

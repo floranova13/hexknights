@@ -7,8 +7,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
 
 const TermContainer = styled.div`
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1200px) {
     font-size: 8px;
+  }
+  @media screen and (min-width: 1600px) {
+    font-size: 10px;
   }
 
   min-height: 5em;
@@ -28,7 +31,7 @@ const TermTitle = styled.span`
   }
 
   /* width: 300px; */
-  width: 33%;
+  width: 25%;
   font-size: 3em;
   font-weight: 900;
   flex-shrink: 0;
