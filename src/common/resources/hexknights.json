@@ -333,19 +333,19 @@
       "hexalignment": "Mercy",
       "name": "Relica",
       "quote": "Magic is chaos, and chaos is sin.",
-      "combatStyle": "",
-      "weapon": "",
-      "armor": "",
-      "equipment": "",
+      "combatStyle": "Antimagic",
+      "weapon": "Solblade of Mercy",
+      "armor": "Forslone Chainmail with Leather Plating",
+      "equipment": "Antimagic Warding Lanterns, Forslone Magic Detection Accessories",
       "squadName": "Magecleave Guardians",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "description": "Relica's life has been tormented by the fickle influence of magic enough times to leave her with a permanent distaste for it. She likes things simple, and believes magic's worth as a tool is overshadowed by it's capacity to ruin any who use it. Shroud uses her passion whenever there is need to eliminate a mage or magic tool without wishing for it to be recovered. Relica will not recover tools of magic, and she will not use magic herself either. The purest faith does not require some kind of magical intervention to rally belief. Relica has commissioned special lanterns that she uses to disrupt the flow of magic by switching fuel sources in different situations to project an area-of-effect distortion around her.",
       "squad": [
         {
           "name": "Knight",
-          "weapon": "",
-          "armor": "",
-          "equipment": "",
-          "description": ""
+          "weapon": "Various",
+          "armor": "Forslone Armor",
+          "equipment": "Antimagic Warding Lanterns, Forslone Magic Detection Accessories",
+          "description": "Relica's knights specialize in hunting mages, and they do so as a group, wearing magic repelling metal armor."
         }
       ],
       "introduced": 14
