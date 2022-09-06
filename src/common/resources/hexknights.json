@@ -45,18 +45,53 @@
     {
       "hexalignment": "Sacrifice",
       "name": "Aylara",
-      "quote": "",
-      "combatStyle": "",
-      "weapon": "",
-      "armor": "",
+      "quote": "Monsters take refuge within our blessed veil. I will burn out this corruption with a holy light.",
+      "combatStyle": "Firedancer",
+      "weapon": "Solblade and Breaching Axe",
+      "armor": "Fireward Plate Armor",
       "equipment": "",
-      "squadName": "[Aylara's Squad]",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squadName": "The Delvers",
+      "description": "Aylara is responsible for checking for Darkspawn-entity incursions. Though her entire squad are responsible for the heretical act of shining light on darkness, none would dare question the necessity of this work if they knew why they do it. For this reason, their work is kept discreet from the public, and their equipment is also hidden. Aylara is afraid of the dark herself, but she has trained for this and is determined to overcome this fear. Unfortunately, such a profound fear is not so easily overcome, as it warps the mind of the fearful, unbalancing the scales of rationality.",
       "squad": [
         {
-          "name": "Knight",
-          "weapon": "",
-          "armor": "",
+          "name": "Knight1",
+          "weapon": "Magitech Flamespewer",
+          "armor": "Fireward Plate Armor",
+          "equipment": "",
+          "description": ""
+        },
+        {
+          "name": "Knight2",
+          "weapon": "Magitech Flamespewer",
+          "armor": "Fireward Plate Armor",
+          "equipment": "",
+          "description": ""
+        },
+        {
+          "name": "Knight3",
+          "weapon": "Magitech Flamespewer",
+          "armor": "Fireward Plate Armor",
+          "equipment": "",
+          "description": ""
+        },
+        {
+          "name": "Knight4",
+          "weapon": "Magitech Flamespewer",
+          "armor": "Fireward Plate Armor",
+          "equipment": "",
+          "description": ""
+        },
+        {
+          "name": "Knight5",
+          "weapon": "Magitech Flamespewer",
+          "armor": "Fireward Plate Armor",
+          "equipment": "",
+          "description": ""
+        },
+        {
+          "name": "Knight6",
+          "weapon": "Magitech Flamespewer",
+          "armor": "Fireward Plate Armor",
           "equipment": "",
           "description": ""
         }
@@ -66,13 +101,13 @@
     {
       "hexalignment": "Progress",
       "name": "Corsa",
-      "quote": "",
+      "quote": "Ever meticulous, ever patient.",
       "combatStyle": "",
       "weapon": "",
       "armor": "",
       "equipment": "",
       "squadName": "Nebulous Breachers",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "description": "Corsa leads the Nebulous Breachers, a Breacher squad known for showing up unexpectedly and leaving without giving indication for their involvement or goal. They attribute their actions to methodical machinations inspired by the deity, Rute. Some have suggested that this is just a cover for indulging an unholy curiosity, but these rumors come from anonymous critics. No one would dare openly accuse Corsa or her knights of irreverence.",
       "squad": [
         {
           "name": "Knight",
