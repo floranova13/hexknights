@@ -3,13 +3,13 @@
     {
       "hexalignment": "Sacrifice",
       "name": "Owane",
-      "quote": "",
-      "combatStyle": "",
-      "weapon": "",
-      "armor": "",
-      "equipment": "",
-      "squadName": "[Owane's Squad]",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "quote": "I do this so another doesn't have to.",
+      "combatStyle": "Berserker",
+      "weapon": "Thirstblade",
+      "armor": "Magic-conductive Mage's Carapace",
+      "equipment": "Restorative Shards",
+      "squadName": "Earnest Bloodblades",
+      "description": "The leader of the Earnest Bloodblades, who deploy at a moment's notice to face the greatest threats to Shroud. Her blade drinks vira from her foes, sustaining her powerful Blood Magic. Owane revels in the power she wields, and she is something of an adrenaline fiend. The only thing holding her back is her brother.",
       "squad": [
         {
           "name": "Knight",
@@ -24,13 +24,13 @@
     {
       "hexalignment": "Sacrifice",
       "name": "Augus",
-      "quote": "",
-      "combatStyle": "",
-      "weapon": "",
-      "armor": "",
-      "equipment": "",
-      "squadName": "[Augus's Squad]",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "quote": "I don't know who you expect me to be.",
+      "combatStyle": "Proxy",
+      "weapon": "Proxy Catalyst",
+      "armor": "Banded Cloth",
+      "equipment": "Restorative Shards",
+      "squadName": "Hollow Bloodblades",
+      "description": "Twin brother of Owane, Augus is much more frail than his sister, and she often takes on his responsibilities as her own without his asking. He is grateful, but unhappy with the current situation. He will sometimes push himself to dangerous extremes in an attempt to be like her, but she will often get mad at him for acting recklessly. The nature of both of their stations is that they will likely die in the line of duty. But they both wield immense power as a result of being foreign to this world, granted this very power like Caim was given Automata.",
       "squad": [
         {
           "name": "Knight",
@@ -133,14 +133,14 @@
       "combatStyle": "Illusionist",
       "weapon": "Dual Shortblades",
       "armor": "Dusk Leather",
-      "equipment": "",
+      "equipment": "Enchanted Playing Cards",
       "squadName": "Chaos Knightmares",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "description": "Fragma has long gone past the point where Shroud considers her more trouble than she is worth, but she cannot be reigned in. Her personality is difficult to predict. Depending on the situation and other variables, she will act based on three notably different personality profiles, as far as anyone can tell. She will rotate between these these profiles seemingly at random, and it is very dangerous to try to manipulate her. Fragma isn’t a traveler, just an exceptionally talented and dedicated Mesmer. It helps that she has the money to purchase the best equipment to fuel and better manipulate her spells, which she relies on more than her skill with a blade. Fragma also relies on creating dramatic and flashy displays for her victims, deterring others who might get in her way. Her wild moments and chaotic traits do not deter her squad, who have decided to follow her until their deaths, possibly at her hand.",
       "squad": [
         {
           "name": "Eris",
           "weapon": "Battleaxe",
-          "armor": "Heavy Armor",
+          "armor": "Plate Armor",
           "equipment": "",
           "description": "Eris is the most 'stable' among her squad. She is a fervent believer in her lord's cause, even if she would have to sacrifice her life to prove Fragma right."
         },
@@ -153,9 +153,9 @@
         },
         {
           "name": "Noxianna",
-          "weapon": "Poisoned Throwing Knives, and a Poisoned Scimitar",
-          "armor": "Light, Black Leather",
-          "equipment": "All manner of poisons.",
+          "weapon": "Poisoned Scimitar",
+          "armor": "Light Black Leather",
+          "equipment": "Poisoned Throwing Knives and all manner of poisons.",
           "description": "'Noxi', as her friends call her, is a master of poisons and traps. She was a thief-in-the-making before her lord uplifted her life's purpose."
         },
         {
@@ -177,7 +177,7 @@
           "weapon": "Artificer's Staff",
           "armor": "Light Maroon Leather",
           "equipment": "Artificer's toolkit, complete with all the tools necessary to make modifications to his squad's equipment on the road.",
-          "description": "Klyto is brother to Noa, and therefore, also a cartemi in disguise."
+          "description": "Klyto is brother to Noa, and therefore, also a cartemi in disguise. He is constantly tweaking the whole squad's gear. Klyto wields an artificer's staff in combat, though it is not an effective weapon."
         }
       ],
       "introduced": 7
