@@ -102,10 +102,10 @@
       "hexalignment": "Progress",
       "name": "Corsa",
       "quote": "Ever meticulous, ever patient.",
-      "combatStyle": "",
-      "weapon": "",
-      "armor": "",
-      "equipment": "",
+      "combatStyle": "Tactician",
+      "weapon": "N/A",
+      "armor": "Voidshimmer Cloth",
+      "equipment": "Defensive Accessories",
       "squadName": "Nebulous Breachers",
       "description": "Corsa leads the Nebulous Breachers, a Breacher squad known for showing up unexpectedly and leaving without giving indication for their involvement or goal. They attribute their actions to methodical machinations inspired by the deity, Rute. Some have suggested that this is just a cover for indulging an unholy curiosity, but these rumors come from anonymous critics. No one would dare openly accuse Corsa or her knights of irreverence.",
       "squad": [
@@ -122,18 +122,18 @@
     {
       "hexalignment": "Progress",
       "name": "Gillis",
-      "quote": "",
-      "combatStyle": "",
-      "weapon": "",
-      "armor": "",
-      "equipment": "",
+      "quote": "Roads shorten the distance between you and I.",
+      "combatStyle": "Precise Multicaster",
+      "weapon": "N/A",
+      "armor": "Erecombe-Reinforced Padded Cloth",
+      "equipment": "Various Shards",
       "squadName": "The Couriers",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "description": "Commands the Breacher knight squad the The Cartographers. They are always trying to develop new ways to extend Shroud's communication network. Gillis is a charming person who is motivated to better connect the world. If asked why he has the dream of a more connected world, he will say that it is because each citizen of Shroud deserves a chance to see the divine progress the theocracy has made. Personally, he feels trapped within Shroud's borders. He believes that communication with the outside world, controlled by the theocracy's government, can allow him to at least see beyond. Then, maybe Shroud's isolationist policies can be relaxed. Gillis secretly believes Shroud will become more tolerant if it is allowed to see more of the world.",
       "squad": [
         {
-          "name": "Knight",
-          "weapon": "",
-          "armor": "",
+          "name": "Kai",
+          "weapon": "N/A",
+          "armor": "Erecombe-Reinforced Padded Cloth",
           "equipment": "",
           "description": ""
         }
@@ -143,13 +143,13 @@
     {
       "hexalignment": "Judgement",
       "name": "Tesarra",
-      "quote": "",
-      "combatStyle": "",
-      "weapon": "",
-      "armor": "",
+      "quote": "I will break them and remake them.",
+      "combatStyle": "Savage",
+      "weapon": "Anything and Everything",
+      "armor": "Metal-Reinforced Leather",
       "equipment": "",
-      "squadName": "[Tesarra's Squad]",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "squadName": "Contract Knightmares",
+      "description": "Most Knightmares grow more brutal the longer they have served. It is important they walk the line between reveling in savagery and restraining themselves when their superiors tell them to. Others die. Those that survive and break free of their restraints are the most difficult to deal with. Tesarra believes she has a way of dealing with this group. She identifies them, and subjects them to 'tests'. If they are able to pass her tests, she doesn't need to worry about them. Otherwise, she will exterminate them and their squad. If they live long enough to earn back her favor, she lets them live. Knightmares in Tesarra's squad do not work together very often, and even when they do, it is not for long. Mistrust and grudges fester between members. That is fine for Tesarra's purposes. She sends them out on individual assignments, designed to meet their skills and personalities. Between orders, Tesarra trains Enforcers and military pawns. Her work is highly valued by the Channeler, and this has earned her the respect of many of the Paragons.",
       "squad": [
         {
           "name": "Knight",
@@ -220,13 +220,13 @@
     {
       "hexalignment": "Judgement",
       "name": "Anil",
-      "quote": "Above the horizon is our inheritance.",
+      "quote": "Above the horizon is our inheritance, waiting for us to claim it.",
       "combatStyle": "Skyknight Irregular",
       "weapon": "Forslone Cord",
       "armor": "Lightweight Leather",
       "equipment": "Various Tools",
       "squadName": "The Skyknights",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "description": "Anil is a Hexknight with a lofty goal, to explore the sky. This is impractical for many reasons, highest among them is the existence of Leviathan. Dangerous creatures roam the skies. They are the apex predators of entire ecosystems that lay nestled in the clouds. Anil works with a Hexknight of Progress who also wishes to bring the sky into the hands of humanity, but this wish may not come to pass in their lifetime. Nonetheless, Anil has trained to fight on airships, despite his superiors telling them that it's a waste of time and resources. Anil doesn't fight like a normal knight, and every knight in his squad fights with a similarly atypical weapon. Even on land, he bucks convention.",
       "squad": [
         {
           "name": "Knight",
