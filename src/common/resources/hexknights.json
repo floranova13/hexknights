@@ -339,13 +339,13 @@
     {
       "hexalignment": "Mercy",
       "name": "Oenus",
-      "quote": "",
-      "combatStyle": "",
-      "weapon": "",
-      "armor": "",
-      "equipment": "",
-      "squadName": "[Oenus's Squad]",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "quote": "Don't tell me it's dangerous, I already know that. Instead, tell me why that should matter when lives are at stake.",
+      "combatStyle": "Gladiator",
+      "weapon": "August Solblade",
+      "armor": "Glittering Half-Plate",
+      "equipment": "Restorative Shards",
+      "squadName": "The Obligants",
+      "description": "Oenus is extremely driven to protect people. He believes his duty is to make sure people feel safe. He goes above an beyond his actual station to try and save people, often ending up needing to be rescued or making matters worse. Even through Oenus's difficulty protecting people, he keeps a positive attitude and believes that he must smile to show the citizens that everything is going to be just fine.",
       "squad": [
         {
           "name": "Knight",
@@ -360,18 +360,18 @@
     {
       "hexalignment": "Mercy",
       "name": "Amos",
-      "quote": "",
-      "combatStyle": "",
-      "weapon": "",
-      "armor": "",
-      "equipment": "",
+      "quote": "What I do, I do for the people of Shroud. It must be for them.",
+      "combatStyle": "Shielder",
+      "weapon": "Solblade and Full Shield",
+      "armor": "Faith Plate",
+      "equipment": "Salves",
       "squadName": "Guardians of Redemption",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "description": "Amos was appointed to manage a holy facility for the indoctrination and purging of subhumans. He bears the burden for all that goes on in that facility, including creating Fera, one who hunts down her own kind, poisoned by the words of Shroud's Paragon of Mercy, who is a snake. There is an increasing need for loyal citizens as the war approaches, and subhumans are deemed too irregular and untrustworthy for Shroud. The facility Amos's knights guard is secret, where testing goes on to see if Shroud can find a 'creative' use for the subhumans. Amos and his knights abide by their oath to protect Shroud, resisting the doubt and guilt seeping in. Amos guards this terrible secret of Shroud, forcing away thoughts that what he is contributing to might be something terrible when looking through another lens but one of absolute adherence to faith. It is for the people of Shroud.",
       "squad": [
         {
           "name": "Knight",
-          "weapon": "",
-          "armor": "",
+          "weapon": "Solblade and Full Shield",
+          "armor": "Faith Plate",
           "equipment": "",
           "description": ""
         }
@@ -400,21 +400,42 @@
       "introduced": 14
     },
     {
-      "hexalignment": "Resilience",
-      "name": "Harth",
-      "quote": "",
-      "combatStyle": "",
-      "weapon": "",
-      "armor": "",
-      "equipment": "",
-      "squadName": "[Harth's Squad]",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "hexalignment": "Mercy",
+      "name": "Demetra",
+      "quote": "You'll die for all of them. Rest peacefully, knowing your death served a purpose.",
+      "combatStyle": "Reaper",
+      "weapon": "Morne Scythe",
+      "armor": "Reaper Plate",
+      "equipment": "Ropes",
+      "squadName": "Deathmarch Shrineguards",
+      "description": "The Healing Stations littering cities of Shroud are all networked to a peculiar Hexknight of Mercy. She maintains them as no other could. Demetra and her knights hunt traitos, bandits, and anyone else, much like a Knightmare would. Her knights are instructed to give the final kill to their lord. They believe she is sparing them the sin, and taking the burdon on her conscious in their place, but that is not so. She must kill to maintain her power. Even though she wishes it were not so, it is her price. Demetra does not want to kill, but she does it because she believes the price is worth it. Balancing the lives of all those she wants to heal again the criminals she must dispatch, she continues on as she does.",
       "squad": [
         {
           "name": "Knight",
-          "weapon": "",
-          "armor": "",
-          "equipment": "",
+          "weapon": "Hammer and Full Shield",
+          "armor": "Solemn Plate",
+          "equipment": "Ropes",
+          "description": ""
+        }
+      ],
+      "introduced": 14
+    },
+    {
+      "hexalignment": "Resilience",
+      "name": "Harth",
+      "quote": "They are under our protection now.",
+      "combatStyle": "Dedicated Protector",
+      "weapon": "Solblade",
+      "armor": "Augmenting Chainmail",
+      "equipment": "Restorative Shards",
+      "squadName": "Vigilant Domguard",
+      "description": "Harth is a woman without purpose. Many terrible and not so terrible things have happened in her life, but they didn't leave many lasting impressions. Instead, she did as she was told until she gained recognition for her remarkable endurance. After serving for years on the border, she became a veteran at a respectable age of 35. However, she eventually learned that her mother and father, the only family she knew, had been killed in a random act of criminal violence. Her superiors closely observed her behavior after that. She mourned and cried, but she didn't obsess over thoughts of vengeance or anything of the like. For this reason, she was eventually flagged as a candidate for a knight unit. Her combat style was generic Shroud military, but it was her level-headed, stable attitude that caught the attention of the would-be Paragon of Resilience. She wasn't just appointed as a knight, but offered the esteemed position of Hexaline Knight. This came after a single question about her family. The criminals were still out there, why didn't she seek them out? She answered that she can't bring the dead back to life. While it was true that the criminals should be caught, there are others in the position to find them and make them pay for their crimes. Any actions on her part would only get in their way. However, now that she has her position as a Hexaline Knight of Resilience, she is trying to find a purpose. One that won't force her to give up her strengths. Harth is extremely straight-edged. Some might call her cold, as she's detached from her own emotional motivations while on duty.",
+      "squad": [
+        {
+          "name": "Knight",
+          "weapon": "Solblade",
+          "armor": "Augmenting Chainmail",
+          "equipment": "Restorative Shards",
           "description": ""
         }
       ],
