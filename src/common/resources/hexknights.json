@@ -241,19 +241,19 @@
     {
       "hexalignment": "Expedition",
       "name": "Latice",
-      "quote": "",
-      "combatStyle": "",
-      "weapon": "",
-      "armor": "",
-      "equipment": "",
+      "quote": "The war never ended.",
+      "combatStyle": "Blade Brawler",
+      "weapon": "Custom Solblade",
+      "armor": "Magitech Plate",
+      "equipment": "Combat Nets",
       "squadName": "The Welders",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "description": "Latice is motivated to stop a war, and there are many people he would hurt to further that goal. He is pragmatic and cynical, but he has a soft spot for his old friend Gillis. He can't show it, he may not even know it himself, but he would drop everything to rush home if his friend was in danger. Latice's knight squad, The Welders, are masters of securing an area. With them, Latice will kill hundreds to save thousands of Shroud civilians. He has lived beyond the wall for many years, and this makes him pessimistic about any kind of peace Shroud could achieve with their neighbors, even the allied nations.",
       "squad": [
         {
           "name": "Knight",
-          "weapon": "",
-          "armor": "",
-          "equipment": "",
+          "weapon": "Custom Solblade",
+          "armor": "Magitech Plate",
+          "equipment": "Combat Nets",
           "description": ""
         }
       ],
@@ -283,13 +283,13 @@
     {
       "hexalignment": "Expedition",
       "name": "Wendy",
-      "quote": "",
-      "combatStyle": "",
-      "weapon": "",
-      "armor": "",
-      "equipment": "",
+      "quote": "To be there twice is to have wasted an opportunity.",
+      "combatStyle": "Assassin",
+      "weapon": "Subtle Knife",
+      "armor": "Leather Coat",
+      "equipment": "Enchanted Spyglass",
       "squadName": "Nomad Cell",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "description": "Wendy's Nomads travel a lot more than the other expedition knights. They disperse and spread misinformation in the outlying territories while collecting intel at the same time. They are good at their jobs, but they aren't highly coordinated. They pick up orders from dead drops and go without contact for weeks or even months. Nomad Cell is no longer accustomed to fighting as a group, individually protecting themselves in everyday struggles through lawless terrain and foreign cities alike. Their knight training has blended with wild fighting, though they each maintain peak physical condition, ready to act at the behest of their leader if she wills it.",
       "squad": [
         {
           "name": "Knight",
@@ -304,18 +304,32 @@
     {
       "hexalignment": "Mercy",
       "name": "Galarious",
-      "quote": "",
-      "combatStyle": "",
-      "weapon": "",
-      "armor": "",
-      "equipment": "",
-      "squadName": "The Collectors",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "quote": "Why do we have to hurt each other.",
+      "combatStyle": "Passive",
+      "weapon": "N/A",
+      "armor": "Nosk's Visage",
+      "equipment": "Playing Cards: Thirds",
+      "squadName": "The Keepers",
+      "description": "Galarious prefers to go by the name Galar. This name was the one given to him when Shroud accepted him into their theocracy when they discovered him on the border. Galar is a subject in the Orchestrator experiment, but he wasn't given the choice or the information Caim received. He is sixteen, but Shroud recognizes him as a holy vessel of the divine. Many devout believers see the power Galarious wields and his androgynous form and think that he was made in Nosk's image. Even those who never believed in the Covenant of Shade, secretly going along with the religion, gained faith when they saw Galarious's first bloody fight on the border in the dead zone. He appeared there, confused and alone, and the monstrous aggressors wanted to capture him because he was human. It was him against tens of them, but he cast a strange magic that seemed to turn the violent actions of his enemies against them. Strangely, he wasn't as affected by the attacks as his enemies were. Shroud soldiers watched in amazement as the foes were cut down by their own attacks. When it was over, some Shroud forces began to pray before Galarious, and Galarious reacted by going with the flow. Despite being an obvious foreigner who claimed to be from another world, he was welcomed into Shroud and quickly a appointed to be a Hexaline Knight. Galarious's magic was not without a price, however, all would soon find out. It sapped his vitality in a strange way, halting his aging process and weakening him for a period of time after using his power. Some have pointed out that his power isn't very forgiving, wounding all who try to harm him, but others point out that he doesn't attack. Some wonder whether Galar will grow up to learn how to manipulate people using the faith they have in him, learning to use the religious guise of forgiveness to inspire loyalty, or whether he will find this tactic distastful. Galarious looks for things to occupy his mind with. He allows others to make claims that he is always looking for new things to forgive. Galarious has gained such a devoted following that it occasionally worries him. He communicates with his Paragon and officials in the theocracy leadership to make sure rivals do not see him as a threat. He does not want to enjoy himself so much that his life is cut short. Galar is mixed. He is self-indulgent and doesn't really embody the godly traits others who put him on a pedestal think he does, but their obsession with him begins to mold him, just a little, into a better person.",
       "squad": [
         {
+          "name": "Virgil",
+          "weapon": "Shadowed Solblade",
+          "armor": "Keeper's Threads",
+          "equipment": "",
+          "description": "Virgil is the newest member of The Keepers, and doesn't know what he thinks of his new lord when he first joins. He fast becomes Galar's fiercest and most loyal supporter."
+        },
+        {
+          "name": "Colten",
+          "weapon": "Shadowed Solblade",
+          "armor": "Keeper's Threads",
+          "equipment": "Playing Cards: Thirds",
+          "description": "Colten witnessed Galar's arrival firsthand, all those years ago on the deadzone between national borders. He was stricken with irreverence on that day."
+        },
+        {
           "name": "Knight",
-          "weapon": "",
-          "armor": "",
+          "weapon": "Shadowed Solblade",
+          "armor": "Keeper's Threads",
           "equipment": "",
           "description": ""
         }

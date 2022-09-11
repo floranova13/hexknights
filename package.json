@@ -16,6 +16,7 @@
     "react-tooltip": "^4.2.21",
     "recharts": "^2.1.8",
     "sass": "^1.42.1",
+    "source-map-explorer": "^2.5.2",
     "styled-components": "^5.3.3",
     "styled-icons": "^10.45.0"
   },
@@ -23,7 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "eslintConfig": {
     "extends": [
