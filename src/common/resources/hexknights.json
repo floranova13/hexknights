@@ -141,6 +141,27 @@
       "introduced": 5
     },
     {
+      "hexalignment": "Progress",
+      "name": "Elir",
+      "quote": "You only stand so close because you have a poor understanding of mathmatics and, especially, probability.",
+      "combatStyle": "Alchemist",
+      "weapon": "N/A",
+      "armor": "Flame-Retardent Padded Grey Cloth",
+      "equipment": "Potions Chest, Reagents Satchel",
+      "squadName": "The Alchemists",
+      "description": "Elir takes no special satisfaction in seeing things explode, nor in dissolving laboratory equipment, nor in losing knights and assistants to strange arcane laboratory phenomena. The pursuit of science is often error nearly as much as trial, but he cares not to admit that. Chemically or magically reactive materials are as dangerous as they are useful. Yet, his knights remain steadfast in their pursuits.",
+      "squad": [
+        {
+          "name": "",
+          "weapon": "",
+          "armor": "",
+          "equipment": "Potions Chest, Reagents Satchel",
+          "description": ""
+        }
+      ],
+      "introduced": 111
+    },
+    {
       "hexalignment": "Judgement",
       "name": "Tesarra",
       "quote": "I will break them and remake them.",
@@ -239,6 +260,27 @@
       "introduced": 17
     },
     {
+      "hexalignment": "Judgement",
+      "name": "Imol",
+      "quote": "The average citizen might be surprised, but flame is often the solution to more than half of the problems they encounter in their daily lives.",
+      "combatStyle": "Pyromaniac",
+      "weapon": "Solblade",
+      "armor": "Flameward Armor",
+      "equipment": "Flame Accelerants",
+      "squadName": "Flame Knightmares",
+      "description": "Imol seems normal enough at first encounter, but he has a subtle, bizarre intensity that the average citizen will find more and more offputting the more time is spent in their presence. He does not talk much, and when he does, he favors brevity. If that is ever not the case, something or someone, or some region is about to face the flame. No other hexknight can commit to a quarantine effort like Imol.",
+      "squad": [
+        {
+          "name": "Knight",
+          "weapon": "Flamespewer",
+          "armor": "",
+          "equipment": "",
+          "description": ""
+        }
+      ],
+      "introduced": 117
+    },
+    {
       "hexalignment": "Expedition",
       "name": "Latice",
       "quote": "The war never ended.",
@@ -262,19 +304,19 @@
     {
       "hexalignment": "Expedition",
       "name": "Nissa",
-      "quote": "",
-      "combatStyle": "",
-      "weapon": "",
-      "armor": "",
-      "equipment": "",
-      "squadName": "[Nissa's Squad]",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "quote": "We're the eyes of our great nation, but you'd never catch any of us admitting to that. Why am I? Simple. You're about to turn to stone.",
+      "combatStyle": "Spy",
+      "weapon": "Solknife",
+      "armor": "Mesh Alloy Cloth",
+      "equipment": "Scribe's Tools",
+      "squadName": "Vision Cell",
+      "description": "Nissa is a Hexknight of Expedition who gathers information seperately from her squad. They remain in constant contact through dead drops, and work together as an exceptionally effective information network. Each knight has their own contacts, stretching out like a web. However, they are vulnerable on their own, and must make their own emergency preparations in case they are ever in danger. Nissa herself is monitoring the Meredine, who have been expanding rapidly for the first time since the 'end' of the great war.",
       "squad": [
         {
           "name": "Knight",
           "weapon": "",
-          "armor": "",
-          "equipment": "",
+          "armor": "Mesh Alloy Cloth",
+          "equipment": "Scribe's Tools",
           "description": ""
         }
       ],
@@ -444,19 +486,19 @@
     {
       "hexalignment": "Resilience",
       "name": "Gabriela",
-      "quote": "",
-      "combatStyle": "",
-      "weapon": "",
-      "armor": "",
-      "equipment": "",
-      "squadName": "[Gabriela's Squad]",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint eligendi nesciunt. Officiis et ipsum distinctio alias natus cum, modi illum excepturi impedit quidem nihil, minus molestias? Cupiditate ex quis enim. At error fugiat, eaque nihil praesentium officiis voluptatibus quisquam.",
+      "quote": "Rally on me! We're here here to help. Now, let's finish this together!",
+      "combatStyle": "Paladin",
+      "weapon": "Glittering Halberd",
+      "armor": "Indomitable Plate",
+      "equipment": "Restorative Shards",
+      "squadName": "Apex Domguard",
+      "description": "Gabriela, or Gabi as she likes to be called, has withstood trial after trial without breaking. Her Dominion Guardians are trusted friends and comrades in a campaign to make the world safer to live in. Gabi can't stop war, but she can make sure fewer soldiers die, and she can keep civilians from getting caught up in the fighting. Her will and her body are strong. Gabi understands that she is different, and tells others that they shouldn't judge her actions by their standards. She isn't perfect, she just strives every day to be better. In this way, her humility wins over many who would otherwise give themselves over to envy or bitterness.",
       "squad": [
         {
           "name": "Knight",
           "weapon": "",
-          "armor": "",
-          "equipment": "",
+          "armor": "Indomitable Plate",
+          "equipment": "Restorative Shards",
           "description": ""
         }
       ],
